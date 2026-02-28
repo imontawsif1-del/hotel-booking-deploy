@@ -1,0 +1,6502 @@
+[
+  {
+    "id": 1,
+    "name": "Park Plaza Wallstreet",
+    "city": "Berlin",
+    "street": "Wallstraße",
+    "lat": 52.5114646,
+    "lon": 13.4078027,
+    "pricePerNight": 91,
+    "rating": 3
+  },
+  {
+    "id": 2,
+    "name": "Living Hotel Großer Kurfürst",
+    "city": "Berlin",
+    "street": "Neue Roßstraße",
+    "lat": 52.5122494,
+    "lon": 13.4087883,
+    "pricePerNight": 130,
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "art’otel Berlin Mitte",
+    "city": "Berlin",
+    "street": "Wallstraße",
+    "lat": 52.5125444,
+    "lon": 13.4103351,
+    "pricePerNight": 225,
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "name": "Living Hotel Berlin-Mitte",
+    "city": "Berlin",
+    "street": "Neue Roßstraße",
+    "lat": 52.5120824,
+    "lon": 13.4082495,
+    "pricePerNight": 122,
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "name": "Radisson Collection Hotel Berlin",
+    "city": "Berlin",
+    "street": "Karl-Liebknecht-Straße",
+    "lat": 52.5195175,
+    "lon": 13.4028297,
+    "pricePerNight": 110,
+    "rating": 3
+  },
+  {
+    "id": 6,
+    "name": "Novotel Berlin Mitte",
+    "city": "Berlin",
+    "street": "Fischerinsel",
+    "lat": 52.5131672,
+    "lon": 13.4051935,
+    "pricePerNight": 171,
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "name": "Hotel Neuer Fritz Berlin",
+    "city": "Berlin",
+    "street": "Friedrichstraße",
+    "lat": 52.5226997,
+    "lon": 13.3882776,
+    "pricePerNight": 185,
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "name": "Meliá Berlin",
+    "city": "Berlin",
+    "street": "Friedrichstraße",
+    "lat": 52.5213429,
+    "lon": 13.388468,
+    "pricePerNight": 170,
+    "rating": 4
+  },
+  {
+    "id": 9,
+    "name": "NH Collection",
+    "city": "Berlin",
+    "street": "Friedrichstraße",
+    "lat": 52.5195761,
+    "lon": 13.3888965,
+    "pricePerNight": 79,
+    "rating": 3
+  },
+  {
+    "id": 10,
+    "name": "Maritim proArte Hotel Berlin",
+    "city": "Berlin",
+    "street": "Friedrichstraße",
+    "lat": 52.5182281,
+    "lon": 13.3874995,
+    "pricePerNight": 56,
+    "rating": 5
+  },
+  {
+    "id": 11,
+    "name": "NH Collection Berlin Mitte am Checkpoint Charlie",
+    "city": "Berlin",
+    "street": "Leipziger Straße",
+    "lat": 52.5105304,
+    "lon": 13.3889847,
+    "pricePerNight": 165,
+    "rating": 5
+  },
+  {
+    "id": 12,
+    "name": "Grand Hyatt Berlin",
+    "city": "Berlin",
+    "street": "Marlene-Dietrich-Platz",
+    "lat": 52.5081971,
+    "lon": 13.3724841,
+    "pricePerNight": 123,
+    "rating": 3
+  },
+  {
+    "id": 13,
+    "name": "Hotel Larat",
+    "city": "Berlin",
+    "street": "Ollenhauerstraße",
+    "lat": 52.5693849,
+    "lon": 13.3296063,
+    "pricePerNight": 141,
+    "rating": 5
+  },
+  {
+    "id": 14,
+    "name": "B&B Hotel",
+    "city": "Berlin",
+    "street": "Brandenburgische Straße",
+    "lat": 52.4890701,
+    "lon": 13.3165059,
+    "pricePerNight": 217,
+    "rating": 4
+  },
+  {
+    "id": 15,
+    "name": "Numa Berlin Arc",
+    "city": "Berlin",
+    "street": "Friedrichstraße",
+    "lat": 52.5046911,
+    "lon": 13.391078,
+    "pricePerNight": 109,
+    "rating": 3
+  },
+  {
+    "id": 16,
+    "name": "Ibis Budget",
+    "city": "Berlin",
+    "street": "Anhalter Straße",
+    "lat": 52.5048415,
+    "lon": 13.3845953,
+    "pricePerNight": 190,
+    "rating": 4
+  },
+  {
+    "id": 17,
+    "name": "Novotel Suites Berlin City Potsdamer Platz",
+    "city": "Berlin",
+    "street": "Anhalter Straße",
+    "lat": 52.5045858,
+    "lon": 13.3833431,
+    "pricePerNight": 205,
+    "rating": 3
+  },
+  {
+    "id": 18,
+    "name": "The Westin Grand Berlin",
+    "city": "Berlin",
+    "street": "Friedrichstraße",
+    "lat": 52.5158768,
+    "lon": 13.3886042,
+    "pricePerNight": 218,
+    "rating": 4
+  },
+  {
+    "id": 19,
+    "name": "Hotel Gendarm",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.511542,
+    "lon": 13.3914622,
+    "pricePerNight": 205,
+    "rating": 3
+  },
+  {
+    "id": 20,
+    "name": "Hilton Berlin",
+    "city": "Berlin",
+    "street": "Anton-Wilhelm-Amo-Straße",
+    "lat": 52.5121031,
+    "lon": 13.3925395,
+    "pricePerNight": 56,
+    "rating": 5
+  },
+  {
+    "id": 21,
+    "name": "Bärlin",
+    "city": "Berlin",
+    "street": "Scharnweberstraße",
+    "lat": 52.5645531,
+    "lon": 13.3275914,
+    "pricePerNight": 229,
+    "rating": 5
+  },
+  {
+    "id": 22,
+    "name": "Bob W.",
+    "city": "Berlin",
+    "street": "Köpenicker Straße",
+    "lat": 52.511729,
+    "lon": 13.4136544,
+    "pricePerNight": 209,
+    "rating": 4
+  },
+  {
+    "id": 23,
+    "name": "Hotel und Rasthof Grunewald",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4342237,
+    "lon": 13.1908097,
+    "pricePerNight": 150,
+    "rating": 3
+  },
+  {
+    "id": 24,
+    "name": "Dorint Kurfürstendamm",
+    "city": "Berlin",
+    "street": "Augsburger Straße",
+    "lat": 52.502505,
+    "lon": 13.3317935,
+    "pricePerNight": 123,
+    "rating": 5
+  },
+  {
+    "id": 25,
+    "name": "Hotel ibis Berlin Mitte",
+    "city": "Berlin",
+    "street": "Prenzlauer Allee",
+    "lat": 52.5290575,
+    "lon": 13.4181101,
+    "pricePerNight": 180,
+    "rating": 3
+  },
+  {
+    "id": 26,
+    "name": "Hotel Villa Kastania Berlin",
+    "city": "Berlin",
+    "street": "Kastanienallee",
+    "lat": 52.5103196,
+    "lon": 13.2680576,
+    "pricePerNight": 99,
+    "rating": 5
+  },
+  {
+    "id": 27,
+    "name": "Schloss Britz",
+    "city": "Berlin",
+    "street": "Alt-Britz",
+    "lat": 52.4468121,
+    "lon": 13.4377895,
+    "pricePerNight": 236,
+    "rating": 3
+  },
+  {
+    "id": 28,
+    "name": "Il Castello",
+    "city": "Berlin",
+    "street": "Karower Straße",
+    "lat": 52.6350391,
+    "lon": 13.4995197,
+    "pricePerNight": 161,
+    "rating": 4
+  },
+  {
+    "id": 29,
+    "name": "Mercure Hotel Berlin City West",
+    "city": "Berlin",
+    "street": "Ohmstraße",
+    "lat": 52.53571,
+    "lon": 13.2730289,
+    "pricePerNight": 92,
+    "rating": 4
+  },
+  {
+    "id": 30,
+    "name": "Haus Gotland",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.434959,
+    "lon": 13.3332311,
+    "pricePerNight": 127,
+    "rating": 5
+  },
+  {
+    "id": 31,
+    "name": "Vienna House Easy by Wyndham",
+    "city": "Berlin",
+    "street": "Storkower Straße",
+    "lat": 52.5293564,
+    "lon": 13.4567669,
+    "pricePerNight": 220,
+    "rating": 4
+  },
+  {
+    "id": 32,
+    "name": "Victor's Residenz-Hotel Berlin Mitte",
+    "city": "Berlin",
+    "street": "Am Friedrichshain",
+    "lat": 52.5288621,
+    "lon": 13.428805,
+    "pricePerNight": 160,
+    "rating": 3
+  },
+  {
+    "id": 33,
+    "name": "Kastanienhof",
+    "city": "Berlin",
+    "street": "Kastanienallee",
+    "lat": 52.5347495,
+    "lon": 13.4061413,
+    "pricePerNight": 102,
+    "rating": 4
+  },
+  {
+    "id": 34,
+    "name": "The Circus Hotel",
+    "city": "Berlin",
+    "street": "Rosenthaler Straße",
+    "lat": 52.5293842,
+    "lon": 13.4012578,
+    "pricePerNight": 218,
+    "rating": 5
+  },
+  {
+    "id": 35,
+    "name": "Hotel Amelie",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5231612,
+    "lon": 13.3839926,
+    "pricePerNight": 214,
+    "rating": 5
+  },
+  {
+    "id": 36,
+    "name": "Arte Luise Kunsthotel",
+    "city": "Berlin",
+    "street": "Luisenstraße",
+    "lat": 52.5216849,
+    "lon": 13.3795451,
+    "pricePerNight": 239,
+    "rating": 4
+  },
+  {
+    "id": 37,
+    "name": "Residenz am Deutschen Theater",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5226092,
+    "lon": 13.3820948,
+    "pricePerNight": 215,
+    "rating": 5
+  },
+  {
+    "id": 38,
+    "name": "Seminaris CampusHotel Berlin",
+    "city": "Berlin",
+    "street": "Takustraße",
+    "lat": 52.4569569,
+    "lon": 13.2934766,
+    "pricePerNight": 102,
+    "rating": 4
+  },
+  {
+    "id": 39,
+    "name": "Seehotel Grunewald",
+    "city": "Berlin",
+    "street": "Straße am Schildhorn",
+    "lat": 52.4933637,
+    "lon": 13.1969766,
+    "pricePerNight": 55,
+    "rating": 5
+  },
+  {
+    "id": 40,
+    "name": "Hansablick Garni",
+    "city": "Berlin",
+    "street": "Flotowstraße",
+    "lat": 52.5174645,
+    "lon": 13.3369336,
+    "pricePerNight": 211,
+    "rating": 3
+  },
+  {
+    "id": 41,
+    "name": "Hotel Karlshorst",
+    "city": "Berlin",
+    "street": "Treskowallee",
+    "lat": 52.4842635,
+    "lon": 13.5265451,
+    "pricePerNight": 79,
+    "rating": 5
+  },
+  {
+    "id": 42,
+    "name": "Central Inn",
+    "city": "Berlin",
+    "street": "Alt-Moabit",
+    "lat": 52.5231771,
+    "lon": 13.3585761,
+    "pricePerNight": 223,
+    "rating": 3
+  },
+  {
+    "id": 43,
+    "name": "Holiday Inn Express Hotel Berlin City Centre",
+    "city": "Berlin",
+    "street": "Stresemannstraße",
+    "lat": 52.5018517,
+    "lon": 13.3852631,
+    "pricePerNight": 171,
+    "rating": 4
+  },
+  {
+    "id": 44,
+    "name": "Morgenland",
+    "city": "Berlin",
+    "street": "Finckensteinallee",
+    "lat": 52.4320179,
+    "lon": 13.3050686,
+    "pricePerNight": 114,
+    "rating": 5
+  },
+  {
+    "id": 45,
+    "name": "Titanic Comfort Kurfürstendamm",
+    "city": "Berlin",
+    "street": "Kleiststraße",
+    "lat": 52.5008758,
+    "lon": 13.3486634,
+    "pricePerNight": 117,
+    "rating": 4
+  },
+  {
+    "id": 46,
+    "name": "Neu-Helgoland",
+    "city": "Berlin",
+    "street": "Neuhelgoländer Weg",
+    "lat": 52.4288684,
+    "lon": 13.6823962,
+    "pricePerNight": 200,
+    "rating": 4
+  },
+  {
+    "id": 47,
+    "name": "Hotel Hildebrandt",
+    "city": "Berlin",
+    "street": "Chemnitzer Straße",
+    "lat": 52.493264,
+    "lon": 13.5766494,
+    "pricePerNight": 248,
+    "rating": 4
+  },
+  {
+    "id": 48,
+    "name": "Alfa Hotel Berlin",
+    "city": "Berlin",
+    "street": "Ufnaustraße",
+    "lat": 52.5291066,
+    "lon": 13.3173284,
+    "pricePerNight": 161,
+    "rating": 4
+  },
+  {
+    "id": 49,
+    "name": "Il Mulino",
+    "city": "Berlin",
+    "street": "Adolf-Martens-Straße",
+    "lat": 52.4438246,
+    "lon": 13.2933907,
+    "pricePerNight": 111,
+    "rating": 3
+  },
+  {
+    "id": 50,
+    "name": "Hotel Pension Delta",
+    "city": "Berlin",
+    "street": "Belziger Straße",
+    "lat": 52.488521,
+    "lon": 13.3578712,
+    "pricePerNight": 205,
+    "rating": 5
+  },
+  {
+    "id": 51,
+    "name": "Come Inn Berlin Kurfürstendamm Opera",
+    "city": "Berlin",
+    "street": "Kurfürstendamm",
+    "lat": 52.5001278,
+    "lon": 13.3121555,
+    "pricePerNight": 249,
+    "rating": 5
+  },
+  {
+    "id": 52,
+    "name": "Berlin Marriott Hotel",
+    "city": "Berlin",
+    "street": "Inge-Beisheim-Platz",
+    "lat": 52.5110978,
+    "lon": 13.3760721,
+    "pricePerNight": 192,
+    "rating": 4
+  },
+  {
+    "id": 53,
+    "name": "Mercure Hotel + Residenz Berlin Checkpoint Charlie",
+    "city": "Berlin",
+    "street": "Schützenstraße",
+    "lat": 52.5085921,
+    "lon": 13.3934241,
+    "pricePerNight": 102,
+    "rating": 5
+  },
+  {
+    "id": 54,
+    "name": "Hotel Benn",
+    "city": "Berlin",
+    "street": "Ritterstraße",
+    "lat": 52.5382679,
+    "lon": 13.2040032,
+    "pricePerNight": 150,
+    "rating": 4
+  },
+  {
+    "id": 55,
+    "name": "Hotel Herbst",
+    "city": "Berlin",
+    "street": "Moritzstraße",
+    "lat": 52.5378823,
+    "lon": 13.2023839,
+    "pricePerNight": 97,
+    "rating": 5
+  },
+  {
+    "id": 56,
+    "name": "Pension Oase",
+    "city": "Berlin",
+    "street": "Tempelhofer Damm",
+    "lat": 52.4588993,
+    "lon": 13.384666,
+    "pricePerNight": 121,
+    "rating": 3
+  },
+  {
+    "id": 57,
+    "name": "Hotel Albertin",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5490904,
+    "lon": 13.4585512,
+    "pricePerNight": 149,
+    "rating": 4
+  },
+  {
+    "id": 58,
+    "name": "OYO Hotel Bohemia",
+    "city": "Berlin",
+    "street": "Karl-Marx-Straße",
+    "lat": 52.4654868,
+    "lon": 13.4421464,
+    "pricePerNight": 212,
+    "rating": 5
+  },
+  {
+    "id": 59,
+    "name": "Hotel Lindenufer",
+    "city": "Berlin",
+    "street": "Breite Straße",
+    "lat": 52.5381657,
+    "lon": 13.2070013,
+    "pricePerNight": 65,
+    "rating": 4
+  },
+  {
+    "id": 60,
+    "name": "Hotel Ibis Berlin Spandau",
+    "city": "Berlin",
+    "street": "Klosterstraße",
+    "lat": 52.5332581,
+    "lon": 13.1981318,
+    "pricePerNight": 72,
+    "rating": 4
+  },
+  {
+    "id": 61,
+    "name": "Hotel Altstadt Spandau",
+    "city": "Berlin",
+    "street": "Wasserstraße",
+    "lat": 52.5366885,
+    "lon": 13.2064803,
+    "pricePerNight": 150,
+    "rating": 4
+  },
+  {
+    "id": 62,
+    "name": "Leonardo Hotel",
+    "city": "Berlin",
+    "street": "Rudower Straße",
+    "lat": 52.4372687,
+    "lon": 13.4630698,
+    "pricePerNight": 112,
+    "rating": 3
+  },
+  {
+    "id": 63,
+    "name": "hotelhellemitte",
+    "city": "Berlin",
+    "street": "Kurt-Weill-Gasse",
+    "lat": 52.5376793,
+    "lon": 13.6034424,
+    "pricePerNight": 216,
+    "rating": 5
+  },
+  {
+    "id": 64,
+    "name": "Hotel Atlantic",
+    "city": "Berlin",
+    "street": "Zadekstraße",
+    "lat": 52.437309,
+    "lon": 13.4624329,
+    "pricePerNight": 157,
+    "rating": 3
+  },
+  {
+    "id": 65,
+    "name": "Bonverde am Wannsee",
+    "city": "Berlin",
+    "street": "Kronprinzessinnenweg",
+    "lat": 52.4212184,
+    "lon": 13.1787169,
+    "pricePerNight": 53,
+    "rating": 4
+  },
+  {
+    "id": 66,
+    "name": "Ameron Hotel Abion Spreebogen Berlin",
+    "city": "Berlin",
+    "street": "Alt-Moabit",
+    "lat": 52.5231368,
+    "lon": 13.3460873,
+    "pricePerNight": 73,
+    "rating": 5
+  },
+  {
+    "id": 67,
+    "name": "PLAZA INN Berlin-Charlottenburg",
+    "city": "Berlin",
+    "street": "Sömmeringstraße",
+    "lat": 52.5235317,
+    "lon": 13.3064214,
+    "pricePerNight": 94,
+    "rating": 3
+  },
+  {
+    "id": 68,
+    "name": "Alt Tegel",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5887824,
+    "lon": 13.2816946,
+    "pricePerNight": 117,
+    "rating": 4
+  },
+  {
+    "id": 69,
+    "name": "easyHotel Berlin",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.528853,
+    "lon": 13.402126,
+    "pricePerNight": 89,
+    "rating": 3
+  },
+  {
+    "id": 70,
+    "name": "Hotel Casa Camper Berlin",
+    "city": "Berlin",
+    "street": "Weinmeisterstraße",
+    "lat": 52.5257861,
+    "lon": 13.4040637,
+    "pricePerNight": 71,
+    "rating": 3
+  },
+  {
+    "id": 71,
+    "name": "Hotel Ludwig van Beethoven",
+    "city": "Berlin",
+    "street": "Hasenheide",
+    "lat": 52.4876523,
+    "lon": 13.4208734,
+    "pricePerNight": 143,
+    "rating": 3
+  },
+  {
+    "id": 72,
+    "name": "Hotel Pullman Berlin Schweizerhof",
+    "city": "Berlin",
+    "street": "Budapester Straße",
+    "lat": 52.505938,
+    "lon": 13.3440988,
+    "pricePerNight": 232,
+    "rating": 5
+  },
+  {
+    "id": 73,
+    "name": "Hotel \"Alte Feuerwache\"",
+    "city": "Berlin",
+    "street": "Waldowstraße",
+    "lat": 52.5459093,
+    "lon": 13.494201,
+    "pricePerNight": 77,
+    "rating": 4
+  },
+  {
+    "id": 74,
+    "name": "Hotel-Pension Draheim",
+    "city": "Berlin",
+    "street": "An der Schule",
+    "lat": 52.509055,
+    "lon": 13.615056,
+    "pricePerNight": 188,
+    "rating": 5
+  },
+  {
+    "id": 75,
+    "name": "Kiez Pension",
+    "city": "Berlin",
+    "street": "Jungstraße",
+    "lat": 52.5139327,
+    "lon": 13.4676121,
+    "pricePerNight": 119,
+    "rating": 4
+  },
+  {
+    "id": 76,
+    "name": "Ristorante \"Landhaus am Poloplatz\"",
+    "city": "Berlin",
+    "street": "Am Poloplatz",
+    "lat": 52.644915,
+    "lon": 13.288335,
+    "pricePerNight": 224,
+    "rating": 3
+  },
+  {
+    "id": 77,
+    "name": "Apart-Hotel Ferdinand",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5433902,
+    "lon": 13.5086407,
+    "pricePerNight": 227,
+    "rating": 4
+  },
+  {
+    "id": 78,
+    "name": "Sickinger Hof",
+    "city": "Berlin",
+    "street": "Beusselstraße",
+    "lat": 52.5330618,
+    "lon": 13.3280036,
+    "pricePerNight": 102,
+    "rating": 3
+  },
+  {
+    "id": 79,
+    "name": "THE GATE GARDEN HOTEL",
+    "city": "Berlin",
+    "street": "Invalidenstraße",
+    "lat": 52.5311543,
+    "lon": 13.3861563,
+    "pricePerNight": 171,
+    "rating": 4
+  },
+  {
+    "id": 80,
+    "name": "Hotel Steglitz International",
+    "city": "Berlin",
+    "street": "Albrechtstraße",
+    "lat": 52.4562628,
+    "lon": 13.3212357,
+    "pricePerNight": 67,
+    "rating": 5
+  },
+  {
+    "id": 81,
+    "name": "Café-Hotel M68",
+    "city": "Berlin",
+    "street": "Mauerstraße",
+    "lat": 52.5104691,
+    "lon": 13.3867069,
+    "pricePerNight": 165,
+    "rating": 4
+  },
+  {
+    "id": 82,
+    "name": "Georghof Hotel Berlin",
+    "city": "Berlin",
+    "street": "Gürtelstraße",
+    "lat": 52.5113024,
+    "lon": 13.4753429,
+    "pricePerNight": 213,
+    "rating": 5
+  },
+  {
+    "id": 83,
+    "name": "Erlanger Hof",
+    "city": "Berlin",
+    "street": "Erlanger Straße",
+    "lat": 52.4820065,
+    "lon": 13.4307977,
+    "pricePerNight": 79,
+    "rating": 3
+  },
+  {
+    "id": 84,
+    "name": "Hotel Nova",
+    "city": "Berlin",
+    "street": "Weitlingstraße",
+    "lat": 52.50935,
+    "lon": 13.4980588,
+    "pricePerNight": 136,
+    "rating": 3
+  },
+  {
+    "id": 85,
+    "name": "Pension Classic",
+    "city": "Berlin",
+    "street": "Wittenbergplatz",
+    "lat": 52.5026474,
+    "lon": 13.3433717,
+    "pricePerNight": 108,
+    "rating": 3
+  },
+  {
+    "id": 86,
+    "name": "centrovital SPA & Sport Hotel",
+    "city": "Berlin",
+    "street": "Brauereihof",
+    "lat": 52.5466549,
+    "lon": 13.2107275,
+    "pricePerNight": 121,
+    "rating": 3
+  },
+  {
+    "id": 87,
+    "name": "Pension Adamshof",
+    "city": "Berlin",
+    "street": "Emanuelstraße",
+    "lat": 52.5018944,
+    "lon": 13.4910187,
+    "pricePerNight": 119,
+    "rating": 3
+  },
+  {
+    "id": 88,
+    "name": "Pension Zum Lichtenberger",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5020409,
+    "lon": 13.4911061,
+    "pricePerNight": 241,
+    "rating": 3
+  },
+  {
+    "id": 89,
+    "name": "SensCity Hotel Albergo",
+    "city": "Berlin",
+    "street": "Hohenzollerndamm",
+    "lat": 52.4899518,
+    "lon": 13.311736,
+    "pricePerNight": 95,
+    "rating": 5
+  },
+  {
+    "id": 90,
+    "name": "Gästehaus Axel Springer",
+    "city": "Berlin",
+    "street": "Föhrer Straße",
+    "lat": 52.5412753,
+    "lon": 13.3474767,
+    "pricePerNight": 73,
+    "rating": 4
+  },
+  {
+    "id": 91,
+    "name": "Motel One Berlin-Ku'Damm",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.505602,
+    "lon": 13.3295758,
+    "pricePerNight": 143,
+    "rating": 4
+  },
+  {
+    "id": 92,
+    "name": "Leonardo Royal Hotel Berlin Alexanderplatz",
+    "city": "Berlin",
+    "street": "Otto-Braun-Straße",
+    "lat": 52.5273327,
+    "lon": 13.4234078,
+    "pricePerNight": 65,
+    "rating": 3
+  },
+  {
+    "id": 93,
+    "name": "Hotel Aster an der Messe",
+    "city": "Berlin",
+    "street": "Reichsstraße",
+    "lat": 52.5105784,
+    "lon": 13.2699208,
+    "pricePerNight": 166,
+    "rating": 3
+  },
+  {
+    "id": 94,
+    "name": "Hotel Bolgerini Inn",
+    "city": "Berlin",
+    "street": "Proskauer Straße",
+    "lat": 52.5158216,
+    "lon": 13.4601868,
+    "pricePerNight": 189,
+    "rating": 3
+  },
+  {
+    "id": 95,
+    "name": "Hecker's Hotel",
+    "city": "Berlin",
+    "street": "Grolmanstraße",
+    "lat": 52.5035375,
+    "lon": 13.3241078,
+    "pricePerNight": 58,
+    "rating": 3
+  },
+  {
+    "id": 96,
+    "name": "ibis budget Berlin Ost",
+    "city": "Berlin",
+    "street": "Allee der Kosmonauten",
+    "lat": 52.5260934,
+    "lon": 13.5297257,
+    "pricePerNight": 52,
+    "rating": 5
+  },
+  {
+    "id": 97,
+    "name": "Hotel garni Aaberna",
+    "city": "Berlin",
+    "street": "Wilhelmshavener Straße",
+    "lat": 52.5340287,
+    "lon": 13.3415699,
+    "pricePerNight": 167,
+    "rating": 4
+  },
+  {
+    "id": 98,
+    "name": "Hotel Indigo Berlin Ku'damm",
+    "city": "Berlin",
+    "street": "Hardenbergstraße",
+    "lat": 52.5078731,
+    "lon": 13.3278873,
+    "pricePerNight": 124,
+    "rating": 3
+  },
+  {
+    "id": 99,
+    "name": "Adagio Berlin Kurfürstendamm",
+    "city": "Berlin",
+    "street": "Lietzenburger Straße",
+    "lat": 52.499137,
+    "lon": 13.3214359,
+    "pricePerNight": 239,
+    "rating": 4
+  },
+  {
+    "id": 100,
+    "name": "EnergieHotel",
+    "city": "Berlin",
+    "street": "Wielandstraße",
+    "lat": 52.5055039,
+    "lon": 13.3155273,
+    "pricePerNight": 60,
+    "rating": 5
+  },
+  {
+    "id": 101,
+    "name": "Arcotel John F Berlin",
+    "city": "Berlin",
+    "street": "Werderscher Markt",
+    "lat": 52.515182,
+    "lon": 13.3977084,
+    "pricePerNight": 88,
+    "rating": 3
+  },
+  {
+    "id": 102,
+    "name": "Hotel Birgit",
+    "city": "Berlin",
+    "street": "Schwedter Straße",
+    "lat": 52.534065,
+    "lon": 13.409096,
+    "pricePerNight": 126,
+    "rating": 3
+  },
+  {
+    "id": 103,
+    "name": "Novi Sad",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4149405,
+    "lon": 13.4970289,
+    "pricePerNight": 119,
+    "rating": 5
+  },
+  {
+    "id": 104,
+    "name": "Palace Berlin",
+    "city": "Berlin",
+    "street": "Budapester Straße",
+    "lat": 52.5049196,
+    "lon": 13.3388488,
+    "pricePerNight": 71,
+    "rating": 3
+  },
+  {
+    "id": 105,
+    "name": "Hotel Forsthaus Wannsee",
+    "city": "Berlin",
+    "street": "Stölpchenweg",
+    "lat": 52.4052363,
+    "lon": 13.1408351,
+    "pricePerNight": 116,
+    "rating": 4
+  },
+  {
+    "id": 106,
+    "name": "Select Hotel Style Berlin",
+    "city": "Berlin",
+    "street": "Franklinstraße",
+    "lat": 52.520839,
+    "lon": 13.3272975,
+    "pricePerNight": 214,
+    "rating": 3
+  },
+  {
+    "id": 107,
+    "name": "Hotel Aviv",
+    "city": "Berlin",
+    "street": "Alt-Rudow",
+    "lat": 52.4219844,
+    "lon": 13.4889609,
+    "pricePerNight": 102,
+    "rating": 4
+  },
+  {
+    "id": 108,
+    "name": "Hotel Süden",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4287713,
+    "lon": 13.47963,
+    "pricePerNight": 193,
+    "rating": 5
+  },
+  {
+    "id": 109,
+    "name": "Hotel-Pension Dahlem",
+    "city": "Berlin",
+    "street": "Unter den Eichen",
+    "lat": 52.4439782,
+    "lon": 13.2901345,
+    "pricePerNight": 169,
+    "rating": 3
+  },
+  {
+    "id": 110,
+    "name": "Hotel Klassik Berlin",
+    "city": "Berlin",
+    "street": "Revaler Straße",
+    "lat": 52.5086075,
+    "lon": 13.4516109,
+    "pricePerNight": 222,
+    "rating": 5
+  },
+  {
+    "id": 111,
+    "name": "Hotel Sedes",
+    "city": "Berlin",
+    "street": "Prenzlauer Promenade",
+    "lat": 52.5625426,
+    "lon": 13.4280347,
+    "pricePerNight": 175,
+    "rating": 3
+  },
+  {
+    "id": 112,
+    "name": "Pension Güntzel",
+    "city": "Berlin",
+    "street": "Güntzelstraße",
+    "lat": 52.4905503,
+    "lon": 13.3334135,
+    "pricePerNight": 121,
+    "rating": 3
+  },
+  {
+    "id": 113,
+    "name": "Leonardo Hotel Berlin",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5128076,
+    "lon": 13.3046434,
+    "pricePerNight": 175,
+    "rating": 3
+  },
+  {
+    "id": 114,
+    "name": "NH Berlin Kurfürstendamm",
+    "city": "Berlin",
+    "street": "Grolmanstraße",
+    "lat": 52.5040782,
+    "lon": 13.324197,
+    "pricePerNight": 57,
+    "rating": 4
+  },
+  {
+    "id": 115,
+    "name": "Hotel Hauptstadtperle",
+    "city": "Berlin",
+    "street": "Kreutzigerstraße",
+    "lat": 52.5132636,
+    "lon": 13.4602876,
+    "pricePerNight": 136,
+    "rating": 4
+  },
+  {
+    "id": 116,
+    "name": "Aspria Spa + Sporting Club + Hotel",
+    "city": "Berlin",
+    "street": "Karlsruher Straße",
+    "lat": 52.5005569,
+    "lon": 13.2943054,
+    "pricePerNight": 247,
+    "rating": 5
+  },
+  {
+    "id": 117,
+    "name": "Holiday Inn Berlin City Center East - Prenzlauer Allee",
+    "city": "Berlin",
+    "street": "Prenzlauer Allee",
+    "lat": 52.5477676,
+    "lon": 13.428231,
+    "pricePerNight": 66,
+    "rating": 3
+  },
+  {
+    "id": 118,
+    "name": "Hotel Domicil",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.506433,
+    "lon": 13.3064175,
+    "pricePerNight": 111,
+    "rating": 5
+  },
+  {
+    "id": 119,
+    "name": "villa konstanz",
+    "city": "Berlin",
+    "street": "Konstanzer Straße",
+    "lat": 52.4893934,
+    "lon": 13.3077634,
+    "pricePerNight": 214,
+    "rating": 3
+  },
+  {
+    "id": 120,
+    "name": "H+ Hotel Berlin Mitte",
+    "city": "Berlin",
+    "street": "Chausseestraße",
+    "lat": 52.5296271,
+    "lon": 13.3837474,
+    "pricePerNight": 213,
+    "rating": 4
+  },
+  {
+    "id": 121,
+    "name": "Hotel St.-Michaels-Heim",
+    "city": "Berlin",
+    "street": "Bismarckallee",
+    "lat": 52.4882904,
+    "lon": 13.2771572,
+    "pricePerNight": 125,
+    "rating": 5
+  },
+  {
+    "id": 122,
+    "name": "Hotel Petit",
+    "city": "Berlin",
+    "street": "Königstraße",
+    "lat": 52.4201349,
+    "lon": 13.1627017,
+    "pricePerNight": 73,
+    "rating": 3
+  },
+  {
+    "id": 123,
+    "name": "Novum Hotel Gates",
+    "city": "Berlin",
+    "street": "Knesebeckstraße",
+    "lat": 52.5096029,
+    "lon": 13.3226826,
+    "pricePerNight": 196,
+    "rating": 4
+  },
+  {
+    "id": 124,
+    "name": "Hyperion Hotel Berlin",
+    "city": "Berlin",
+    "street": "Prager Straße",
+    "lat": 52.4939465,
+    "lon": 13.3333509,
+    "pricePerNight": 141,
+    "rating": 5
+  },
+  {
+    "id": 125,
+    "name": "martas Hotel Berlin-Mitte",
+    "city": "Berlin",
+    "street": "Auguststraße",
+    "lat": 52.5263017,
+    "lon": 13.3924959,
+    "pricePerNight": 168,
+    "rating": 5
+  },
+  {
+    "id": 126,
+    "name": "Mit-Mensch",
+    "city": "Berlin",
+    "street": "Ehrlichstraße",
+    "lat": 52.4818284,
+    "lon": 13.5175447,
+    "pricePerNight": 165,
+    "rating": 4
+  },
+  {
+    "id": 127,
+    "name": "Michelberger Hotel",
+    "city": "Berlin",
+    "street": "Warschauer Straße",
+    "lat": 52.504618,
+    "lon": 13.4479619,
+    "pricePerNight": 194,
+    "rating": 5
+  },
+  {
+    "id": 128,
+    "name": "The Mandala Hotel",
+    "city": "Berlin",
+    "street": "Potsdamer Straße",
+    "lat": 52.5089383,
+    "lon": 13.3738661,
+    "pricePerNight": 202,
+    "rating": 3
+  },
+  {
+    "id": 129,
+    "name": "Waldschänke",
+    "city": "Berlin",
+    "street": "Fichtenweg",
+    "lat": 52.5687886,
+    "lon": 13.2092991,
+    "pricePerNight": 213,
+    "rating": 5
+  },
+  {
+    "id": 130,
+    "name": "Landmark eco Hotel Berlin",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5021232,
+    "lon": 13.2971737,
+    "pricePerNight": 130,
+    "rating": 5
+  },
+  {
+    "id": 131,
+    "name": "Märkischer Hof",
+    "city": "Berlin",
+    "street": "Linienstraße",
+    "lat": 52.5264542,
+    "lon": 13.3880761,
+    "pricePerNight": 216,
+    "rating": 5
+  },
+  {
+    "id": 132,
+    "name": "Hotel 38",
+    "city": "Berlin",
+    "street": "Oranienburger Straße",
+    "lat": 52.5254865,
+    "lon": 13.3915391,
+    "pricePerNight": 183,
+    "rating": 3
+  },
+  {
+    "id": 133,
+    "name": "Mercure Hotel Moa Berlin",
+    "city": "Berlin",
+    "street": "Stephanstraße",
+    "lat": 52.5321956,
+    "lon": 13.3445073,
+    "pricePerNight": 82,
+    "rating": 3
+  },
+  {
+    "id": 134,
+    "name": "Vier Jahreszeiten",
+    "city": "Berlin",
+    "street": "Skalitzer Straße",
+    "lat": 52.4987301,
+    "lon": 13.4260957,
+    "pricePerNight": 132,
+    "rating": 4
+  },
+  {
+    "id": 135,
+    "name": "H4 Hotel Berlin-Alexanderplatz",
+    "city": "Berlin",
+    "street": "Karl-Liebknecht-Straße",
+    "lat": 52.5255613,
+    "lon": 13.4146506,
+    "pricePerNight": 237,
+    "rating": 5
+  },
+  {
+    "id": 136,
+    "name": "Arcus Hotel garni",
+    "city": "Berlin",
+    "street": "Heerstraße",
+    "lat": 52.5169857,
+    "lon": 13.1755975,
+    "pricePerNight": 185,
+    "rating": 5
+  },
+  {
+    "id": 137,
+    "name": "hotel messe",
+    "city": "Berlin",
+    "street": "Wundtstraße",
+    "lat": 52.5069489,
+    "lon": 13.2838011,
+    "pricePerNight": 110,
+    "rating": 3
+  },
+  {
+    "id": 138,
+    "name": "Brandies Hotel Berlin Messe",
+    "city": "Berlin",
+    "street": "Kaiserdamm",
+    "lat": 52.5101719,
+    "lon": 13.2808671,
+    "pricePerNight": 211,
+    "rating": 5
+  },
+  {
+    "id": 139,
+    "name": "Cityblick",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.5069569,
+    "lon": 13.3002109,
+    "pricePerNight": 217,
+    "rating": 5
+  },
+  {
+    "id": 140,
+    "name": "Hotel Amelie",
+    "city": "Berlin",
+    "street": "Kaiserdamm",
+    "lat": 52.5101425,
+    "lon": 13.2799904,
+    "pricePerNight": 154,
+    "rating": 4
+  },
+  {
+    "id": 141,
+    "name": "Motel Blue Messe",
+    "city": "Berlin",
+    "street": "Kaiserdamm",
+    "lat": 52.5095308,
+    "lon": 13.2783242,
+    "pricePerNight": 56,
+    "rating": 3
+  },
+  {
+    "id": 142,
+    "name": "Hotel Landhaus Alpinia",
+    "city": "Berlin",
+    "street": "Säntisstraße",
+    "lat": 52.4211028,
+    "lon": 13.39197,
+    "pricePerNight": 127,
+    "rating": 4
+  },
+  {
+    "id": 143,
+    "name": "Hotel Transit",
+    "city": "Berlin",
+    "street": "Hagelberger Straße",
+    "lat": 52.4912721,
+    "lon": 13.3852632,
+    "pricePerNight": 85,
+    "rating": 5
+  },
+  {
+    "id": 144,
+    "name": "Mit-Mensch",
+    "city": "Berlin",
+    "street": "Ehrlichstraße",
+    "lat": 52.4814535,
+    "lon": 13.5171639,
+    "pricePerNight": 242,
+    "rating": 3
+  },
+  {
+    "id": 145,
+    "name": "Meininger",
+    "city": "Berlin",
+    "street": "Schönhauser Allee",
+    "lat": 52.5328665,
+    "lon": 13.4130785,
+    "pricePerNight": 86,
+    "rating": 5
+  },
+  {
+    "id": 146,
+    "name": "Cosmo",
+    "city": "Berlin",
+    "street": "Spittelmarkt",
+    "lat": 52.5117115,
+    "lon": 13.4013208,
+    "pricePerNight": 182,
+    "rating": 4
+  },
+  {
+    "id": 147,
+    "name": "Hotel Gendarm nouveau",
+    "city": "Berlin",
+    "street": "Charlottenstraße",
+    "lat": 52.511704,
+    "lon": 13.3914281,
+    "pricePerNight": 201,
+    "rating": 5
+  },
+  {
+    "id": 148,
+    "name": "ibis Berlin City Potsdamer Platz",
+    "city": "Berlin",
+    "street": "Anhalter Straße",
+    "lat": 52.5047592,
+    "lon": 13.3842582,
+    "pricePerNight": 85,
+    "rating": 3
+  },
+  {
+    "id": 149,
+    "name": "Hotel Pension Arta",
+    "city": "Berlin",
+    "street": "Kaiser-Friedrich-Straße",
+    "lat": 52.5085671,
+    "lon": 13.3024638,
+    "pricePerNight": 116,
+    "rating": 4
+  },
+  {
+    "id": 150,
+    "name": "Art Hotel Charlottenburger Hof",
+    "city": "Berlin",
+    "street": "Stuttgarter Platz",
+    "lat": 52.5053388,
+    "lon": 13.3016512,
+    "pricePerNight": 96,
+    "rating": 4
+  },
+  {
+    "id": 151,
+    "name": "Adam",
+    "city": "Berlin",
+    "street": "Kaiser-Friedrich-Straße",
+    "lat": 52.50631,
+    "lon": 13.3021078,
+    "pricePerNight": 127,
+    "rating": 3
+  },
+  {
+    "id": 152,
+    "name": "Hôtel Atrium Charlottenburg",
+    "city": "Berlin",
+    "street": "Kaiser-Friedrich-Straße",
+    "lat": 52.5059783,
+    "lon": 13.3021646,
+    "pricePerNight": 234,
+    "rating": 3
+  },
+  {
+    "id": 153,
+    "name": "Birth City Hotel",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5061608,
+    "lon": 13.3021367,
+    "pricePerNight": 103,
+    "rating": 5
+  },
+  {
+    "id": 154,
+    "name": "Ivbergs Hotel",
+    "city": "Berlin",
+    "street": "Heerstraße",
+    "lat": 52.5089426,
+    "lon": 13.2698262,
+    "pricePerNight": 107,
+    "rating": 5
+  },
+  {
+    "id": 155,
+    "name": "Hotel Tagungshaus Tiergarten",
+    "city": "Berlin",
+    "street": "Körnerstraße",
+    "lat": 52.5024306,
+    "lon": 13.3676051,
+    "pricePerNight": 167,
+    "rating": 3
+  },
+  {
+    "id": 156,
+    "name": "Sketch",
+    "city": "Berlin",
+    "street": "Grünberger Straße",
+    "lat": 52.5114689,
+    "lon": 13.4557335,
+    "pricePerNight": 79,
+    "rating": 3
+  },
+  {
+    "id": 157,
+    "name": "Brauhaus Spandau",
+    "city": "Berlin",
+    "street": "Neuendorfer Straße",
+    "lat": 52.5409145,
+    "lon": 13.2066638,
+    "pricePerNight": 167,
+    "rating": 5
+  },
+  {
+    "id": 158,
+    "name": "Grünau Hotel",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4030813,
+    "lon": 13.5856947,
+    "pricePerNight": 229,
+    "rating": 3
+  },
+  {
+    "id": 159,
+    "name": "SO/ Berlin Das Stue",
+    "city": "Berlin",
+    "street": "Drakestraße",
+    "lat": 52.5098733,
+    "lon": 13.3459642,
+    "pricePerNight": 91,
+    "rating": 4
+  },
+  {
+    "id": 160,
+    "name": "Les Nations",
+    "city": "Berlin",
+    "street": "Zinzendorfstraße",
+    "lat": 52.5234094,
+    "lon": 13.3319791,
+    "pricePerNight": 132,
+    "rating": 4
+  },
+  {
+    "id": 161,
+    "name": "1a pension apartment berlin",
+    "city": "Berlin",
+    "street": "Milastraße",
+    "lat": 52.5451996,
+    "lon": 13.4115815,
+    "pricePerNight": 128,
+    "rating": 5
+  },
+  {
+    "id": 162,
+    "name": "Eurostars Berlin",
+    "city": "Berlin",
+    "street": "Friedrichstraße",
+    "lat": 52.520389,
+    "lon": 13.3892504,
+    "pricePerNight": 147,
+    "rating": 3
+  },
+  {
+    "id": 163,
+    "name": "Check In Hotel",
+    "city": "Berlin",
+    "street": "Michael-Brückner-Straße",
+    "lat": 52.45588,
+    "lon": 13.5112796,
+    "pricePerNight": 59,
+    "rating": 4
+  },
+  {
+    "id": 164,
+    "name": "H2 Hotel Berlin-Alexanderplatz",
+    "city": "Berlin",
+    "street": "Karl-Liebknecht-Straße",
+    "lat": 52.5253146,
+    "lon": 13.4143711,
+    "pricePerNight": 213,
+    "rating": 4
+  },
+  {
+    "id": 165,
+    "name": "Melarose",
+    "city": "Berlin",
+    "street": "Greifswalder Straße",
+    "lat": 52.5341399,
+    "lon": 13.4302131,
+    "pricePerNight": 120,
+    "rating": 4
+  },
+  {
+    "id": 166,
+    "name": "Alex Hotel",
+    "city": "Berlin",
+    "street": "Greifswalder Straße",
+    "lat": 52.5287179,
+    "lon": 13.4248441,
+    "pricePerNight": 119,
+    "rating": 5
+  },
+  {
+    "id": 167,
+    "name": "Hotel Siemensstadt",
+    "city": "Berlin",
+    "street": "Jugendweg",
+    "lat": 52.5376759,
+    "lon": 13.2660994,
+    "pricePerNight": 104,
+    "rating": 4
+  },
+  {
+    "id": 168,
+    "name": "Xantener Eck",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4988532,
+    "lon": 13.3078294,
+    "pricePerNight": 236,
+    "rating": 4
+  },
+  {
+    "id": 169,
+    "name": "t&c apartments",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5487127,
+    "lon": 13.4109214,
+    "pricePerNight": 112,
+    "rating": 3
+  },
+  {
+    "id": 170,
+    "name": "Goldmarie",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5093913,
+    "lon": 13.4516028,
+    "pricePerNight": 168,
+    "rating": 5
+  },
+  {
+    "id": 171,
+    "name": "Midi Inn",
+    "city": "Berlin",
+    "street": "Veteranenstraße",
+    "lat": 52.533001,
+    "lon": 13.401672,
+    "pricePerNight": 152,
+    "rating": 5
+  },
+  {
+    "id": 172,
+    "name": "Limehome",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4641067,
+    "lon": 13.3848349,
+    "pricePerNight": 208,
+    "rating": 5
+  },
+  {
+    "id": 173,
+    "name": "Hotel Comenius",
+    "city": "Berlin",
+    "street": "Grünberger Straße",
+    "lat": 52.5124379,
+    "lon": 13.4505118,
+    "pricePerNight": 114,
+    "rating": 3
+  },
+  {
+    "id": 174,
+    "name": "City Guesthouse Pension Berlin",
+    "city": "Berlin",
+    "street": "Gleimstraße",
+    "lat": 52.5473373,
+    "lon": 13.4111965,
+    "pricePerNight": 74,
+    "rating": 5
+  },
+  {
+    "id": 175,
+    "name": "Louisas Place",
+    "city": "Berlin",
+    "street": "Kurfürstendamm",
+    "lat": 52.4993608,
+    "lon": 13.3051184,
+    "pricePerNight": 224,
+    "rating": 4
+  },
+  {
+    "id": 176,
+    "name": "Hotel de Rome",
+    "city": "Berlin",
+    "street": "Behrenstraße",
+    "lat": 52.5157914,
+    "lon": 13.3940671,
+    "pricePerNight": 133,
+    "rating": 4
+  },
+  {
+    "id": 177,
+    "name": "Aparthotel Christie",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5001758,
+    "lon": 13.3522905,
+    "pricePerNight": 108,
+    "rating": 5
+  },
+  {
+    "id": 178,
+    "name": "Pankow",
+    "city": "Berlin",
+    "street": "Pasewalker Straße",
+    "lat": 52.5852456,
+    "lon": 13.4286973,
+    "pricePerNight": 151,
+    "rating": 4
+  },
+  {
+    "id": 179,
+    "name": "Spreeidyll",
+    "city": "Berlin",
+    "street": "Müggelseedamm",
+    "lat": 52.4485735,
+    "lon": 13.6088156,
+    "pricePerNight": 190,
+    "rating": 4
+  },
+  {
+    "id": 180,
+    "name": "ABRI Apartments Berlin-Mitte",
+    "city": "Berlin",
+    "street": "Charlottenstraße",
+    "lat": 52.5082298,
+    "lon": 13.3919856,
+    "pricePerNight": 235,
+    "rating": 3
+  },
+  {
+    "id": 181,
+    "name": "Pension Senta",
+    "city": "Berlin",
+    "street": "Bundesallee",
+    "lat": 52.4754661,
+    "lon": 13.3287833,
+    "pricePerNight": 88,
+    "rating": 5
+  },
+  {
+    "id": 182,
+    "name": "Myer's Hotel",
+    "city": "Berlin",
+    "street": "Metzer Straße",
+    "lat": 52.5312795,
+    "lon": 13.4178789,
+    "pricePerNight": 158,
+    "rating": 4
+  },
+  {
+    "id": 183,
+    "name": "Garner Hotel Berlin - Gendarmenmarkt by IHG",
+    "city": "Berlin",
+    "street": "Charlottenstraße",
+    "lat": 52.5106118,
+    "lon": 13.3915889,
+    "pricePerNight": 116,
+    "rating": 4
+  },
+  {
+    "id": 184,
+    "name": "Hotel artim",
+    "city": "Berlin",
+    "street": "Fuggerstraße",
+    "lat": 52.4990579,
+    "lon": 13.3448471,
+    "pricePerNight": 232,
+    "rating": 5
+  },
+  {
+    "id": 185,
+    "name": "Meininger Berlin Airport",
+    "city": "Berlin",
+    "street": "Alexander-Meißner-Straße",
+    "lat": 52.3967135,
+    "lon": 13.5404826,
+    "pricePerNight": 53,
+    "rating": 5
+  },
+  {
+    "id": 186,
+    "name": "Grimm's Hotel",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.508345,
+    "lon": 13.404951,
+    "pricePerNight": 134,
+    "rating": 3
+  },
+  {
+    "id": 187,
+    "name": "Pension Breitenfeldt Berlin Greifswalder Straße",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5300574,
+    "lon": 13.6356484,
+    "pricePerNight": 136,
+    "rating": 3
+  },
+  {
+    "id": 188,
+    "name": "Premier Inn Berlin Alexanderplatz",
+    "city": "Berlin",
+    "street": "Theanolte-Bähnisch-Straße",
+    "lat": 52.523764,
+    "lon": 13.4173693,
+    "pricePerNight": 72,
+    "rating": 3
+  },
+  {
+    "id": 189,
+    "name": "Art Nouveau",
+    "city": "Berlin",
+    "street": "Leibnizstraße",
+    "lat": 52.50288,
+    "lon": 13.313163,
+    "pricePerNight": 167,
+    "rating": 5
+  },
+  {
+    "id": 190,
+    "name": "Honigmond Hotel",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5295164,
+    "lon": 13.3891035,
+    "pricePerNight": 148,
+    "rating": 3
+  },
+  {
+    "id": 191,
+    "name": "Hotel Adelante",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5283989,
+    "lon": 13.3912518,
+    "pricePerNight": 113,
+    "rating": 3
+  },
+  {
+    "id": 192,
+    "name": "Pension Michele",
+    "city": "Berlin",
+    "street": "Winterfeldtstraße",
+    "lat": 52.4971869,
+    "lon": 13.3539293,
+    "pricePerNight": 173,
+    "rating": 5
+  },
+  {
+    "id": 193,
+    "name": "Hotel Pension Blumenbach",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5411795,
+    "lon": 13.554523,
+    "pricePerNight": 151,
+    "rating": 4
+  },
+  {
+    "id": 194,
+    "name": "Hotel Castell Berlin",
+    "city": "Berlin",
+    "street": "Wielandstraße",
+    "lat": 52.5001968,
+    "lon": 13.3147386,
+    "pricePerNight": 201,
+    "rating": 3
+  },
+  {
+    "id": 195,
+    "name": "Kima",
+    "city": "Berlin",
+    "street": "Wielandstraße",
+    "lat": 52.5003294,
+    "lon": 13.3151486,
+    "pricePerNight": 148,
+    "rating": 4
+  },
+  {
+    "id": 196,
+    "name": "Hotel Leonardo",
+    "city": "Berlin",
+    "street": "Kurfürstendamm",
+    "lat": 52.5025419,
+    "lon": 13.3238646,
+    "pricePerNight": 59,
+    "rating": 4
+  },
+  {
+    "id": 197,
+    "name": "Hotel Pension Fasanen Haus",
+    "city": "Berlin",
+    "street": "Fasanenstraße",
+    "lat": 52.5021684,
+    "lon": 13.3275296,
+    "pricePerNight": 62,
+    "rating": 4
+  },
+  {
+    "id": 198,
+    "name": "Hotel Augusta",
+    "city": "Berlin",
+    "street": "Fasanenstraße",
+    "lat": 52.5023055,
+    "lon": 13.3272088,
+    "pricePerNight": 233,
+    "rating": 5
+  },
+  {
+    "id": 199,
+    "name": "Henri Hotel Berlin",
+    "city": "Berlin",
+    "street": "Meinekestraße",
+    "lat": 52.5009762,
+    "lon": 13.32871,
+    "pricePerNight": 97,
+    "rating": 5
+  },
+  {
+    "id": 200,
+    "name": "Bölsche Hotel",
+    "city": "Berlin",
+    "street": "Bölschestraße",
+    "lat": 52.4486206,
+    "lon": 13.6238572,
+    "pricePerNight": 175,
+    "rating": 4
+  },
+  {
+    "id": 201,
+    "name": "Amary City Residence",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5100832,
+    "lon": 13.3021475,
+    "pricePerNight": 207,
+    "rating": 4
+  },
+  {
+    "id": 202,
+    "name": "Max Brown",
+    "city": "Berlin",
+    "street": "Uhlandstraße",
+    "lat": 52.4968861,
+    "lon": 13.3238309,
+    "pricePerNight": 109,
+    "rating": 5
+  },
+  {
+    "id": 203,
+    "name": "Hotel Seifert",
+    "city": "Berlin",
+    "street": "Uhlandstraße",
+    "lat": 52.4995482,
+    "lon": 13.3250413,
+    "pricePerNight": 57,
+    "rating": 3
+  },
+  {
+    "id": 204,
+    "name": "Boutique Hotel Kerlin",
+    "city": "Berlin",
+    "street": "Pariser Straße",
+    "lat": 52.4983729,
+    "lon": 13.3170821,
+    "pricePerNight": 140,
+    "rating": 4
+  },
+  {
+    "id": 205,
+    "name": "Pension Regenbogen",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5177766,
+    "lon": 13.4686653,
+    "pricePerNight": 84,
+    "rating": 3
+  },
+  {
+    "id": 206,
+    "name": "Hotel Sachsenhof",
+    "city": "Berlin",
+    "street": "Motzstraße",
+    "lat": 52.4986398,
+    "lon": 13.3514182,
+    "pricePerNight": 140,
+    "rating": 4
+  },
+  {
+    "id": 207,
+    "name": "Hotel Vivaldi",
+    "city": "Berlin",
+    "street": "Knesebeckstraße",
+    "lat": 52.5039397,
+    "lon": 13.3218142,
+    "pricePerNight": 234,
+    "rating": 3
+  },
+  {
+    "id": 208,
+    "name": "Hotel Maison am Adenauerplatz",
+    "city": "Berlin",
+    "street": "Brandenburgische Straße",
+    "lat": 52.498433,
+    "lon": 13.3071801,
+    "pricePerNight": 118,
+    "rating": 5
+  },
+  {
+    "id": 209,
+    "name": "Hotel Pension Elegia",
+    "city": "Berlin",
+    "street": "Niebuhrstraße",
+    "lat": 52.5041728,
+    "lon": 13.3161301,
+    "pricePerNight": 221,
+    "rating": 4
+  },
+  {
+    "id": 210,
+    "name": "Hotel Alte Galerie",
+    "city": "Berlin",
+    "street": "Leibnizstraße",
+    "lat": 52.5023606,
+    "lon": 13.3135217,
+    "pricePerNight": 200,
+    "rating": 4
+  },
+  {
+    "id": 211,
+    "name": "Q!",
+    "city": "Berlin",
+    "street": "Knesebeckstraße",
+    "lat": 52.5026269,
+    "lon": 13.3221968,
+    "pricePerNight": 150,
+    "rating": 3
+  },
+  {
+    "id": 212,
+    "name": "Hotel Prens",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4951266,
+    "lon": 13.4210362,
+    "pricePerNight": 111,
+    "rating": 4
+  },
+  {
+    "id": 213,
+    "name": "B&B Hotel",
+    "city": "Berlin",
+    "street": "Frankfurter Allee",
+    "lat": 52.5147773,
+    "lon": 13.4661815,
+    "pricePerNight": 125,
+    "rating": 4
+  },
+  {
+    "id": 214,
+    "name": "Hüttenpalast",
+    "city": "Berlin",
+    "street": "Hobrechtstraße",
+    "lat": 52.489252,
+    "lon": 13.4263848,
+    "pricePerNight": 235,
+    "rating": 3
+  },
+  {
+    "id": 215,
+    "name": "Hotel Pension Margrit",
+    "city": "Berlin",
+    "street": "Brandenburgische Straße",
+    "lat": 52.4966468,
+    "lon": 13.308389,
+    "pricePerNight": 227,
+    "rating": 3
+  },
+  {
+    "id": 216,
+    "name": "Provocateur",
+    "city": "Berlin",
+    "street": "Brandenburgische Straße",
+    "lat": 52.4957427,
+    "lon": 13.3087693,
+    "pricePerNight": 89,
+    "rating": 3
+  },
+  {
+    "id": 217,
+    "name": "Anna 1908",
+    "city": "Berlin",
+    "street": "Büsingstraße",
+    "lat": 52.4654573,
+    "lon": 13.3262635,
+    "pricePerNight": 111,
+    "rating": 5
+  },
+  {
+    "id": 218,
+    "name": "numastay",
+    "city": "Berlin",
+    "street": "Konstanzer Straße",
+    "lat": 52.4989472,
+    "lon": 13.3122264,
+    "pricePerNight": 112,
+    "rating": 5
+  },
+  {
+    "id": 219,
+    "name": "Citadines",
+    "city": "Berlin",
+    "street": "Olivaer Platz",
+    "lat": 52.4991188,
+    "lon": 13.3128213,
+    "pricePerNight": 149,
+    "rating": 3
+  },
+  {
+    "id": 220,
+    "name": "Europa City",
+    "city": "Berlin",
+    "street": "Konstanzer Straße",
+    "lat": 52.4978088,
+    "lon": 13.3121386,
+    "pricePerNight": 169,
+    "rating": 3
+  },
+  {
+    "id": 221,
+    "name": "Lebensquelle",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5079787,
+    "lon": 13.3991588,
+    "pricePerNight": 171,
+    "rating": 3
+  },
+  {
+    "id": 222,
+    "name": "Goodman's Living",
+    "city": "Berlin",
+    "street": "Wilmersdorfer Straße",
+    "lat": 52.512185,
+    "lon": 13.3048987,
+    "pricePerNight": 239,
+    "rating": 5
+  },
+  {
+    "id": 223,
+    "name": "Kallmeyer",
+    "city": "Berlin",
+    "street": "Seegefelder Straße",
+    "lat": 52.537596,
+    "lon": 13.1864235,
+    "pricePerNight": 195,
+    "rating": 3
+  },
+  {
+    "id": 224,
+    "name": "Calma Berlin Mitte",
+    "city": "Berlin",
+    "street": "Linienstraße",
+    "lat": 52.5263877,
+    "lon": 13.3901295,
+    "pricePerNight": 122,
+    "rating": 5
+  },
+  {
+    "id": 225,
+    "name": "Park Plaza Berlin",
+    "city": "Berlin",
+    "street": "Lietzenburger Straße",
+    "lat": 52.499677,
+    "lon": 13.3226356,
+    "pricePerNight": 249,
+    "rating": 5
+  },
+  {
+    "id": 226,
+    "name": "relexa hotel Stuttgarter Hof Berlin",
+    "city": "Berlin",
+    "street": "Anhalter Straße",
+    "lat": 52.5049304,
+    "lon": 13.3851932,
+    "pricePerNight": 82,
+    "rating": 4
+  },
+  {
+    "id": 227,
+    "name": "Parkhotel Marzahn",
+    "city": "Berlin",
+    "street": "Blumberger Damm",
+    "lat": 52.5449865,
+    "lon": 13.571773,
+    "pricePerNight": 59,
+    "rating": 3
+  },
+  {
+    "id": 228,
+    "name": "Alecsa Hotel am Olympiastadion",
+    "city": "Berlin",
+    "street": "Glockenturmstraße",
+    "lat": 52.5109782,
+    "lon": 13.2207572,
+    "pricePerNight": 132,
+    "rating": 5
+  },
+  {
+    "id": 229,
+    "name": "Hotel Bongard",
+    "city": "Berlin",
+    "street": "Holzhauser Straße",
+    "lat": 52.5862186,
+    "lon": 13.3197001,
+    "pricePerNight": 225,
+    "rating": 4
+  },
+  {
+    "id": 230,
+    "name": "Pension Kreuzberg",
+    "city": "Berlin",
+    "street": "Großbeerenstraße",
+    "lat": 52.4944396,
+    "lon": 13.3840629,
+    "pricePerNight": 75,
+    "rating": 3
+  },
+  {
+    "id": 231,
+    "name": "City Hotel am Kurfürstendamm",
+    "city": "Berlin",
+    "street": "Kurfürstendamm",
+    "lat": 52.500015,
+    "lon": 13.3097569,
+    "pricePerNight": 112,
+    "rating": 3
+  },
+  {
+    "id": 232,
+    "name": "Sir Savigny",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.50573,
+    "lon": 13.320721,
+    "pricePerNight": 117,
+    "rating": 5
+  },
+  {
+    "id": 233,
+    "name": "Hotel Enzian",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4477735,
+    "lon": 13.3052104,
+    "pricePerNight": 206,
+    "rating": 5
+  },
+  {
+    "id": 234,
+    "name": "Zum Ziehbrunnen",
+    "city": "Berlin",
+    "street": "Hultschiner Damm",
+    "lat": 52.4952599,
+    "lon": 13.6111688,
+    "pricePerNight": 57,
+    "rating": 4
+  },
+  {
+    "id": 235,
+    "name": "enjoy hotel am Studio",
+    "city": "Berlin",
+    "street": "Kaiserdamm",
+    "lat": 52.5094291,
+    "lon": 13.2773806,
+    "pricePerNight": 73,
+    "rating": 3
+  },
+  {
+    "id": 236,
+    "name": "Hotel Atlas",
+    "city": "Berlin",
+    "street": "Bernhardstraße",
+    "lat": 52.478323,
+    "lon": 13.330536,
+    "pricePerNight": 63,
+    "rating": 3
+  },
+  {
+    "id": 237,
+    "name": "Hollywood Media Hotel",
+    "city": "Berlin",
+    "street": "Kurfürstendamm",
+    "lat": 52.5016365,
+    "lon": 13.3212851,
+    "pricePerNight": 94,
+    "rating": 4
+  },
+  {
+    "id": 238,
+    "name": "Hotel am Hermannplatz",
+    "city": "Berlin",
+    "street": "Kottbusser Damm",
+    "lat": 52.4898639,
+    "lon": 13.4237472,
+    "pricePerNight": 192,
+    "rating": 4
+  },
+  {
+    "id": 239,
+    "name": "Sarotti-Höfe",
+    "city": "Berlin",
+    "street": "Mehringdamm",
+    "lat": 52.4910469,
+    "lon": 13.3879601,
+    "pricePerNight": 124,
+    "rating": 4
+  },
+  {
+    "id": 240,
+    "name": "Hotel Buckow",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4239685,
+    "lon": 13.4392994,
+    "pricePerNight": 186,
+    "rating": 3
+  },
+  {
+    "id": 241,
+    "name": "City Pension Berlin",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5057255,
+    "lon": 13.3039494,
+    "pricePerNight": 161,
+    "rating": 4
+  },
+  {
+    "id": 242,
+    "name": "Hotel AI Königshof",
+    "city": "Berlin",
+    "street": "Stuttgarter Platz",
+    "lat": 52.5057392,
+    "lon": 13.3044971,
+    "pricePerNight": 240,
+    "rating": 3
+  },
+  {
+    "id": 243,
+    "name": "Hotel Abendstern",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5057347,
+    "lon": 13.3042146,
+    "pricePerNight": 86,
+    "rating": 3
+  },
+  {
+    "id": 244,
+    "name": "Hotel Spreewitz",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.5065799,
+    "lon": 13.3036488,
+    "pricePerNight": 118,
+    "rating": 4
+  },
+  {
+    "id": 245,
+    "name": "Best Western Hotel Kantstraße Berlin",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.5065785,
+    "lon": 13.3059069,
+    "pricePerNight": 231,
+    "rating": 4
+  },
+  {
+    "id": 246,
+    "name": "Hotel Tiergarten",
+    "city": "Berlin",
+    "street": "Alt-Moabit",
+    "lat": 52.5251174,
+    "lon": 13.3438082,
+    "pricePerNight": 55,
+    "rating": 3
+  },
+  {
+    "id": 247,
+    "name": "Hotel Potsdamer Hof Berlin Am Potsdamer Platz",
+    "city": "Berlin",
+    "street": "Potsdamer Straße",
+    "lat": 52.504702,
+    "lon": 13.3667324,
+    "pricePerNight": 170,
+    "rating": 5
+  },
+  {
+    "id": 248,
+    "name": "Nu Wave Hotel",
+    "city": "Berlin",
+    "street": "Gubener Straße",
+    "lat": 52.5121325,
+    "lon": 13.4490492,
+    "pricePerNight": 125,
+    "rating": 4
+  },
+  {
+    "id": 249,
+    "name": "Pension Brinn",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5110729,
+    "lon": 13.3186097,
+    "pricePerNight": 206,
+    "rating": 4
+  },
+  {
+    "id": 250,
+    "name": "Appartements Eisemann",
+    "city": "Berlin",
+    "street": "Bäumerplan",
+    "lat": 52.4769165,
+    "lon": 13.3756036,
+    "pricePerNight": 212,
+    "rating": 5
+  },
+  {
+    "id": 251,
+    "name": "Motel Plus Berlin",
+    "city": "Berlin",
+    "street": "Silbersteinstraße",
+    "lat": 52.4671592,
+    "lon": 13.4370793,
+    "pricePerNight": 185,
+    "rating": 3
+  },
+  {
+    "id": 252,
+    "name": "Hotel Victoria",
+    "city": "Berlin",
+    "street": "Kaskelstraße",
+    "lat": 52.5036046,
+    "lon": 13.4815583,
+    "pricePerNight": 190,
+    "rating": 3
+  },
+  {
+    "id": 253,
+    "name": "Roomers Berlin",
+    "city": "Berlin",
+    "street": "Steinplatz",
+    "lat": 52.508089,
+    "lon": 13.3263736,
+    "pricePerNight": 131,
+    "rating": 5
+  },
+  {
+    "id": 254,
+    "name": "Mercure Hotel Chateau",
+    "city": "Berlin",
+    "street": "Knesebeckstraße",
+    "lat": 52.5008139,
+    "lon": 13.3213821,
+    "pricePerNight": 88,
+    "rating": 3
+  },
+  {
+    "id": 255,
+    "name": "Dream Apartments",
+    "city": "Berlin",
+    "street": "Hohenzollerndamm",
+    "lat": 52.4949205,
+    "lon": 13.3261183,
+    "pricePerNight": 112,
+    "rating": 4
+  },
+  {
+    "id": 256,
+    "name": "Flower's Boardinghause",
+    "city": "Berlin",
+    "street": "Mulackstraße",
+    "lat": 52.5270903,
+    "lon": 13.4076704,
+    "pricePerNight": 130,
+    "rating": 5
+  },
+  {
+    "id": 257,
+    "name": "Hotel Hackescher Markt",
+    "city": "Berlin",
+    "street": "Große Präsidentenstraße",
+    "lat": 52.5232037,
+    "lon": 13.4012754,
+    "pricePerNight": 144,
+    "rating": 5
+  },
+  {
+    "id": 258,
+    "name": "Adina Apartment Hotel Berlin Hackescher Markt",
+    "city": "Berlin",
+    "street": "An der Spandauer Brücke",
+    "lat": 52.5223005,
+    "lon": 13.404071,
+    "pricePerNight": 124,
+    "rating": 3
+  },
+  {
+    "id": 259,
+    "name": "Kolo 77",
+    "city": "Berlin",
+    "street": "Koloniestraße",
+    "lat": 52.5668016,
+    "lon": 13.3843081,
+    "pricePerNight": 60,
+    "rating": 4
+  },
+  {
+    "id": 260,
+    "name": "Adina Apartment Hotel Berlin Checkpoint Charlie",
+    "city": "Berlin",
+    "street": "Krausenstraße",
+    "lat": 52.5097552,
+    "lon": 13.3975828,
+    "pricePerNight": 213,
+    "rating": 5
+  },
+  {
+    "id": 261,
+    "name": "sly Berlin",
+    "city": "Berlin",
+    "street": "Petersburger Straße",
+    "lat": 52.5249401,
+    "lon": 13.448131,
+    "pricePerNight": 105,
+    "rating": 5
+  },
+  {
+    "id": 262,
+    "name": "Hotel Grüner Baum",
+    "city": "Berlin",
+    "street": "Alt-Gatow",
+    "lat": 52.4888027,
+    "lon": 13.1803646,
+    "pricePerNight": 188,
+    "rating": 4
+  },
+  {
+    "id": 263,
+    "name": "Hotel 103",
+    "city": "Berlin",
+    "street": "Schönhauser Allee",
+    "lat": 52.5530834,
+    "lon": 13.413911,
+    "pricePerNight": 81,
+    "rating": 3
+  },
+  {
+    "id": 264,
+    "name": "Zarenhof",
+    "city": "Berlin",
+    "street": "Schönhauser Allee",
+    "lat": 52.542212,
+    "lon": 13.4117837,
+    "pricePerNight": 172,
+    "rating": 5
+  },
+  {
+    "id": 265,
+    "name": "Garden Living",
+    "city": "Berlin",
+    "street": "Invalidenstraße",
+    "lat": 52.5296822,
+    "lon": 13.3803602,
+    "pricePerNight": 215,
+    "rating": 3
+  },
+  {
+    "id": 266,
+    "name": "Holiday Inn Berlin - City East Side",
+    "city": "Berlin",
+    "street": "Wanda-Kallenbach-Straße",
+    "lat": 52.5048494,
+    "lon": 13.444605,
+    "pricePerNight": 81,
+    "rating": 4
+  },
+  {
+    "id": 267,
+    "name": "Hotel Eden am Zoo",
+    "city": "Berlin",
+    "street": "Uhlandstraße",
+    "lat": 52.5041057,
+    "lon": 13.3257086,
+    "pricePerNight": 118,
+    "rating": 3
+  },
+  {
+    "id": 268,
+    "name": "relexa hotel conference",
+    "city": "Berlin",
+    "street": "Anhalter Straße",
+    "lat": 52.5048831,
+    "lon": 13.3848607,
+    "pricePerNight": 81,
+    "rating": 5
+  },
+  {
+    "id": 269,
+    "name": "Pension Marie",
+    "city": "Berlin",
+    "street": "Schivelbeiner Straße",
+    "lat": 52.5506494,
+    "lon": 13.411369,
+    "pricePerNight": 233,
+    "rating": 3
+  },
+  {
+    "id": 270,
+    "name": "Hotel Obergfell",
+    "city": "Berlin",
+    "street": "Lichtenrader Damm",
+    "lat": 52.4109094,
+    "lon": 13.4028892,
+    "pricePerNight": 220,
+    "rating": 3
+  },
+  {
+    "id": 271,
+    "name": "Bernstein",
+    "city": "Berlin",
+    "street": "Nürnberger Straße",
+    "lat": 52.5006146,
+    "lon": 13.3369116,
+    "pricePerNight": 238,
+    "rating": 3
+  },
+  {
+    "id": 272,
+    "name": "Flottwell Berlin Hotel & Residenz am Park",
+    "city": "Berlin",
+    "street": "Flottwellstraße",
+    "lat": 52.500153,
+    "lon": 13.3705835,
+    "pricePerNight": 155,
+    "rating": 3
+  },
+  {
+    "id": 273,
+    "name": "Leonardo Berlin Mitte",
+    "city": "Berlin",
+    "street": "Bertolt-Brecht-Platz",
+    "lat": 52.5226579,
+    "lon": 13.3865833,
+    "pricePerNight": 90,
+    "rating": 4
+  },
+  {
+    "id": 274,
+    "name": "Madflats",
+    "city": "Berlin",
+    "street": "Rheinstraße",
+    "lat": 52.4703508,
+    "lon": 13.3344508,
+    "pricePerNight": 135,
+    "rating": 4
+  },
+  {
+    "id": 275,
+    "name": "Hotel Zoo",
+    "city": "Berlin",
+    "street": "Kurfürstendamm",
+    "lat": 52.5035603,
+    "lon": 13.3290084,
+    "pricePerNight": 177,
+    "rating": 5
+  },
+  {
+    "id": 276,
+    "name": "Apart Hotel Residenz Am Deutschen Theater",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5227794,
+    "lon": 13.3829623,
+    "pricePerNight": 198,
+    "rating": 3
+  },
+  {
+    "id": 277,
+    "name": "Quentin Boutique Hotel",
+    "city": "Berlin",
+    "street": "Neue Kantstraße",
+    "lat": 52.5069965,
+    "lon": 13.2945431,
+    "pricePerNight": 213,
+    "rating": 5
+  },
+  {
+    "id": 278,
+    "name": "Ambassador-Berlin-Grünau",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4181936,
+    "lon": 13.5802882,
+    "pricePerNight": 181,
+    "rating": 3
+  },
+  {
+    "id": 279,
+    "name": "Cortina",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.5058287,
+    "lon": 13.3190576,
+    "pricePerNight": 135,
+    "rating": 4
+  },
+  {
+    "id": 280,
+    "name": "Hotel Haubach",
+    "city": "Berlin",
+    "street": "Haubachstraße",
+    "lat": 52.5156457,
+    "lon": 13.303645,
+    "pricePerNight": 181,
+    "rating": 4
+  },
+  {
+    "id": 281,
+    "name": "Motel One Potsdamer Platz",
+    "city": "Berlin",
+    "street": "Leipziger Platz",
+    "lat": 52.5099668,
+    "lon": 13.3809398,
+    "pricePerNight": 72,
+    "rating": 4
+  },
+  {
+    "id": 282,
+    "name": "Nikolai Residence",
+    "city": "Berlin",
+    "street": "Am Nußbaum",
+    "lat": 52.5171697,
+    "lon": 13.4064925,
+    "pricePerNight": 203,
+    "rating": 3
+  },
+  {
+    "id": 283,
+    "name": "Hotel Auberge",
+    "city": "Berlin",
+    "street": "Bayreuther Straße",
+    "lat": 52.5004566,
+    "lon": 13.3428708,
+    "pricePerNight": 181,
+    "rating": 5
+  },
+  {
+    "id": 284,
+    "name": "The Hoxton",
+    "city": "Berlin",
+    "street": "Meinekestraße",
+    "lat": 52.5008246,
+    "lon": 13.3291182,
+    "pricePerNight": 158,
+    "rating": 3
+  },
+  {
+    "id": 285,
+    "name": "Upper Room Hotel",
+    "city": "Berlin",
+    "street": "Rankestraße",
+    "lat": 52.5033835,
+    "lon": 13.3343283,
+    "pricePerNight": 96,
+    "rating": 5
+  },
+  {
+    "id": 286,
+    "name": "Waldorf Astoria Berlin",
+    "city": "Berlin",
+    "street": "Hardenbergstraße",
+    "lat": 52.5055837,
+    "lon": 13.3329108,
+    "pricePerNight": 121,
+    "rating": 5
+  },
+  {
+    "id": 287,
+    "name": "Pension Galerie",
+    "city": "Berlin",
+    "street": "Hedemannstraße",
+    "lat": 52.5032507,
+    "lon": 13.3887301,
+    "pricePerNight": 191,
+    "rating": 5
+  },
+  {
+    "id": 288,
+    "name": "Hotel & Restaurant Plovdiv",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.3997708,
+    "lon": 13.5552351,
+    "pricePerNight": 112,
+    "rating": 4
+  },
+  {
+    "id": 289,
+    "name": "Hotel Palacina",
+    "city": "Berlin",
+    "street": "Winterfeldtstraße",
+    "lat": 52.4958929,
+    "lon": 13.3602709,
+    "pricePerNight": 196,
+    "rating": 4
+  },
+  {
+    "id": 290,
+    "name": "Clipper City Home",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5158245,
+    "lon": 13.3899782,
+    "pricePerNight": 163,
+    "rating": 3
+  },
+  {
+    "id": 291,
+    "name": "Hotel Novalis",
+    "city": "Berlin",
+    "street": "Novalisstraße",
+    "lat": 52.5285655,
+    "lon": 13.3888609,
+    "pricePerNight": 192,
+    "rating": 4
+  },
+  {
+    "id": 292,
+    "name": "Estrel Berlin",
+    "city": "Berlin",
+    "street": "Sonnenallee",
+    "lat": 52.4736275,
+    "lon": 13.4588496,
+    "pricePerNight": 96,
+    "rating": 3
+  },
+  {
+    "id": 293,
+    "name": "Hotel Ambiente",
+    "city": "Berlin",
+    "street": "Gossowstraße",
+    "lat": 52.4965245,
+    "lon": 13.3478926,
+    "pricePerNight": 99,
+    "rating": 3
+  },
+  {
+    "id": 294,
+    "name": "ZOLA Pizzeria",
+    "city": "Berlin",
+    "street": "Wernsdorfer Straße",
+    "lat": 52.3726313,
+    "lon": 13.6958942,
+    "pricePerNight": 182,
+    "rating": 3
+  },
+  {
+    "id": 295,
+    "name": "B&B HOTEL Berlin-Adlershof",
+    "city": "Berlin",
+    "street": "Groß-Berliner Damm",
+    "lat": 52.4462828,
+    "lon": 13.5153085,
+    "pricePerNight": 58,
+    "rating": 4
+  },
+  {
+    "id": 296,
+    "name": "Courtyard by Marriott Berlin Mitte",
+    "city": "Berlin",
+    "street": "Axel-Springer-Straße",
+    "lat": 52.5097544,
+    "lon": 13.3994858,
+    "pricePerNight": 111,
+    "rating": 5
+  },
+  {
+    "id": 297,
+    "name": "Adele Designhotel",
+    "city": "Berlin",
+    "street": "Greifswalder Straße",
+    "lat": 52.5296805,
+    "lon": 13.4249151,
+    "pricePerNight": 74,
+    "rating": 3
+  },
+  {
+    "id": 298,
+    "name": "Bleibtreu Berlin",
+    "city": "Berlin",
+    "street": "Bleibtreustraße",
+    "lat": 52.5001863,
+    "lon": 13.3194778,
+    "pricePerNight": 201,
+    "rating": 3
+  },
+  {
+    "id": 299,
+    "name": "NH Berlin Kreuzberg",
+    "city": "Berlin",
+    "street": "Heinrich-Heine-Platz",
+    "lat": 52.5060814,
+    "lon": 13.4159286,
+    "pricePerNight": 174,
+    "rating": 5
+  },
+  {
+    "id": 300,
+    "name": "Garner Hotel Berlin Mitte",
+    "city": "Berlin",
+    "street": "Zimmerstraße",
+    "lat": 52.5077242,
+    "lon": 13.3883977,
+    "pricePerNight": 229,
+    "rating": 4
+  },
+  {
+    "id": 301,
+    "name": "The Weinmeister",
+    "city": "Berlin",
+    "street": "Weinmeisterstraße",
+    "lat": 52.5255657,
+    "lon": 13.4044505,
+    "pricePerNight": 165,
+    "rating": 3
+  },
+  {
+    "id": 302,
+    "name": "Arco Hotel",
+    "city": "Berlin",
+    "street": "Geisbergstraße",
+    "lat": 52.4974926,
+    "lon": 13.3388817,
+    "pricePerNight": 153,
+    "rating": 3
+  },
+  {
+    "id": 303,
+    "name": "Bella",
+    "city": "Berlin",
+    "street": "Ludwigkirchstraße",
+    "lat": 52.4978249,
+    "lon": 13.324834,
+    "pricePerNight": 62,
+    "rating": 3
+  },
+  {
+    "id": 304,
+    "name": "Hotel-Pension Funk",
+    "city": "Berlin",
+    "street": "Fasanenstraße",
+    "lat": 52.5011118,
+    "lon": 13.3274319,
+    "pricePerNight": 216,
+    "rating": 4
+  },
+  {
+    "id": 305,
+    "name": "ackselhaus & bluehome",
+    "city": "Berlin",
+    "street": "Belforter Straße",
+    "lat": 52.5322802,
+    "lon": 13.4191593,
+    "pricePerNight": 109,
+    "rating": 3
+  },
+  {
+    "id": 306,
+    "name": "Hotel Dietrich-Bonhoeffer-Haus",
+    "city": "Berlin",
+    "street": "Ziegelstraße",
+    "lat": 52.5236245,
+    "lon": 13.3900616,
+    "pricePerNight": 214,
+    "rating": 4
+  },
+  {
+    "id": 307,
+    "name": "Hotel Schöneberg",
+    "city": "Berlin",
+    "street": "Hauptstraße",
+    "lat": 52.4849942,
+    "lon": 13.3545462,
+    "pricePerNight": 184,
+    "rating": 5
+  },
+  {
+    "id": 308,
+    "name": "NH Berlin Potsdamer Platz",
+    "city": "Berlin",
+    "street": "Stresemannstraße",
+    "lat": 52.5015937,
+    "lon": 13.3856171,
+    "pricePerNight": 84,
+    "rating": 3
+  },
+  {
+    "id": 309,
+    "name": "Sofitel Berlin Gendarmenmarkt",
+    "city": "Berlin",
+    "street": "Charlottenstraße",
+    "lat": 52.5144643,
+    "lon": 13.3909521,
+    "pricePerNight": 207,
+    "rating": 5
+  },
+  {
+    "id": 310,
+    "name": "A&O Berlin Friedrichshain",
+    "city": "Berlin",
+    "street": "Boxhagener Straße",
+    "lat": 52.5070051,
+    "lon": 13.4689504,
+    "pricePerNight": 165,
+    "rating": 4
+  },
+  {
+    "id": 311,
+    "name": "Appartments und private Zimmervermietungen B. Jahn",
+    "city": "Berlin",
+    "street": "Prühßstraße",
+    "lat": 52.4430687,
+    "lon": 13.3849206,
+    "pricePerNight": 200,
+    "rating": 4
+  },
+  {
+    "id": 312,
+    "name": "Gasteiner Hof",
+    "city": "Berlin",
+    "street": "Gasteiner Straße",
+    "lat": 52.4875812,
+    "lon": 13.3234863,
+    "pricePerNight": 218,
+    "rating": 3
+  },
+  {
+    "id": 313,
+    "name": "Pension Peters",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.505564,
+    "lon": 13.3235891,
+    "pricePerNight": 86,
+    "rating": 3
+  },
+  {
+    "id": 314,
+    "name": "Kleist",
+    "city": "Berlin",
+    "street": "Darmstädter Straße",
+    "lat": 52.4975188,
+    "lon": 13.317698,
+    "pricePerNight": 213,
+    "rating": 3
+  },
+  {
+    "id": 315,
+    "name": "Qbe Hotel Heizhaus Berlin",
+    "city": "Berlin",
+    "street": "Marzahner Chaussee",
+    "lat": 52.5146557,
+    "lon": 13.5273552,
+    "pricePerNight": 123,
+    "rating": 5
+  },
+  {
+    "id": 316,
+    "name": "Eigenart Appartements",
+    "city": "Berlin",
+    "street": "Neue Hochstraße",
+    "lat": 52.5385474,
+    "lon": 13.3754027,
+    "pricePerNight": 145,
+    "rating": 5
+  },
+  {
+    "id": 317,
+    "name": "Hotel-Pension Charlottenburg",
+    "city": "Berlin",
+    "street": "Pfalzburger Straße",
+    "lat": 52.4995833,
+    "lon": 13.3231678,
+    "pricePerNight": 229,
+    "rating": 3
+  },
+  {
+    "id": 318,
+    "name": "ADAPT APARTMENTS Berlin GmbH",
+    "city": "Berlin",
+    "street": "Erich-Thilo-Straße",
+    "lat": 52.4328728,
+    "lon": 13.5321892,
+    "pricePerNight": 88,
+    "rating": 4
+  },
+  {
+    "id": 319,
+    "name": "Hotel B1 Tourist",
+    "city": "Berlin",
+    "street": "Alt-Kaulsdorf",
+    "lat": 52.5049527,
+    "lon": 13.5817183,
+    "pricePerNight": 203,
+    "rating": 5
+  },
+  {
+    "id": 320,
+    "name": "Amadeus Central",
+    "city": "Berlin",
+    "street": "Hohenzollerndamm",
+    "lat": 52.4865185,
+    "lon": 13.29731,
+    "pricePerNight": 67,
+    "rating": 5
+  },
+  {
+    "id": 321,
+    "name": "Pension Berl Inn",
+    "city": "Berlin",
+    "street": "Waidmannsluster Damm",
+    "lat": 52.6054505,
+    "lon": 13.3152315,
+    "pricePerNight": 116,
+    "rating": 4
+  },
+  {
+    "id": 322,
+    "name": "Arabel Design",
+    "city": "Berlin",
+    "street": "Potsdamer Straße",
+    "lat": 52.5017651,
+    "lon": 13.3648518,
+    "pricePerNight": 129,
+    "rating": 3
+  },
+  {
+    "id": 323,
+    "name": "abba Berlin hotel",
+    "city": "Berlin",
+    "street": "Lietzenburger Straße",
+    "lat": 52.4997165,
+    "lon": 13.3220332,
+    "pricePerNight": 97,
+    "rating": 4
+  },
+  {
+    "id": 324,
+    "name": "B&B Hôtel",
+    "city": "Berlin",
+    "street": "Fuggerstraße",
+    "lat": 52.4988119,
+    "lon": 13.3467497,
+    "pricePerNight": 90,
+    "rating": 5
+  },
+  {
+    "id": 325,
+    "name": "Gunia",
+    "city": "Berlin",
+    "street": "Eisenacher Straße",
+    "lat": 52.4977029,
+    "lon": 13.3493411,
+    "pricePerNight": 244,
+    "rating": 4
+  },
+  {
+    "id": 326,
+    "name": "Mercure Hotel Berlin Zentrum",
+    "city": "Berlin",
+    "street": "Fuggerstraße",
+    "lat": 52.4992905,
+    "lon": 13.3478779,
+    "pricePerNight": 152,
+    "rating": 4
+  },
+  {
+    "id": 327,
+    "name": "Quentin Design Berlin Hotel",
+    "city": "Berlin",
+    "street": "Kalckreuthstraße",
+    "lat": 52.4983882,
+    "lon": 13.3483276,
+    "pricePerNight": 71,
+    "rating": 3
+  },
+  {
+    "id": 328,
+    "name": "TOM's House",
+    "city": "Berlin",
+    "street": "Eisenacher Straße",
+    "lat": 52.4976945,
+    "lon": 13.3493864,
+    "pricePerNight": 125,
+    "rating": 5
+  },
+  {
+    "id": 329,
+    "name": "Hotel und City-Camping Berlin Siemensstadt",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5486879,
+    "lon": 13.2566359,
+    "pricePerNight": 65,
+    "rating": 5
+  },
+  {
+    "id": 330,
+    "name": "Artus Apartments Berlin",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.5060024,
+    "lon": 13.313628,
+    "pricePerNight": 121,
+    "rating": 3
+  },
+  {
+    "id": 331,
+    "name": "Villa Amadeus",
+    "city": "Berlin",
+    "street": "Potsdamer Straße",
+    "lat": 52.5015552,
+    "lon": 13.3646277,
+    "pricePerNight": 233,
+    "rating": 4
+  },
+  {
+    "id": 332,
+    "name": "Alper Hotel am Potsdamer Platz",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5035466,
+    "lon": 13.3657885,
+    "pricePerNight": 165,
+    "rating": 3
+  },
+  {
+    "id": 333,
+    "name": "B&B Hotel Berlin-Potsdamer Platz",
+    "city": "Berlin",
+    "street": "Potsdamer Straße",
+    "lat": 52.5027272,
+    "lon": 13.365007,
+    "pricePerNight": 182,
+    "rating": 5
+  },
+  {
+    "id": 334,
+    "name": "Quentin XL",
+    "city": "Berlin",
+    "street": "Potsdamer Straße",
+    "lat": 52.5040668,
+    "lon": 13.3661999,
+    "pricePerNight": 237,
+    "rating": 3
+  },
+  {
+    "id": 335,
+    "name": "Lulu Guldsmeden",
+    "city": "Berlin",
+    "street": "Potsdamer Straße",
+    "lat": 52.503404,
+    "lon": 13.3662568,
+    "pricePerNight": 109,
+    "rating": 5
+  },
+  {
+    "id": 336,
+    "name": "Hotel Delta",
+    "city": "Berlin",
+    "street": "Pohlstraße",
+    "lat": 52.5011463,
+    "lon": 13.3628868,
+    "pricePerNight": 172,
+    "rating": 3
+  },
+  {
+    "id": 337,
+    "name": "Hotel Potsdamer Inn",
+    "city": "Berlin",
+    "street": "Potsdamer Straße",
+    "lat": 52.4962906,
+    "lon": 13.3616898,
+    "pricePerNight": 100,
+    "rating": 3
+  },
+  {
+    "id": 338,
+    "name": "Hotel City B",
+    "city": "Berlin",
+    "street": "Potsdamer Straße",
+    "lat": 52.4974167,
+    "lon": 13.3622962,
+    "pricePerNight": 131,
+    "rating": 4
+  },
+  {
+    "id": 339,
+    "name": "Amaryl City-Hotel am Kurfürstendamm",
+    "city": "Berlin",
+    "street": "Lietzenburger Straße",
+    "lat": 52.500103,
+    "lon": 13.3241385,
+    "pricePerNight": 187,
+    "rating": 3
+  },
+  {
+    "id": 340,
+    "name": "PLAZA Premium Berlin Kurfürstendamm",
+    "city": "Berlin",
+    "street": "Kurfürstendamm",
+    "lat": 52.5018412,
+    "lon": 13.3226443,
+    "pricePerNight": 235,
+    "rating": 5
+  },
+  {
+    "id": 341,
+    "name": "Mark Apart Hotel",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5001153,
+    "lon": 13.3231833,
+    "pricePerNight": 53,
+    "rating": 4
+  },
+  {
+    "id": 342,
+    "name": "Tagungshotel Schwanenwerder",
+    "city": "Berlin",
+    "street": "Inselstraße",
+    "lat": 52.4492666,
+    "lon": 13.1680671,
+    "pricePerNight": 95,
+    "rating": 4
+  },
+  {
+    "id": 343,
+    "name": "ibis Styles Berlin Mitte",
+    "city": "Berlin",
+    "street": "Brunnenstraße",
+    "lat": 52.5302608,
+    "lon": 13.401135,
+    "pricePerNight": 137,
+    "rating": 5
+  },
+  {
+    "id": 344,
+    "name": "Queen’s Park Hotel",
+    "city": "Berlin",
+    "street": "Königin-Elisabeth-Straße",
+    "lat": 52.5146914,
+    "lon": 13.2799403,
+    "pricePerNight": 147,
+    "rating": 3
+  },
+  {
+    "id": 345,
+    "name": "Hilltop Inn",
+    "city": "Berlin",
+    "street": "Airport Road",
+    "lat": 44.2187316,
+    "lon": -72.5587803,
+    "pricePerNight": 151,
+    "rating": 5
+  },
+  {
+    "id": 346,
+    "name": "Hotel Oderberger",
+    "city": "Berlin",
+    "street": "Oderberger Straße",
+    "lat": 52.5379821,
+    "lon": 13.4105832,
+    "pricePerNight": 182,
+    "rating": 5
+  },
+  {
+    "id": 347,
+    "name": "Pension Werner",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5201558,
+    "lon": 13.61699,
+    "pricePerNight": 185,
+    "rating": 5
+  },
+  {
+    "id": 348,
+    "name": "Rehberge",
+    "city": "Berlin",
+    "street": "Ofener Straße",
+    "lat": 52.5555034,
+    "lon": 13.3438178,
+    "pricePerNight": 82,
+    "rating": 4
+  },
+  {
+    "id": 349,
+    "name": "Arena Inn",
+    "city": "Berlin",
+    "street": "Müllerstraße",
+    "lat": 52.5434967,
+    "lon": 13.3633966,
+    "pricePerNight": 59,
+    "rating": 3
+  },
+  {
+    "id": 350,
+    "name": "Raja Jooseppi Resort",
+    "city": "Berlin",
+    "street": "Brunnenstraße",
+    "lat": 52.5371709,
+    "lon": 13.3971527,
+    "pricePerNight": 80,
+    "rating": 5
+  },
+  {
+    "id": 351,
+    "name": "Hotel Transit Loft",
+    "city": "Berlin",
+    "street": "Immanuelkirchstraße",
+    "lat": 52.5314025,
+    "lon": 13.4252221,
+    "pricePerNight": 109,
+    "rating": 5
+  },
+  {
+    "id": 352,
+    "name": "Hotel Zu Hause",
+    "city": "Berlin",
+    "street": "Kleiststraße",
+    "lat": 52.5002404,
+    "lon": 13.3493552,
+    "pricePerNight": 99,
+    "rating": 5
+  },
+  {
+    "id": 353,
+    "name": "nh hotel kurfurstendamm",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5046291,
+    "lon": 13.3243832,
+    "pricePerNight": 222,
+    "rating": 4
+  },
+  {
+    "id": 354,
+    "name": "Hotel 26",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5120728,
+    "lon": 13.4512473,
+    "pricePerNight": 230,
+    "rating": 5
+  },
+  {
+    "id": 355,
+    "name": "Mercure Berlin Wittenbergplatz",
+    "city": "Berlin",
+    "street": "Wittenbergplatz",
+    "lat": 52.5009644,
+    "lon": 13.3424779,
+    "pricePerNight": 172,
+    "rating": 4
+  },
+  {
+    "id": 356,
+    "name": "Gls",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.537073,
+    "lon": 13.4100095,
+    "pricePerNight": 136,
+    "rating": 3
+  },
+  {
+    "id": 357,
+    "name": "Excellent Apartments",
+    "city": "Berlin",
+    "street": "Zwinglistraße",
+    "lat": 52.5254525,
+    "lon": 13.3291398,
+    "pricePerNight": 198,
+    "rating": 3
+  },
+  {
+    "id": 358,
+    "name": "Die Botschaft",
+    "city": "Berlin",
+    "street": "Treskowallee",
+    "lat": 52.484067,
+    "lon": 13.5257771,
+    "pricePerNight": 104,
+    "rating": 3
+  },
+  {
+    "id": 359,
+    "name": "Motel One",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.5049538,
+    "lon": 13.3330993,
+    "pricePerNight": 176,
+    "rating": 4
+  },
+  {
+    "id": 360,
+    "name": "Homaris Westside",
+    "city": "Berlin",
+    "street": "Bundesallee",
+    "lat": 52.490331,
+    "lon": 13.3305183,
+    "pricePerNight": 133,
+    "rating": 3
+  },
+  {
+    "id": 361,
+    "name": "Hotel de France",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5583037,
+    "lon": 13.3392658,
+    "pricePerNight": 218,
+    "rating": 4
+  },
+  {
+    "id": 362,
+    "name": "Citylight Hotel",
+    "city": "Berlin",
+    "street": "Böttgerstraße",
+    "lat": 52.5490807,
+    "lon": 13.3824018,
+    "pricePerNight": 80,
+    "rating": 4
+  },
+  {
+    "id": 363,
+    "name": "Hotel VITA Berlin",
+    "city": "Berlin",
+    "street": "Heerstraße",
+    "lat": 52.5094009,
+    "lon": 13.2676595,
+    "pricePerNight": 154,
+    "rating": 5
+  },
+  {
+    "id": 364,
+    "name": "Linnen",
+    "city": "Berlin",
+    "street": "Eberswalder Straße",
+    "lat": 52.5415075,
+    "lon": 13.4090104,
+    "pricePerNight": 153,
+    "rating": 5
+  },
+  {
+    "id": 365,
+    "name": "Midi-Inn City West",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5001731,
+    "lon": 13.3151479,
+    "pricePerNight": 138,
+    "rating": 3
+  },
+  {
+    "id": 366,
+    "name": "Hotel Rossi",
+    "city": "Berlin",
+    "street": "Lehrter Straße",
+    "lat": 52.5280511,
+    "lon": 13.3638603,
+    "pricePerNight": 143,
+    "rating": 5
+  },
+  {
+    "id": 367,
+    "name": "Yggotel Spurv",
+    "city": "Berlin",
+    "street": "Paderborner Straße",
+    "lat": 52.496936,
+    "lon": 13.307242,
+    "pricePerNight": 215,
+    "rating": 3
+  },
+  {
+    "id": 368,
+    "name": "Orania",
+    "city": "Berlin",
+    "street": "Oranienstraße",
+    "lat": 52.5020573,
+    "lon": 13.4169903,
+    "pricePerNight": 202,
+    "rating": 3
+  },
+  {
+    "id": 369,
+    "name": "Pension am Anger",
+    "city": "Berlin",
+    "street": "Alfred-Kowalke-Straße",
+    "lat": 52.506011,
+    "lon": 13.5178093,
+    "pricePerNight": 136,
+    "rating": 4
+  },
+  {
+    "id": 370,
+    "name": "Aparotel Berlin",
+    "city": "Berlin",
+    "street": "Osnabrücker Straße",
+    "lat": 52.526216,
+    "lon": 13.3008679,
+    "pricePerNight": 231,
+    "rating": 3
+  },
+  {
+    "id": 371,
+    "name": "Hommage à Magritte",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5037273,
+    "lon": 13.3239245,
+    "pricePerNight": 147,
+    "rating": 5
+  },
+  {
+    "id": 372,
+    "name": "Old Town Hotel",
+    "city": "Berlin",
+    "street": "Greifswalder Straße",
+    "lat": 52.5324385,
+    "lon": 13.4272336,
+    "pricePerNight": 64,
+    "rating": 3
+  },
+  {
+    "id": 373,
+    "name": "Lux 11",
+    "city": "Berlin",
+    "street": "Rosa-Luxemburg-Straße",
+    "lat": 52.5245961,
+    "lon": 13.4098329,
+    "pricePerNight": 84,
+    "rating": 3
+  },
+  {
+    "id": 374,
+    "name": "Pension Bigus",
+    "city": "Berlin",
+    "street": "Langhansstraße",
+    "lat": 52.554279,
+    "lon": 13.432937,
+    "pricePerNight": 54,
+    "rating": 4
+  },
+  {
+    "id": 375,
+    "name": "The Yard",
+    "city": "Berlin",
+    "street": "Alexandrinenstraße",
+    "lat": 52.4990505,
+    "lon": 13.3998484,
+    "pricePerNight": 192,
+    "rating": 4
+  },
+  {
+    "id": 376,
+    "name": "Meininger Hotel Berlin Tiergarten",
+    "city": "Berlin",
+    "street": "Turmstraße",
+    "lat": 52.5264498,
+    "lon": 13.3443412,
+    "pricePerNight": 161,
+    "rating": 5
+  },
+  {
+    "id": 377,
+    "name": "Hotel Schulz",
+    "city": "Berlin",
+    "street": "Stralauer Platz",
+    "lat": 52.5086021,
+    "lon": 13.4339384,
+    "pricePerNight": 189,
+    "rating": 3
+  },
+  {
+    "id": 378,
+    "name": "Hotel Indigo",
+    "city": "Berlin",
+    "street": "Mühlenstraße",
+    "lat": 52.5048892,
+    "lon": 13.4411735,
+    "pricePerNight": 65,
+    "rating": 4
+  },
+  {
+    "id": 379,
+    "name": "Pension Lette Eck",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5633832,
+    "lon": 13.3774674,
+    "pricePerNight": 83,
+    "rating": 4
+  },
+  {
+    "id": 380,
+    "name": "High Park",
+    "city": "Berlin",
+    "street": "Gabriele-Tergit-Promenade",
+    "lat": 52.5038501,
+    "lon": 13.3745107,
+    "pricePerNight": 87,
+    "rating": 4
+  },
+  {
+    "id": 381,
+    "name": "Hotel Kubrat an der Spree",
+    "city": "Berlin",
+    "street": "Freiheit",
+    "lat": 52.4475324,
+    "lon": 13.5787695,
+    "pricePerNight": 50,
+    "rating": 4
+  },
+  {
+    "id": 382,
+    "name": "Pension pamina",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4154603,
+    "lon": 13.3190401,
+    "pricePerNight": 110,
+    "rating": 3
+  },
+  {
+    "id": 383,
+    "name": "Hampton by Hilton Berlin City East Side Gallery",
+    "city": "Berlin",
+    "street": "Mildred-Harnack-Straße",
+    "lat": 52.5050831,
+    "lon": 13.4412569,
+    "pricePerNight": 144,
+    "rating": 4
+  },
+  {
+    "id": 384,
+    "name": "Boutique Hotel Fährhaus",
+    "city": "Berlin",
+    "street": "Aalemannufer",
+    "lat": 52.57323,
+    "lon": 13.2232569,
+    "pricePerNight": 185,
+    "rating": 3
+  },
+  {
+    "id": 385,
+    "name": "Miniloft Mitte Apartment Hotel",
+    "city": "Berlin",
+    "street": "Hessische Straße",
+    "lat": 52.5291058,
+    "lon": 13.3800589,
+    "pricePerNight": 74,
+    "rating": 5
+  },
+  {
+    "id": 386,
+    "name": "Aparthotel Thüringer Hof",
+    "city": "Berlin",
+    "street": "Neckarstraße",
+    "lat": 52.4804439,
+    "lon": 13.4350482,
+    "pricePerNight": 213,
+    "rating": 4
+  },
+  {
+    "id": 387,
+    "name": "Odin Pension Berlin",
+    "city": "Berlin",
+    "street": "Roelckestraße",
+    "lat": 52.5514119,
+    "lon": 13.4427705,
+    "pricePerNight": 201,
+    "rating": 3
+  },
+  {
+    "id": 388,
+    "name": "Columbia",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4853081,
+    "lon": 13.3851188,
+    "pricePerNight": 177,
+    "rating": 4
+  },
+  {
+    "id": 389,
+    "name": "aletto Hotel Potsdamer Platz",
+    "city": "Berlin",
+    "street": "Luckenwalder Straße",
+    "lat": 52.5001769,
+    "lon": 13.3760022,
+    "pricePerNight": 210,
+    "rating": 5
+  },
+  {
+    "id": 390,
+    "name": "AMANO",
+    "city": "Berlin",
+    "street": "Stralauer Platz",
+    "lat": 52.5095954,
+    "lon": 13.4312948,
+    "pricePerNight": 129,
+    "rating": 4
+  },
+  {
+    "id": 391,
+    "name": "Hotel Pension Spree",
+    "city": "Berlin",
+    "street": "Trautenaustraße",
+    "lat": 52.4929325,
+    "lon": 13.3295959,
+    "pricePerNight": 153,
+    "rating": 4
+  },
+  {
+    "id": 392,
+    "name": "Gold Palais Hotel",
+    "city": "Berlin",
+    "street": "Greifswalder Straße",
+    "lat": 52.5292395,
+    "lon": 13.4254907,
+    "pricePerNight": 61,
+    "rating": 4
+  },
+  {
+    "id": 393,
+    "name": "W22",
+    "city": "Berlin",
+    "street": "Wittelsbacherstraße",
+    "lat": 52.49503,
+    "lon": 13.3099752,
+    "pricePerNight": 144,
+    "rating": 3
+  },
+  {
+    "id": 394,
+    "name": "Neohostel",
+    "city": "Berlin",
+    "street": "Grünauer Straße",
+    "lat": 52.4312191,
+    "lon": 13.5710697,
+    "pricePerNight": 86,
+    "rating": 5
+  },
+  {
+    "id": 395,
+    "name": "Karibuni",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.479787,
+    "lon": 13.4318526,
+    "pricePerNight": 71,
+    "rating": 4
+  },
+  {
+    "id": 396,
+    "name": "the niu Flash",
+    "city": "Berlin",
+    "street": "Franklinstraße",
+    "lat": 52.5197746,
+    "lon": 13.3263128,
+    "pricePerNight": 79,
+    "rating": 3
+  },
+  {
+    "id": 397,
+    "name": "acora Berlin Living the City",
+    "city": "Berlin",
+    "street": "Franklinstraße",
+    "lat": 52.5198579,
+    "lon": 13.3263718,
+    "pricePerNight": 103,
+    "rating": 5
+  },
+  {
+    "id": 398,
+    "name": "Hotel - Pension Bregenz",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.497849,
+    "lon": 13.3132384,
+    "pricePerNight": 109,
+    "rating": 3
+  },
+  {
+    "id": 399,
+    "name": "Hotel - Pension Schäfer",
+    "city": "Berlin",
+    "street": "Schnellerstraße",
+    "lat": 52.4544813,
+    "lon": 13.5163491,
+    "pricePerNight": 209,
+    "rating": 3
+  },
+  {
+    "id": 400,
+    "name": "Wyndham Garden Berlin Mitte",
+    "city": "Berlin",
+    "street": "Osloer Straße",
+    "lat": 52.5550023,
+    "lon": 13.3870409,
+    "pricePerNight": 117,
+    "rating": 3
+  },
+  {
+    "id": 401,
+    "name": "Garner Hotel Berlin - Spandau by IHG",
+    "city": "Berlin",
+    "street": "Freiheit",
+    "lat": 52.5325833,
+    "lon": 13.2100873,
+    "pricePerNight": 120,
+    "rating": 3
+  },
+  {
+    "id": 402,
+    "name": "Numa Vonder",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.505634,
+    "lon": 13.3803246,
+    "pricePerNight": 55,
+    "rating": 4
+  },
+  {
+    "id": 403,
+    "name": "Vanessa Prinz",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5607952,
+    "lon": 13.3708787,
+    "pricePerNight": 207,
+    "rating": 4
+  },
+  {
+    "id": 404,
+    "name": "Apartment Rosenthal Residence",
+    "city": "Berlin",
+    "street": "Rosenthaler Straße",
+    "lat": 52.5291516,
+    "lon": 13.4020396,
+    "pricePerNight": 104,
+    "rating": 5
+  },
+  {
+    "id": 405,
+    "name": "Hotel Kaiser",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5109866,
+    "lon": 13.2929373,
+    "pricePerNight": 147,
+    "rating": 3
+  },
+  {
+    "id": 406,
+    "name": "Telegraphenamt",
+    "city": "Berlin",
+    "street": "Monbijoustraße",
+    "lat": 52.5239814,
+    "lon": 13.3945066,
+    "pricePerNight": 195,
+    "rating": 5
+  },
+  {
+    "id": 407,
+    "name": "Schlosspark-Hotel Berlin",
+    "city": "Berlin",
+    "street": "Heubnerweg",
+    "lat": 52.5224546,
+    "lon": 13.2893884,
+    "pricePerNight": 157,
+    "rating": 5
+  },
+  {
+    "id": 408,
+    "name": "Gästehaus",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5095201,
+    "lon": 13.3627532,
+    "pricePerNight": 61,
+    "rating": 3
+  },
+  {
+    "id": 409,
+    "name": "Savi",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.5061478,
+    "lon": 13.3118402,
+    "pricePerNight": 76,
+    "rating": 3
+  },
+  {
+    "id": 410,
+    "name": "Premier Inn Berlin City Wilmersdorf",
+    "city": "Berlin",
+    "street": "Bundesallee",
+    "lat": 52.4956,
+    "lon": 13.3300815,
+    "pricePerNight": 224,
+    "rating": 5
+  },
+  {
+    "id": 411,
+    "name": "Urban Loft",
+    "city": "Berlin",
+    "street": "Heidestraße",
+    "lat": 52.5317478,
+    "lon": 13.3666101,
+    "pricePerNight": 217,
+    "rating": 4
+  },
+  {
+    "id": 412,
+    "name": "Hotel Romy by Amano",
+    "city": "Berlin",
+    "street": "Invalidenstraße",
+    "lat": 52.5269463,
+    "lon": 13.3699087,
+    "pricePerNight": 58,
+    "rating": 4
+  },
+  {
+    "id": 413,
+    "name": "KPM Hotel & Residences",
+    "city": "Berlin",
+    "street": "Englische Straße",
+    "lat": 52.5156483,
+    "lon": 13.3323459,
+    "pricePerNight": 131,
+    "rating": 4
+  },
+  {
+    "id": 414,
+    "name": "The Base Berlin ONE",
+    "city": "Berlin",
+    "street": "Pestalozzistraße",
+    "lat": 52.5715942,
+    "lon": 13.4040685,
+    "pricePerNight": 175,
+    "rating": 3
+  },
+  {
+    "id": 415,
+    "name": "Ocak Hotel",
+    "city": "Berlin",
+    "street": "Jülicher Straße",
+    "lat": 52.5506723,
+    "lon": 13.3922786,
+    "pricePerNight": 169,
+    "rating": 3
+  },
+  {
+    "id": 416,
+    "name": "harry's home Berlin",
+    "city": "Berlin",
+    "street": "Alt-Moabit",
+    "lat": 52.5253504,
+    "lon": 13.3417594,
+    "pricePerNight": 83,
+    "rating": 3
+  },
+  {
+    "id": 417,
+    "name": "Hotel Comenius",
+    "city": "Berlin",
+    "street": "Grünberger Straße",
+    "lat": 52.5126315,
+    "lon": 13.4507179,
+    "pricePerNight": 104,
+    "rating": 3
+  },
+  {
+    "id": 418,
+    "name": "Wilmina",
+    "city": "Berlin",
+    "street": "Kantstraße",
+    "lat": 52.5074621,
+    "lon": 13.2973266,
+    "pricePerNight": 75,
+    "rating": 4
+  },
+  {
+    "id": 419,
+    "name": "Locke at East Side Gallery",
+    "city": "Berlin",
+    "street": "Mühlenstraße",
+    "lat": 52.50594,
+    "lon": 13.4376576,
+    "pricePerNight": 184,
+    "rating": 4
+  },
+  {
+    "id": 420,
+    "name": "Château Royal",
+    "city": "Berlin",
+    "street": "Mittelstraße",
+    "lat": 52.5176892,
+    "lon": 13.3859349,
+    "pricePerNight": 150,
+    "rating": 3
+  },
+  {
+    "id": 421,
+    "name": "EBERTY",
+    "city": "Berlin",
+    "street": "Ebertystraße",
+    "lat": 52.5244983,
+    "lon": 13.4524568,
+    "pricePerNight": 177,
+    "rating": 3
+  },
+  {
+    "id": 422,
+    "name": "Hotel Nest",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4300811,
+    "lon": 13.4779961,
+    "pricePerNight": 227,
+    "rating": 3
+  },
+  {
+    "id": 423,
+    "name": "Hotel Sylter Hof",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5034615,
+    "lon": 13.3475706,
+    "pricePerNight": 236,
+    "rating": 5
+  },
+  {
+    "id": 424,
+    "name": "MM:NT Berlin Lab",
+    "city": "Berlin",
+    "street": "An der Spandauer Brücke",
+    "lat": 52.5223758,
+    "lon": 13.4040111,
+    "pricePerNight": 85,
+    "rating": 3
+  },
+  {
+    "id": 425,
+    "name": "Vienna House Easy By Wyndham",
+    "city": "Berlin",
+    "street": "Dennewitzstraße",
+    "lat": 52.4998288,
+    "lon": 13.370887,
+    "pricePerNight": 67,
+    "rating": 4
+  },
+  {
+    "id": 426,
+    "name": "Novum Hotel Kronprinz Berlin",
+    "city": "Berlin",
+    "street": "Kronprinzendamm",
+    "lat": 52.4973176,
+    "lon": 13.2869013,
+    "pricePerNight": 248,
+    "rating": 5
+  },
+  {
+    "id": 427,
+    "name": "Nook",
+    "city": "Berlin",
+    "street": "Große Hamburger Straße",
+    "lat": 52.5238485,
+    "lon": 13.3996705,
+    "pricePerNight": 110,
+    "rating": 5
+  },
+  {
+    "id": 428,
+    "name": "H10 Berlin Ku'damm",
+    "city": "Berlin",
+    "street": "Joachimsthaler Straße",
+    "lat": 52.5019694,
+    "lon": 13.3314215,
+    "pricePerNight": 245,
+    "rating": 3
+  },
+  {
+    "id": 429,
+    "name": "Residenz Begaswinkel",
+    "city": "Berlin",
+    "street": "Genthiner Straße",
+    "lat": 52.5035472,
+    "lon": 13.3582598,
+    "pricePerNight": 51,
+    "rating": 3
+  },
+  {
+    "id": 430,
+    "name": "art'otel",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5123925,
+    "lon": 13.409892,
+    "pricePerNight": 235,
+    "rating": 5
+  },
+  {
+    "id": 431,
+    "name": "Living Hotel Weißensee",
+    "city": "Berlin",
+    "street": "Parkstraße",
+    "lat": 52.5543073,
+    "lon": 13.45726,
+    "pricePerNight": 126,
+    "rating": 3
+  },
+  {
+    "id": 432,
+    "name": "Apple City Hotel",
+    "city": "Berlin",
+    "street": "Wilhelmshavener Straße",
+    "lat": 52.5270362,
+    "lon": 13.341165,
+    "pricePerNight": 129,
+    "rating": 4
+  },
+  {
+    "id": 433,
+    "name": "the niu Dwarf",
+    "city": "Berlin",
+    "street": "Werdauer Weg",
+    "lat": 52.4785441,
+    "lon": 13.3534193,
+    "pricePerNight": 151,
+    "rating": 4
+  },
+  {
+    "id": 434,
+    "name": "Numa Berlin Friedrichshain",
+    "city": "Berlin",
+    "street": "Scharnweberstraße",
+    "lat": 52.512908,
+    "lon": 13.4663023,
+    "pricePerNight": 199,
+    "rating": 4
+  },
+  {
+    "id": 435,
+    "name": "Bellmann Hotel",
+    "city": "Berlin",
+    "street": "Karl-Marx-Straße",
+    "lat": 52.4639833,
+    "lon": 13.4443307,
+    "pricePerNight": 61,
+    "rating": 4
+  },
+  {
+    "id": 436,
+    "name": "die Fabrik",
+    "city": "Berlin",
+    "street": "Schlesische Straße",
+    "lat": 52.4987118,
+    "lon": 13.4460761,
+    "pricePerNight": 180,
+    "rating": 5
+  },
+  {
+    "id": 437,
+    "name": "AMANO Home",
+    "city": "Berlin",
+    "street": "Torstraße",
+    "lat": 52.5285287,
+    "lon": 13.4098401,
+    "pricePerNight": 121,
+    "rating": 4
+  },
+  {
+    "id": 438,
+    "name": "Ibis Berlin Messe",
+    "city": "Berlin",
+    "street": "Messedamm",
+    "lat": 52.5069603,
+    "lon": 13.2801104,
+    "pricePerNight": 86,
+    "rating": 5
+  },
+  {
+    "id": 439,
+    "name": "Sheraton Berlin Grand Hotel Esplanade",
+    "city": "Berlin",
+    "street": "Lützowufer",
+    "lat": 52.5055845,
+    "lon": 13.3548516,
+    "pricePerNight": 132,
+    "rating": 3
+  },
+  {
+    "id": 440,
+    "name": "Hotel am Borsigturm",
+    "city": "Berlin",
+    "street": "Am Borsigturm",
+    "lat": 52.5834625,
+    "lon": 13.287203,
+    "pricePerNight": 160,
+    "rating": 3
+  },
+  {
+    "id": 441,
+    "name": "Azimut Hotel Berlin Kurfürstendamm",
+    "city": "Berlin",
+    "street": "Joachimsthaler Straße",
+    "lat": 52.5046707,
+    "lon": 13.3319536,
+    "pricePerNight": 124,
+    "rating": 4
+  },
+  {
+    "id": 442,
+    "name": "Soho House Berlin",
+    "city": "Berlin",
+    "street": "Torstraße",
+    "lat": 52.5277678,
+    "lon": 13.415656,
+    "pricePerNight": 179,
+    "rating": 3
+  },
+  {
+    "id": 443,
+    "name": "Park Inn by Radisson Berlin-Alexanderplatz",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5228447,
+    "lon": 13.4127883,
+    "pricePerNight": 220,
+    "rating": 3
+  },
+  {
+    "id": 444,
+    "name": "Motel One",
+    "city": "Berlin",
+    "street": "Dircksenstraße",
+    "lat": 52.5232212,
+    "lon": 13.4086096,
+    "pricePerNight": 183,
+    "rating": 4
+  },
+  {
+    "id": 445,
+    "name": "Alexander Plaza",
+    "city": "Berlin",
+    "street": "Rosenstraße",
+    "lat": 52.5215989,
+    "lon": 13.4041455,
+    "pricePerNight": 185,
+    "rating": 3
+  },
+  {
+    "id": 446,
+    "name": "Hotel Berlin Köpenick by Leonardo Hotels",
+    "city": "Berlin",
+    "street": "Grünauer Straße",
+    "lat": 52.443717,
+    "lon": 13.5697511,
+    "pricePerNight": 184,
+    "rating": 5
+  },
+  {
+    "id": 447,
+    "name": "New Berlin",
+    "city": "Berlin",
+    "street": "Petersburger Straße",
+    "lat": 52.5243463,
+    "lon": 13.4484241,
+    "pricePerNight": 130,
+    "rating": 5
+  },
+  {
+    "id": 448,
+    "name": "Loginn Hotel Berlin Airport",
+    "city": "Berlin",
+    "street": "Schützenstraße",
+    "lat": 52.3985474,
+    "lon": 13.5412002,
+    "pricePerNight": 126,
+    "rating": 5
+  },
+  {
+    "id": 449,
+    "name": "Hotel MANI by AMANO",
+    "city": "Berlin",
+    "street": "Torstraße",
+    "lat": 52.5292897,
+    "lon": 13.39965,
+    "pricePerNight": 167,
+    "rating": 5
+  },
+  {
+    "id": 450,
+    "name": "Victor's Residenz Hotel Berlin-Tegel",
+    "city": "Berlin",
+    "street": "Holländerstraße",
+    "lat": 52.5624844,
+    "lon": 13.3549202,
+    "pricePerNight": 102,
+    "rating": 4
+  },
+  {
+    "id": 451,
+    "name": "Hotel Aquino",
+    "city": "Berlin",
+    "street": "Hannoversche Straße",
+    "lat": 52.5271087,
+    "lon": 13.3847383,
+    "pricePerNight": 234,
+    "rating": 3
+  },
+  {
+    "id": 452,
+    "name": "Lindner Hotel Berlin Am Ku'damm",
+    "city": "Berlin",
+    "street": "Kurfürstendamm",
+    "lat": 52.5039087,
+    "lon": 13.3293823,
+    "pricePerNight": 181,
+    "rating": 5
+  },
+  {
+    "id": 453,
+    "name": "Hotel Bristol Berlin",
+    "city": "Berlin",
+    "street": "Kurfürstendamm",
+    "lat": 52.5037252,
+    "lon": 13.3270945,
+    "pricePerNight": 196,
+    "rating": 4
+  },
+  {
+    "id": 454,
+    "name": "Dämeritz Seehotel",
+    "city": "Berlin",
+    "street": "Kanalstraße",
+    "lat": 52.4250823,
+    "lon": 13.7260513,
+    "pricePerNight": 115,
+    "rating": 3
+  },
+  {
+    "id": 455,
+    "name": "Good Morning Berlin City West",
+    "city": "Berlin",
+    "street": "Kögelstraße",
+    "lat": 52.567867,
+    "lon": 13.3308604,
+    "pricePerNight": 157,
+    "rating": 4
+  },
+  {
+    "id": 456,
+    "name": "Motel One Berlin-Hauptbahnhof",
+    "city": "Berlin",
+    "street": "Invalidenstraße",
+    "lat": 52.5257606,
+    "lon": 13.3657297,
+    "pricePerNight": 189,
+    "rating": 5
+  },
+  {
+    "id": 457,
+    "name": "Haus Pro-social",
+    "city": "Berlin",
+    "street": "Blumberger Damm",
+    "lat": 52.5276813,
+    "lon": 13.5674336,
+    "pricePerNight": 110,
+    "rating": 5
+  },
+  {
+    "id": 458,
+    "name": "Motel One Berlin-Spittelmarkt",
+    "city": "Berlin",
+    "street": "Leipziger Straße",
+    "lat": 52.5106982,
+    "lon": 13.400859,
+    "pricePerNight": 118,
+    "rating": 3
+  },
+  {
+    "id": 459,
+    "name": "A&O Berlin Kolumbus (1)",
+    "city": "Berlin",
+    "street": "Genslerstraße",
+    "lat": 52.5392065,
+    "lon": 13.4981371,
+    "pricePerNight": 213,
+    "rating": 4
+  },
+  {
+    "id": 460,
+    "name": "Quentin Berlin am Kurfürstendamm",
+    "city": "Berlin",
+    "street": "Xantener Straße",
+    "lat": 52.498871,
+    "lon": 13.3090566,
+    "pricePerNight": 123,
+    "rating": 3
+  },
+  {
+    "id": 461,
+    "name": "Good Morning+ Berlin City East",
+    "city": "Berlin",
+    "street": "Ruschestraße",
+    "lat": 52.5219788,
+    "lon": 13.4851288,
+    "pricePerNight": 192,
+    "rating": 4
+  },
+  {
+    "id": 462,
+    "name": "25hours Hotel Bikini Berlin",
+    "city": "Berlin",
+    "street": "Budapester Straße",
+    "lat": 52.5056319,
+    "lon": 13.3378992,
+    "pricePerNight": 59,
+    "rating": 3
+  },
+  {
+    "id": 463,
+    "name": "DoubleTree by Hilton Berlin Ku'damm",
+    "city": "Berlin",
+    "street": "Los-Angeles-Platz",
+    "lat": 52.502686,
+    "lon": 13.3353667,
+    "pricePerNight": 238,
+    "rating": 3
+  },
+  {
+    "id": 464,
+    "name": "Hotel Arrival",
+    "city": "Berlin",
+    "street": "Lietzenburger Straße",
+    "lat": 52.4998409,
+    "lon": 13.3343926,
+    "pricePerNight": 240,
+    "rating": 3
+  },
+  {
+    "id": 465,
+    "name": "Air in Berlin",
+    "city": "Berlin",
+    "street": "Ansbacher Straße",
+    "lat": 52.5041703,
+    "lon": 13.3421991,
+    "pricePerNight": 185,
+    "rating": 4
+  },
+  {
+    "id": 466,
+    "name": "Crowne Plaza Berlin City Centre",
+    "city": "Berlin",
+    "street": "Nürnberger Straße",
+    "lat": 52.5039062,
+    "lon": 13.3407246,
+    "pricePerNight": 225,
+    "rating": 5
+  },
+  {
+    "id": 467,
+    "name": "Radisson RED",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5014225,
+    "lon": 13.3313921,
+    "pricePerNight": 186,
+    "rating": 3
+  },
+  {
+    "id": 468,
+    "name": "Dormero Berlin Ku'damm",
+    "city": "Berlin",
+    "street": "Eislebener Straße",
+    "lat": 52.5004066,
+    "lon": 13.3340595,
+    "pricePerNight": 191,
+    "rating": 4
+  },
+  {
+    "id": 469,
+    "name": "Scandic Berlin Kurfürstendamm",
+    "city": "Berlin",
+    "street": "Augsburger Straße",
+    "lat": 52.5000615,
+    "lon": 13.3382003,
+    "pricePerNight": 79,
+    "rating": 5
+  },
+  {
+    "id": 470,
+    "name": "Hotel Bellevue",
+    "city": "Berlin",
+    "street": "Emser Straße",
+    "lat": 52.4962264,
+    "lon": 13.3203472,
+    "pricePerNight": 106,
+    "rating": 3
+  },
+  {
+    "id": 471,
+    "name": "Hotel Stadtgut Berlin-Buch",
+    "city": "Berlin",
+    "street": "Alt-Buch",
+    "lat": 52.6365976,
+    "lon": 13.5005933,
+    "pricePerNight": 121,
+    "rating": 3
+  },
+  {
+    "id": 472,
+    "name": "Hotel Christophorus",
+    "city": "Berlin",
+    "street": "Schönwalder Allee",
+    "lat": 52.5684476,
+    "lon": 13.1953723,
+    "pricePerNight": 189,
+    "rating": 5
+  },
+  {
+    "id": 473,
+    "name": "B&B Hôtel",
+    "city": "Berlin",
+    "street": "Kaiserdamm",
+    "lat": 52.5105459,
+    "lon": 13.2960696,
+    "pricePerNight": 198,
+    "rating": 5
+  },
+  {
+    "id": 474,
+    "name": "ibis Berlin City Nord",
+    "city": "Berlin",
+    "street": "Alt-Reinickendorf",
+    "lat": 52.5747221,
+    "lon": 13.3581427,
+    "pricePerNight": 248,
+    "rating": 5
+  },
+  {
+    "id": 475,
+    "name": "NH Berlin Alexanderplatz",
+    "city": "Berlin",
+    "street": "Landsberger Allee",
+    "lat": 52.5229411,
+    "lon": 13.4367712,
+    "pricePerNight": 178,
+    "rating": 3
+  },
+  {
+    "id": 476,
+    "name": "Central Hotel",
+    "city": "Berlin",
+    "street": "Holzhauser Straße",
+    "lat": 52.5759449,
+    "lon": 13.2954567,
+    "pricePerNight": 86,
+    "rating": 5
+  },
+  {
+    "id": 477,
+    "name": "Mercure Hotel Berlin Mitte",
+    "city": "Berlin",
+    "street": "Luckenwalder Straße",
+    "lat": 52.500327,
+    "lon": 13.3756229,
+    "pricePerNight": 199,
+    "rating": 4
+  },
+  {
+    "id": 478,
+    "name": "Comfort Hotel Lichtenberg",
+    "city": "Berlin",
+    "street": "Rhinstraße",
+    "lat": 52.5334823,
+    "lon": 13.517488,
+    "pricePerNight": 121,
+    "rating": 4
+  },
+  {
+    "id": 479,
+    "name": "enjoy hotel Berlin City Messe",
+    "city": "Berlin",
+    "street": "Rudolstädter Straße",
+    "lat": 52.4844135,
+    "lon": 13.3081676,
+    "pricePerNight": 168,
+    "rating": 5
+  },
+  {
+    "id": 480,
+    "name": "Holiday Inn Berlin City-West",
+    "city": "Berlin",
+    "street": "Rohrdamm",
+    "lat": 52.5404791,
+    "lon": 13.2620204,
+    "pricePerNight": 53,
+    "rating": 5
+  },
+  {
+    "id": 481,
+    "name": "Bornholmer Hof",
+    "city": "Berlin",
+    "street": "Bornholmer Straße",
+    "lat": 52.552825,
+    "lon": 13.4125605,
+    "pricePerNight": 174,
+    "rating": 5
+  },
+  {
+    "id": 482,
+    "name": "Apartment Hotel Dahlem",
+    "city": "Berlin",
+    "street": "Clayallee",
+    "lat": 52.4537636,
+    "lon": 13.2729783,
+    "pricePerNight": 145,
+    "rating": 4
+  },
+  {
+    "id": 483,
+    "name": "Townhouse Berlin",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5085427,
+    "lon": 13.3243292,
+    "pricePerNight": 227,
+    "rating": 5
+  },
+  {
+    "id": 484,
+    "name": "Das Andere Haus VIII",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4935885,
+    "lon": 13.4853609,
+    "pricePerNight": 143,
+    "rating": 3
+  },
+  {
+    "id": 485,
+    "name": "JW Marriott Hotel Berlin",
+    "city": "Berlin",
+    "street": "Stauffenbergstraße",
+    "lat": 52.5073674,
+    "lon": 13.3639339,
+    "pricePerNight": 106,
+    "rating": 5
+  },
+  {
+    "id": 486,
+    "name": "Waldhotel am See Berlin-Schmöckwitz",
+    "city": "Berlin",
+    "street": "Schmöckwitzer Damm",
+    "lat": 52.3689804,
+    "lon": 13.6511327,
+    "pricePerNight": 125,
+    "rating": 3
+  },
+  {
+    "id": 487,
+    "name": "Hotel Ravenna",
+    "city": "Berlin",
+    "street": "Grunewaldstraße",
+    "lat": 52.4585899,
+    "lon": 13.3167909,
+    "pricePerNight": 179,
+    "rating": 4
+  },
+  {
+    "id": 488,
+    "name": "Eckstein",
+    "city": "Berlin",
+    "street": "Schildhornstraße",
+    "lat": 52.4639602,
+    "lon": 13.3169723,
+    "pricePerNight": 70,
+    "rating": 3
+  },
+  {
+    "id": 489,
+    "name": "Aparion Apartments Berlin",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4296781,
+    "lon": 13.3011502,
+    "pricePerNight": 153,
+    "rating": 3
+  },
+  {
+    "id": 490,
+    "name": "Hotel Queen’s Residenz",
+    "city": "Berlin",
+    "street": "Am Schlangengraben",
+    "lat": 52.5329184,
+    "lon": 13.2135568,
+    "pricePerNight": 214,
+    "rating": 5
+  },
+  {
+    "id": 491,
+    "name": "Best Western Hotel am Spittelmarkt",
+    "city": "Berlin",
+    "street": "Neue Grünstraße",
+    "lat": 52.5100655,
+    "lon": 13.4050859,
+    "pricePerNight": 147,
+    "rating": 3
+  },
+  {
+    "id": 492,
+    "name": "Hotel Berliner Bär",
+    "city": "Berlin",
+    "street": "Ringbahnstraße",
+    "lat": 52.4664677,
+    "lon": 13.3949151,
+    "pricePerNight": 57,
+    "rating": 4
+  },
+  {
+    "id": 493,
+    "name": "Premier Inn Berlin City Süd Hotel",
+    "city": "Berlin",
+    "street": "Rudower Straße",
+    "lat": 52.4366245,
+    "lon": 13.4641291,
+    "pricePerNight": 173,
+    "rating": 3
+  },
+  {
+    "id": 494,
+    "name": "Hotel Grand Inn",
+    "city": "Berlin",
+    "street": "Marzahner Chaussee",
+    "lat": 52.5242078,
+    "lon": 13.5358661,
+    "pricePerNight": 215,
+    "rating": 3
+  },
+  {
+    "id": 495,
+    "name": "Greet Berlin Alexanderplatz",
+    "city": "Berlin",
+    "street": "Bernhard-Weiß-Straße",
+    "lat": 52.5237186,
+    "lon": 13.4162146,
+    "pricePerNight": 157,
+    "rating": 5
+  },
+  {
+    "id": 496,
+    "name": "ibis Styles Berlin Treptow",
+    "city": "Berlin",
+    "street": "Spreestraße",
+    "lat": 52.4587537,
+    "lon": 13.5131735,
+    "pricePerNight": 199,
+    "rating": 3
+  },
+  {
+    "id": 497,
+    "name": "Carolinenhof",
+    "city": "Berlin",
+    "street": "Landhausstraße",
+    "lat": 52.4896147,
+    "lon": 13.3283616,
+    "pricePerNight": 134,
+    "rating": 3
+  },
+  {
+    "id": 498,
+    "name": "Ringhotel Seehof Berlin",
+    "city": "Berlin",
+    "street": "Lietzensee-Ufer",
+    "lat": 52.5071491,
+    "lon": 13.288855,
+    "pricePerNight": 68,
+    "rating": 4
+  },
+  {
+    "id": 499,
+    "name": "Me and All Hotel Berlin East Side",
+    "city": "Berlin",
+    "street": "An der Schillingbrücke",
+    "lat": 52.509987,
+    "lon": 13.4295716,
+    "pricePerNight": 102,
+    "rating": 5
+  },
+  {
+    "id": 500,
+    "name": "Allee-Hotel Berlin",
+    "city": "Berlin",
+    "street": "Köpenicker Allee",
+    "lat": 52.4862206,
+    "lon": 13.5348201,
+    "pricePerNight": 90,
+    "rating": 3
+  },
+  {
+    "id": 501,
+    "name": "Müggelseeperle",
+    "city": "Berlin",
+    "street": "Müggelheimer Damm",
+    "lat": 52.4260367,
+    "lon": 13.6410475,
+    "pricePerNight": 219,
+    "rating": 4
+  },
+  {
+    "id": 502,
+    "name": "HW Hotel \"Haus am Niederfeld\"",
+    "city": "Berlin",
+    "street": "Am Niederfeld",
+    "lat": 52.5031685,
+    "lon": 13.5846178,
+    "pricePerNight": 61,
+    "rating": 5
+  },
+  {
+    "id": 503,
+    "name": "Hotel B1",
+    "city": "Berlin",
+    "street": "Am Niederfeld",
+    "lat": 52.5032487,
+    "lon": 13.5819731,
+    "pricePerNight": 130,
+    "rating": 5
+  },
+  {
+    "id": 504,
+    "name": "Mercure Hotel Berlin Tempelhof",
+    "city": "Berlin",
+    "street": "Hermannstraße",
+    "lat": 52.4785345,
+    "lon": 13.4265453,
+    "pricePerNight": 126,
+    "rating": 5
+  },
+  {
+    "id": 505,
+    "name": "Garni Hotel Molks",
+    "city": "Berlin",
+    "street": "Marzahner Straße",
+    "lat": 52.54602,
+    "lon": 13.5109605,
+    "pricePerNight": 136,
+    "rating": 4
+  },
+  {
+    "id": 506,
+    "name": "Gat Point Charlie",
+    "city": "Berlin",
+    "street": "Mauerstraße",
+    "lat": 52.5088383,
+    "lon": 13.3881787,
+    "pricePerNight": 236,
+    "rating": 3
+  },
+  {
+    "id": 507,
+    "name": "Abacus Tierpark Hotel",
+    "city": "Berlin",
+    "street": "Franz-Mett-Straße",
+    "lat": 52.5004366,
+    "lon": 13.5204516,
+    "pricePerNight": 190,
+    "rating": 3
+  },
+  {
+    "id": 508,
+    "name": "limehome Berlin Stresemannstraße",
+    "city": "Berlin",
+    "street": "Stresemannstraße",
+    "lat": 52.5008985,
+    "lon": 13.3873838,
+    "pricePerNight": 68,
+    "rating": 3
+  },
+  {
+    "id": 509,
+    "name": "Axel Hotel",
+    "city": "Berlin",
+    "street": "Lietzenburger Straße",
+    "lat": 52.4997039,
+    "lon": 13.3420212,
+    "pricePerNight": 59,
+    "rating": 3
+  },
+  {
+    "id": 510,
+    "name": "East Side Hotel",
+    "city": "Berlin",
+    "street": "Mühlenstraße",
+    "lat": 52.5034058,
+    "lon": 13.4455168,
+    "pricePerNight": 150,
+    "rating": 4
+  },
+  {
+    "id": 511,
+    "name": "Garner Hotel",
+    "city": "Berlin",
+    "street": "Albrecht-Achilles-Straße",
+    "lat": 52.4958035,
+    "lon": 13.3036775,
+    "pricePerNight": 55,
+    "rating": 5
+  },
+  {
+    "id": 512,
+    "name": "Hotel Rheinsberg am See",
+    "city": "Berlin",
+    "street": "Finsterwalder Straße",
+    "lat": 52.6024491,
+    "lon": 13.3486819,
+    "pricePerNight": 117,
+    "rating": 4
+  },
+  {
+    "id": 513,
+    "name": "Studentenhotel Hubertusallee",
+    "city": "Berlin",
+    "street": "Delbrückstraße",
+    "lat": 52.4843085,
+    "lon": 13.2822704,
+    "pricePerNight": 61,
+    "rating": 4
+  },
+  {
+    "id": 514,
+    "name": "Lazarus Gästehaus",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5354629,
+    "lon": 13.3867338,
+    "pricePerNight": 162,
+    "rating": 5
+  },
+  {
+    "id": 515,
+    "name": "Hotel Grenzfall",
+    "city": "Berlin",
+    "street": "Ackerstraße",
+    "lat": 52.5358076,
+    "lon": 13.3890006,
+    "pricePerNight": 96,
+    "rating": 5
+  },
+  {
+    "id": 516,
+    "name": "Hotel 4 Youth",
+    "city": "Berlin",
+    "street": "Bernauer Straße",
+    "lat": 52.5396528,
+    "lon": 13.4020335,
+    "pricePerNight": 84,
+    "rating": 5
+  },
+  {
+    "id": 517,
+    "name": "Sana Hotel Berlin",
+    "city": "Berlin",
+    "street": "Nürnberger Straße",
+    "lat": 52.4990803,
+    "lon": 13.3343625,
+    "pricePerNight": 196,
+    "rating": 5
+  },
+  {
+    "id": 518,
+    "name": "Solitaire Hotel",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5766707,
+    "lon": 13.3932241,
+    "pricePerNight": 246,
+    "rating": 5
+  },
+  {
+    "id": 519,
+    "name": "Abion Villa",
+    "city": "Berlin",
+    "street": "Kirchstraße",
+    "lat": 52.5226836,
+    "lon": 13.3468806,
+    "pricePerNight": 226,
+    "rating": 4
+  },
+  {
+    "id": 520,
+    "name": "Holiday Inn Express Alexanderplatz",
+    "city": "Berlin",
+    "street": "Stralauer Straße",
+    "lat": 52.5156664,
+    "lon": 13.411872,
+    "pricePerNight": 187,
+    "rating": 4
+  },
+  {
+    "id": 521,
+    "name": "Haus Bismarck",
+    "city": "Berlin",
+    "street": "Bismarckallee",
+    "lat": 52.49131,
+    "lon": 13.2835002,
+    "pricePerNight": 178,
+    "rating": 3
+  },
+  {
+    "id": 522,
+    "name": "Scandic Berlin Potsdamer Platz",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5046856,
+    "lon": 13.375245,
+    "pricePerNight": 50,
+    "rating": 5
+  },
+  {
+    "id": 523,
+    "name": "nhow Berlin",
+    "city": "Berlin",
+    "street": "Stralauer Allee",
+    "lat": 52.5010947,
+    "lon": 13.4508476,
+    "pricePerNight": 60,
+    "rating": 4
+  },
+  {
+    "id": 524,
+    "name": "Hotel Berlin Potsdamer Platz",
+    "city": "Berlin",
+    "street": "Hallesche Straße",
+    "lat": 52.5015789,
+    "lon": 13.3831304,
+    "pricePerNight": 75,
+    "rating": 3
+  },
+  {
+    "id": 525,
+    "name": "Arktur City Hotel",
+    "city": "Berlin",
+    "street": "Otto-Suhr-Allee",
+    "lat": 52.5163929,
+    "lon": 13.3108552,
+    "pricePerNight": 202,
+    "rating": 4
+  },
+  {
+    "id": 526,
+    "name": "Westlife Apart Hotel Berlin",
+    "city": "Berlin",
+    "street": "Heerstraße",
+    "lat": 52.508266,
+    "lon": 13.2457566,
+    "pricePerNight": 174,
+    "rating": 4
+  },
+  {
+    "id": 527,
+    "name": "Centro Park Hotel Berlin Neukölln",
+    "city": "Berlin",
+    "street": "Buschkrugallee",
+    "lat": 52.4582326,
+    "lon": 13.4476597,
+    "pricePerNight": 57,
+    "rating": 4
+  },
+  {
+    "id": 528,
+    "name": "Titanic Comfort Hotel Berlin Mitte",
+    "city": "Berlin",
+    "street": "Elisabeth-Mara-Straße",
+    "lat": 52.510217,
+    "lon": 13.4041856,
+    "pricePerNight": 229,
+    "rating": 3
+  },
+  {
+    "id": 529,
+    "name": "Hotel Berlin Mitte by Campanile",
+    "city": "Berlin",
+    "street": "Invalidenstraße",
+    "lat": 52.5294246,
+    "lon": 13.3797143,
+    "pricePerNight": 246,
+    "rating": 5
+  },
+  {
+    "id": 530,
+    "name": "Hotel Am Wasserturm",
+    "city": "Berlin",
+    "street": "Staakener Straße",
+    "lat": 52.5361961,
+    "lon": 13.1797886,
+    "pricePerNight": 185,
+    "rating": 4
+  },
+  {
+    "id": 531,
+    "name": "Businesshotel Berlin",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.589053,
+    "lon": 13.4310184,
+    "pricePerNight": 161,
+    "rating": 5
+  },
+  {
+    "id": 532,
+    "name": "Hotel Amano",
+    "city": "Berlin",
+    "street": "Auguststraße",
+    "lat": 52.5282653,
+    "lon": 13.4028275,
+    "pricePerNight": 167,
+    "rating": 3
+  },
+  {
+    "id": 533,
+    "name": "Landhaus Perle",
+    "city": "Berlin",
+    "street": "Falkenseer Damm",
+    "lat": 52.5428543,
+    "lon": 13.1978897,
+    "pricePerNight": 151,
+    "rating": 4
+  },
+  {
+    "id": 534,
+    "name": "Hotel Johann",
+    "city": "Berlin",
+    "street": "Johanniterstraße",
+    "lat": 52.4957593,
+    "lon": 13.400033,
+    "pricePerNight": 246,
+    "rating": 3
+  },
+  {
+    "id": 535,
+    "name": "June Six",
+    "city": "Berlin",
+    "street": "Knesebeckstraße",
+    "lat": 52.5046507,
+    "lon": 13.3227089,
+    "pricePerNight": 174,
+    "rating": 5
+  },
+  {
+    "id": 536,
+    "name": "ApartHotel Landhaus Lichterfelde",
+    "city": "Berlin",
+    "street": "Drakestraße",
+    "lat": 52.4389688,
+    "lon": 13.300671,
+    "pricePerNight": 206,
+    "rating": 5
+  },
+  {
+    "id": 537,
+    "name": "Fjord Hotel Berlin",
+    "city": "Berlin",
+    "street": "Bissingzeile",
+    "lat": 52.5033371,
+    "lon": 13.3704338,
+    "pricePerNight": 179,
+    "rating": 3
+  },
+  {
+    "id": 538,
+    "name": "mk hotel berlin",
+    "city": "Berlin",
+    "street": "Osloer Straße",
+    "lat": 52.5557087,
+    "lon": 13.3799659,
+    "pricePerNight": 161,
+    "rating": 3
+  },
+  {
+    "id": 539,
+    "name": "Hotel Landhaus Schlachtensee",
+    "city": "Berlin",
+    "street": "Bogotastraße",
+    "lat": 52.4393301,
+    "lon": 13.2294908,
+    "pricePerNight": 209,
+    "rating": 5
+  },
+  {
+    "id": 540,
+    "name": "Robert-Tillmanns-Haus",
+    "city": "Berlin",
+    "street": "An der Rehwiese",
+    "lat": 52.4238388,
+    "lon": 13.1980395,
+    "pricePerNight": 112,
+    "rating": 5
+  },
+  {
+    "id": 541,
+    "name": "Akademie Berlin-Schmöckwitz",
+    "city": "Berlin",
+    "street": "Wernsdorfer Straße",
+    "lat": 52.3728732,
+    "lon": 13.6961635,
+    "pricePerNight": 67,
+    "rating": 4
+  },
+  {
+    "id": 542,
+    "name": "Hotel Savoy",
+    "city": "Berlin",
+    "street": "Fasanenstraße",
+    "lat": 52.5061645,
+    "lon": 13.3275019,
+    "pricePerNight": 94,
+    "rating": 5
+  },
+  {
+    "id": 543,
+    "name": "Moxy Berlin Humboldthain Park",
+    "city": "Berlin",
+    "street": "Hochstraße",
+    "lat": 52.5497793,
+    "lon": 13.3846239,
+    "pricePerNight": 128,
+    "rating": 3
+  },
+  {
+    "id": 544,
+    "name": "Pestana Berlin Tiergarten",
+    "city": "Berlin",
+    "street": "Stülerstraße",
+    "lat": 52.5084185,
+    "lon": 13.3485652,
+    "pricePerNight": 151,
+    "rating": 5
+  },
+  {
+    "id": 545,
+    "name": "Hotel-Pension Mendau",
+    "city": "Berlin",
+    "street": "Stillerzeile",
+    "lat": 52.4561994,
+    "lon": 13.6115411,
+    "pricePerNight": 124,
+    "rating": 3
+  },
+  {
+    "id": 546,
+    "name": "Lindemann's",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4937705,
+    "lon": 13.361362,
+    "pricePerNight": 112,
+    "rating": 3
+  },
+  {
+    "id": 547,
+    "name": "monbijou hotel",
+    "city": "Berlin",
+    "street": "Monbijouplatz",
+    "lat": 52.5231266,
+    "lon": 13.4003232,
+    "pricePerNight": 150,
+    "rating": 4
+  },
+  {
+    "id": 548,
+    "name": "Hotel Friedenau, Das Literaturhotel Berlin",
+    "city": "Berlin",
+    "street": "Fregestraße",
+    "lat": 52.4700945,
+    "lon": 13.3377317,
+    "pricePerNight": 178,
+    "rating": 4
+  },
+  {
+    "id": 549,
+    "name": "B&B Hotel Berlin-Mitte",
+    "city": "Berlin",
+    "street": "Albrechtstraße",
+    "lat": 52.5237577,
+    "lon": 13.3838708,
+    "pricePerNight": 125,
+    "rating": 5
+  },
+  {
+    "id": 550,
+    "name": "Ibis Budget",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5028989,
+    "lon": 13.3446321,
+    "pricePerNight": 130,
+    "rating": 4
+  },
+  {
+    "id": 551,
+    "name": "Miles Hotel Berlin",
+    "city": "Berlin",
+    "street": "Jungfernstieg",
+    "lat": 52.4309035,
+    "lon": 13.3285963,
+    "pricePerNight": 70,
+    "rating": 5
+  },
+  {
+    "id": 552,
+    "name": "Villa Toscana",
+    "city": "Berlin",
+    "street": "Bahnhofstraße",
+    "lat": 52.4326988,
+    "lon": 13.3191648,
+    "pricePerNight": 52,
+    "rating": 5
+  },
+  {
+    "id": 553,
+    "name": "Dorint Adlershof",
+    "city": "Berlin",
+    "street": "Rudower Chaussee",
+    "lat": 52.4315953,
+    "lon": 13.5348669,
+    "pricePerNight": 84,
+    "rating": 5
+  },
+  {
+    "id": 554,
+    "name": "Apartmenthaus Petunie",
+    "city": "Berlin",
+    "street": "Petunienweg",
+    "lat": 52.4306515,
+    "lon": 13.4911485,
+    "pricePerNight": 131,
+    "rating": 4
+  },
+  {
+    "id": 555,
+    "name": "Airporthotel Berlin - Adlershof",
+    "city": "Berlin",
+    "street": "Rudower Chaussee",
+    "lat": 52.4325712,
+    "lon": 13.5343244,
+    "pricePerNight": 64,
+    "rating": 3
+  },
+  {
+    "id": 556,
+    "name": "ibis budget Berlin Alexanderplatz",
+    "city": "Berlin",
+    "street": "Mollstraße",
+    "lat": 52.5252146,
+    "lon": 13.4212342,
+    "pricePerNight": 191,
+    "rating": 5
+  },
+  {
+    "id": 557,
+    "name": "Premier Inn Berlin City Centre Hotel",
+    "city": "Berlin",
+    "street": "Kurfürstenstraße",
+    "lat": 52.5040815,
+    "lon": 13.3470883,
+    "pricePerNight": 143,
+    "rating": 5
+  },
+  {
+    "id": 558,
+    "name": "Hotel Lützow",
+    "city": "Berlin",
+    "street": "Keithstraße",
+    "lat": 52.5060592,
+    "lon": 13.3483784,
+    "pricePerNight": 163,
+    "rating": 3
+  },
+  {
+    "id": 559,
+    "name": "martas Hotel Albrechtshof Berlin",
+    "city": "Berlin",
+    "street": "Albrechtstraße",
+    "lat": 52.522019,
+    "lon": 13.384157,
+    "pricePerNight": 104,
+    "rating": 4
+  },
+  {
+    "id": 560,
+    "name": "Capri by Fraser Hotel",
+    "city": "Berlin",
+    "street": "Scharrenstraße",
+    "lat": 52.5139481,
+    "lon": 13.4050099,
+    "pricePerNight": 96,
+    "rating": 5
+  },
+  {
+    "id": 561,
+    "name": "Hotel am Buschkrugpark",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4545132,
+    "lon": 13.4513011,
+    "pricePerNight": 240,
+    "rating": 5
+  },
+  {
+    "id": 562,
+    "name": "Steps Hotel",
+    "city": "Berlin",
+    "street": "Liebenwalder Straße",
+    "lat": 52.5522042,
+    "lon": 13.3604918,
+    "pricePerNight": 230,
+    "rating": 3
+  },
+  {
+    "id": 563,
+    "name": "Matzbach",
+    "city": "Berlin",
+    "street": "Marheinekeplatz",
+    "lat": 52.48921,
+    "lon": 13.3954526,
+    "pricePerNight": 181,
+    "rating": 4
+  },
+  {
+    "id": 564,
+    "name": "Hotel M-Pire",
+    "city": "Berlin",
+    "street": "Rudower Straße",
+    "lat": 52.4323843,
+    "lon": 13.472408,
+    "pricePerNight": 100,
+    "rating": 3
+  },
+  {
+    "id": 565,
+    "name": "City Pension Sanader",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4483114,
+    "lon": 13.384874,
+    "pricePerNight": 193,
+    "rating": 5
+  },
+  {
+    "id": 566,
+    "name": "Novum Aldea Berlin Zentrum",
+    "city": "Berlin",
+    "street": "Bülowstraße",
+    "lat": 52.4976173,
+    "lon": 13.3604361,
+    "pricePerNight": 148,
+    "rating": 4
+  },
+  {
+    "id": 567,
+    "name": "mondrian suites hotel",
+    "city": "Berlin",
+    "street": "Markgrafenstraße",
+    "lat": 52.5063467,
+    "lon": 13.3952808,
+    "pricePerNight": 171,
+    "rating": 3
+  },
+  {
+    "id": 568,
+    "name": "Ibis Berlin Kurfuerstendamm",
+    "city": "Berlin",
+    "street": "Bayreuther Straße",
+    "lat": 52.5025931,
+    "lon": 13.3446306,
+    "pricePerNight": 156,
+    "rating": 5
+  },
+  {
+    "id": 569,
+    "name": "Hotel Buchholz",
+    "city": "Berlin",
+    "street": "Bucher Straße",
+    "lat": 52.6143711,
+    "lon": 13.4410894,
+    "pricePerNight": 83,
+    "rating": 3
+  },
+  {
+    "id": 570,
+    "name": "Amano Grand Central",
+    "city": "Berlin",
+    "street": "Heidestraße",
+    "lat": 52.5272357,
+    "lon": 13.3703938,
+    "pricePerNight": 174,
+    "rating": 4
+  },
+  {
+    "id": 571,
+    "name": "Ibis Berlin Hauptbahnhof",
+    "city": "Berlin",
+    "street": "Invalidenstraße",
+    "lat": 52.5271033,
+    "lon": 13.370105,
+    "pricePerNight": 229,
+    "rating": 3
+  },
+  {
+    "id": 572,
+    "name": "Eastern Comfort",
+    "city": "Berlin",
+    "street": "Mühlenstraße",
+    "lat": 52.5029089,
+    "lon": 13.4443355,
+    "pricePerNight": 221,
+    "rating": 5
+  },
+  {
+    "id": 573,
+    "name": "Hotel am Zwickauer Damm",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4234108,
+    "lon": 13.4856853,
+    "pricePerNight": 177,
+    "rating": 3
+  },
+  {
+    "id": 574,
+    "name": "Grimm's",
+    "city": "Berlin",
+    "street": "Flottwellstraße",
+    "lat": 52.5031081,
+    "lon": 13.3728164,
+    "pricePerNight": 234,
+    "rating": 5
+  },
+  {
+    "id": 575,
+    "name": "Hotel ZOE",
+    "city": "Berlin",
+    "street": "Große Präsidentenstraße",
+    "lat": 52.5230569,
+    "lon": 13.4009642,
+    "pricePerNight": 170,
+    "rating": 5
+  },
+  {
+    "id": 576,
+    "name": "Wendland",
+    "city": "Berlin",
+    "street": "Alt-Mahlsdorf",
+    "lat": 52.5052649,
+    "lon": 13.6018504,
+    "pricePerNight": 91,
+    "rating": 4
+  },
+  {
+    "id": 577,
+    "name": "Hotel Azur",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5104793,
+    "lon": 13.5913916,
+    "pricePerNight": 231,
+    "rating": 3
+  },
+  {
+    "id": 578,
+    "name": "BIG MAMA",
+    "city": "Berlin",
+    "street": "Koloniestraße",
+    "lat": 52.5582458,
+    "lon": 13.3802256,
+    "pricePerNight": 126,
+    "rating": 5
+  },
+  {
+    "id": 579,
+    "name": "aletto Hotel Kudamm",
+    "city": "Berlin",
+    "street": "Hardenbergstraße",
+    "lat": 52.5063013,
+    "lon": 13.3298734,
+    "pricePerNight": 200,
+    "rating": 4
+  },
+  {
+    "id": 580,
+    "name": "Hotel-Restaurant Alt Karow",
+    "city": "Berlin",
+    "street": "Alt-Karow",
+    "lat": 52.6093212,
+    "lon": 13.4816657,
+    "pricePerNight": 111,
+    "rating": 3
+  },
+  {
+    "id": 581,
+    "name": "Numa",
+    "city": "Berlin",
+    "street": "Alte Schönhauser Straße",
+    "lat": 52.5285212,
+    "lon": 13.4089116,
+    "pricePerNight": 108,
+    "rating": 5
+  },
+  {
+    "id": 582,
+    "name": "Miniloft",
+    "city": "Berlin",
+    "street": "Friedrichstraße",
+    "lat": 52.5033493,
+    "lon": 13.3924951,
+    "pricePerNight": 146,
+    "rating": 3
+  },
+  {
+    "id": 583,
+    "name": "Atlantic Hotel",
+    "city": "Berlin",
+    "street": "North Main Street",
+    "lat": 38.3245333,
+    "lon": -75.2192983,
+    "pricePerNight": 226,
+    "rating": 4
+  },
+  {
+    "id": 584,
+    "name": "Schoenhouse studios",
+    "city": "Berlin",
+    "street": "Prenzlauer Allee",
+    "lat": 52.5303179,
+    "lon": 13.4182794,
+    "pricePerNight": 120,
+    "rating": 5
+  },
+  {
+    "id": 585,
+    "name": "IntercityHotel Berlin Ostbahnhof",
+    "city": "Berlin",
+    "street": "Am Ostbahnhof",
+    "lat": 52.5102177,
+    "lon": 13.4333413,
+    "pricePerNight": 169,
+    "rating": 5
+  },
+  {
+    "id": 586,
+    "name": "Hotel an der Weide",
+    "city": "Berlin",
+    "street": "Alt-Mahlsdorf",
+    "lat": 52.5052704,
+    "lon": 13.6060939,
+    "pricePerNight": 106,
+    "rating": 5
+  },
+  {
+    "id": 587,
+    "name": "Bett & Buch",
+    "city": "Berlin",
+    "street": "Rudower Straße",
+    "lat": 52.4440556,
+    "lon": 13.5688356,
+    "pricePerNight": 71,
+    "rating": 5
+  },
+  {
+    "id": 588,
+    "name": "Hotel Riu Plaza Berlin",
+    "city": "Berlin",
+    "street": "Martin-Luther-Straße",
+    "lat": 52.5003918,
+    "lon": 13.3468798,
+    "pricePerNight": 230,
+    "rating": 5
+  },
+  {
+    "id": 589,
+    "name": "NH Berlin CIty Ost",
+    "city": "Berlin",
+    "street": "Rathausstraße",
+    "lat": 52.5136031,
+    "lon": 13.4819944,
+    "pricePerNight": 72,
+    "rating": 4
+  },
+  {
+    "id": 590,
+    "name": "H24 Hotel DXC - Gästehaus DONG XUAN",
+    "city": "Berlin",
+    "street": "Herzbergstraße",
+    "lat": 52.5268303,
+    "lon": 13.4876081,
+    "pricePerNight": 246,
+    "rating": 3
+  },
+  {
+    "id": 591,
+    "name": "Titanic Chaussee Berlin",
+    "city": "Berlin",
+    "street": "Chausseestraße",
+    "lat": 52.5324942,
+    "lon": 13.3817761,
+    "pricePerNight": 76,
+    "rating": 3
+  },
+  {
+    "id": 592,
+    "name": "Novum Style Hotel Aldea",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4979176,
+    "lon": 13.3600501,
+    "pricePerNight": 225,
+    "rating": 4
+  },
+  {
+    "id": 593,
+    "name": "Moxy Berlin Ostbahnhof",
+    "city": "Berlin",
+    "street": "Andreasstraße",
+    "lat": 52.5110452,
+    "lon": 13.4299525,
+    "pricePerNight": 193,
+    "rating": 4
+  },
+  {
+    "id": 594,
+    "name": "B&B Hotel Berlin-Tiergarten",
+    "city": "Berlin",
+    "street": "Englische Straße",
+    "lat": 52.5143847,
+    "lon": 13.3313527,
+    "pricePerNight": 245,
+    "rating": 5
+  },
+  {
+    "id": 595,
+    "name": "Titanic Gendarmenmarkt Berlin",
+    "city": "Berlin",
+    "street": "Französische Straße",
+    "lat": 52.5149041,
+    "lon": 13.3946751,
+    "pricePerNight": 125,
+    "rating": 5
+  },
+  {
+    "id": 596,
+    "name": "Hotel Graf Pückler",
+    "city": "Berlin",
+    "street": "Schönwalder Straße",
+    "lat": 52.5415734,
+    "lon": 13.3720199,
+    "pricePerNight": 247,
+    "rating": 5
+  },
+  {
+    "id": 597,
+    "name": "INNSiDE Berlin Mitte",
+    "city": "Berlin",
+    "street": "Chausseestraße",
+    "lat": 52.5330153,
+    "lon": 13.3807676,
+    "pricePerNight": 202,
+    "rating": 5
+  },
+  {
+    "id": 598,
+    "name": "HSH Hotel Apartments Mitte",
+    "city": "Berlin",
+    "street": "Invalidenstraße",
+    "lat": 52.5310814,
+    "lon": 13.3839017,
+    "pricePerNight": 221,
+    "rating": 4
+  },
+  {
+    "id": 599,
+    "name": "i31 Hotel",
+    "city": "Berlin",
+    "street": "Invalidenstraße",
+    "lat": 52.5312252,
+    "lon": 13.3841685,
+    "pricePerNight": 80,
+    "rating": 5
+  },
+  {
+    "id": 600,
+    "name": "Mercure Hotel Berlin City",
+    "city": "Berlin",
+    "street": "Invalidenstraße",
+    "lat": 52.5305751,
+    "lon": 13.3814743,
+    "pricePerNight": 57,
+    "rating": 5
+  },
+  {
+    "id": 601,
+    "name": "martas Hotel Allegra Berlin",
+    "city": "Berlin",
+    "street": "Albrechtstraße",
+    "lat": 52.5221571,
+    "lon": 13.3848604,
+    "pricePerNight": 168,
+    "rating": 5
+  },
+  {
+    "id": 602,
+    "name": "AC Hotel Berlin Humboldthain Park",
+    "city": "Berlin",
+    "street": "Hochstraße",
+    "lat": 52.5495035,
+    "lon": 13.3842045,
+    "pricePerNight": 86,
+    "rating": 3
+  },
+  {
+    "id": 603,
+    "name": "Motel One Berlin-Bellevue",
+    "city": "Berlin",
+    "street": "Paulstraße",
+    "lat": 52.5200561,
+    "lon": 13.3562604,
+    "pricePerNight": 119,
+    "rating": 3
+  },
+  {
+    "id": 604,
+    "name": "Arcotel Velvet Berlin",
+    "city": "Berlin",
+    "street": "Oranienburger Straße",
+    "lat": 52.5258593,
+    "lon": 13.3882929,
+    "pricePerNight": 77,
+    "rating": 4
+  },
+  {
+    "id": 605,
+    "name": "Virchow-Gästehaus der Charité",
+    "city": "Berlin",
+    "street": "Seestraße",
+    "lat": 52.5429989,
+    "lon": 13.3390657,
+    "pricePerNight": 132,
+    "rating": 5
+  },
+  {
+    "id": 606,
+    "name": "AWO Refugim (Flüchtlingsheim)",
+    "city": "Berlin",
+    "street": "Nordufer",
+    "lat": 52.5416691,
+    "lon": 13.3280325,
+    "pricePerNight": 203,
+    "rating": 5
+  },
+  {
+    "id": 607,
+    "name": "Cube Lodges",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.53367,
+    "lon": 13.3841954,
+    "pricePerNight": 63,
+    "rating": 5
+  },
+  {
+    "id": 608,
+    "name": "SensCity Hotel Berlin Spandau",
+    "city": "Berlin",
+    "street": "Heidereuterstraße",
+    "lat": 52.5291446,
+    "lon": 13.2098465,
+    "pricePerNight": 228,
+    "rating": 4
+  },
+  {
+    "id": 609,
+    "name": "Ginn City & Lounge Yorck Berlin",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4928285,
+    "lon": 13.3791228,
+    "pricePerNight": 177,
+    "rating": 3
+  },
+  {
+    "id": 610,
+    "name": "Hotel Bel Air",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.61023,
+    "lon": 13.4746219,
+    "pricePerNight": 72,
+    "rating": 4
+  },
+  {
+    "id": 611,
+    "name": "Hampton by Hilton Berlin City West",
+    "city": "Berlin",
+    "street": "Uhlandstraße",
+    "lat": 52.5049589,
+    "lon": 13.3261847,
+    "pricePerNight": 52,
+    "rating": 3
+  },
+  {
+    "id": 612,
+    "name": "Hampton by Hilton Berlin City Centre Alexanderplatz",
+    "city": "Berlin",
+    "street": "Otto-Braun-Straße",
+    "lat": 52.524794,
+    "lon": 13.4188035,
+    "pricePerNight": 56,
+    "rating": 5
+  },
+  {
+    "id": 613,
+    "name": "Living Hotel Weißensee",
+    "city": "Berlin",
+    "street": "Parkstraße",
+    "lat": 52.5544505,
+    "lon": 13.4571244,
+    "pricePerNight": 135,
+    "rating": 4
+  },
+  {
+    "id": 614,
+    "name": "B&B Hotel Berlin-Alexanderplatz",
+    "city": "Berlin",
+    "street": "Voltairestraße",
+    "lat": 52.5174243,
+    "lon": 13.415206,
+    "pricePerNight": 83,
+    "rating": 4
+  },
+  {
+    "id": 615,
+    "name": "Hotel-Engelke",
+    "city": "Berlin",
+    "street": "Adersleber Weg",
+    "lat": 52.535896,
+    "lon": 13.560201,
+    "pricePerNight": 147,
+    "rating": 4
+  },
+  {
+    "id": 616,
+    "name": "Motel One",
+    "city": "Berlin",
+    "street": "Grunerstraße",
+    "lat": 52.5197824,
+    "lon": 13.4124695,
+    "pricePerNight": 107,
+    "rating": 3
+  },
+  {
+    "id": 617,
+    "name": "numa | Drift Rooms & Apartments",
+    "city": "Berlin",
+    "street": "Nollendorfplatz",
+    "lat": 52.5001922,
+    "lon": 13.3527457,
+    "pricePerNight": 220,
+    "rating": 3
+  },
+  {
+    "id": 618,
+    "name": "Hotel Alter Markt",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.4449935,
+    "lon": 13.5783049,
+    "pricePerNight": 207,
+    "rating": 4
+  },
+  {
+    "id": 619,
+    "name": "Hotel am Schloss Köpenick",
+    "city": "Berlin",
+    "street": "Grünauer Straße",
+    "lat": 52.4427003,
+    "lon": 13.5699718,
+    "pricePerNight": 205,
+    "rating": 5
+  },
+  {
+    "id": 620,
+    "name": "Motel One Berlin-Tiergarten",
+    "city": "Berlin",
+    "street": "An der Urania",
+    "lat": 52.5024577,
+    "lon": 13.3478251,
+    "pricePerNight": 213,
+    "rating": 4
+  },
+  {
+    "id": 621,
+    "name": "The Ritz-Carlton",
+    "city": "Berlin",
+    "street": "Potsdamer Platz",
+    "lat": 52.5104092,
+    "lon": 13.375226,
+    "pricePerNight": 217,
+    "rating": 5
+  },
+  {
+    "id": 622,
+    "name": "Comfort Inn & Suites Montpelier-Berlin",
+    "city": "Berlin",
+    "street": "Paine Turnpike North",
+    "lat": 44.213258,
+    "lon": -72.5763329,
+    "pricePerNight": 214,
+    "rating": 4
+  },
+  {
+    "id": 623,
+    "name": "Garner Checkpoint Charlie",
+    "city": "Berlin",
+    "street": "Hedemannstraße",
+    "lat": 52.5030192,
+    "lon": 13.3893662,
+    "pricePerNight": 53,
+    "rating": 3
+  },
+  {
+    "id": 624,
+    "name": "Hotel Pension Blumenbach",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5411038,
+    "lon": 13.5545637,
+    "pricePerNight": 154,
+    "rating": 3
+  },
+  {
+    "id": 625,
+    "name": "Hotel Garni Wilhelmsruher Damm",
+    "city": "Berlin",
+    "street": "Wilhelmsruher Damm",
+    "lat": 52.5965088,
+    "lon": 13.3466767,
+    "pricePerNight": 72,
+    "rating": 4
+  },
+  {
+    "id": 626,
+    "name": "Ağa's Hotel",
+    "city": "Berlin",
+    "street": "Rhinstraße",
+    "lat": 52.5162364,
+    "lon": 13.5199065,
+    "pricePerNight": 134,
+    "rating": 3
+  },
+  {
+    "id": 627,
+    "name": "Adina Apartment Hotel Berlin Mitte",
+    "city": "Berlin",
+    "street": "Platz vor dem Neuen Tor",
+    "lat": 52.528452,
+    "lon": 13.3776025,
+    "pricePerNight": 148,
+    "rating": 4
+  },
+  {
+    "id": 628,
+    "name": "Days Inn",
+    "city": "Berlin",
+    "street": "Berlin Turnpike",
+    "lat": 41.5876887,
+    "lon": -72.7592466,
+    "pricePerNight": 107,
+    "rating": 5
+  },
+  {
+    "id": 629,
+    "name": "Best Western Plus",
+    "city": "Berlin",
+    "street": "Berlin Turnpike",
+    "lat": 41.5909686,
+    "lon": -72.7577572,
+    "pricePerNight": 188,
+    "rating": 3
+  },
+  {
+    "id": 630,
+    "name": "Ibis Hotel",
+    "city": "Berlin",
+    "street": "Jahnstraße",
+    "lat": 52.4609605,
+    "lon": 13.4444779,
+    "pricePerNight": 60,
+    "rating": 3
+  },
+  {
+    "id": 631,
+    "name": "Homewood Suites by Hilton Boston Marlborough;Homewood Suites",
+    "city": "Berlin",
+    "street": "River Road West",
+    "lat": 42.356104,
+    "lon": -71.6244598,
+    "pricePerNight": 186,
+    "rating": 5
+  },
+  {
+    "id": 632,
+    "name": "Premier Inn",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.3962083,
+    "lon": 13.539827,
+    "pricePerNight": 63,
+    "rating": 4
+  },
+  {
+    "id": 633,
+    "name": "The Social Hub",
+    "city": "Berlin",
+    "street": "Alexanderstraße",
+    "lat": 52.5168001,
+    "lon": 13.4174868,
+    "pricePerNight": 117,
+    "rating": 3
+  },
+  {
+    "id": 634,
+    "name": "New National Hotel",
+    "city": "Berlin",
+    "street": "Main Street",
+    "lat": 39.9209379,
+    "lon": -78.9607296,
+    "pricePerNight": 132,
+    "rating": 4
+  },
+  {
+    "id": 635,
+    "name": "ibis Hotel Berlin Airport",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.3986546,
+    "lon": 13.5420306,
+    "pricePerNight": 208,
+    "rating": 4
+  },
+  {
+    "id": 636,
+    "name": "Schlosshotel im Grunewald",
+    "city": "Berlin",
+    "street": "Brahmsstraße",
+    "lat": 52.4803932,
+    "lon": 13.2743507,
+    "pricePerNight": 163,
+    "rating": 5
+  },
+  {
+    "id": 637,
+    "name": "Meininger Hotel Tiergarten",
+    "city": "Berlin",
+    "street": "Turmstraße",
+    "lat": 52.5266984,
+    "lon": 13.3442001,
+    "pricePerNight": 216,
+    "rating": 5
+  },
+  {
+    "id": 638,
+    "name": "Hotel Berlin, Berlin",
+    "city": "Berlin",
+    "street": "Lützowplatz",
+    "lat": 52.5036553,
+    "lon": 13.3517224,
+    "pricePerNight": 70,
+    "rating": 4
+  },
+  {
+    "id": 639,
+    "name": "Vienna House By Wyndham Andel's Berlin",
+    "city": "Berlin",
+    "street": "Landsberger Allee",
+    "lat": 52.5280706,
+    "lon": 13.4571166,
+    "pricePerNight": 153,
+    "rating": 5
+  },
+  {
+    "id": 640,
+    "name": "InterContinental Berlin",
+    "city": "Berlin",
+    "street": "Budapester Straße",
+    "lat": 52.5072545,
+    "lon": 13.3454112,
+    "pricePerNight": 156,
+    "rating": 5
+  },
+  {
+    "id": 641,
+    "name": "Adlon Kempinski",
+    "city": "Berlin",
+    "street": "Unter den Linden",
+    "lat": 52.5155764,
+    "lon": 13.3803341,
+    "pricePerNight": 223,
+    "rating": 3
+  },
+  {
+    "id": 642,
+    "name": "Estrel Hotel",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.473081,
+    "lon": 13.4596556,
+    "pricePerNight": 83,
+    "rating": 5
+  },
+  {
+    "id": 643,
+    "name": "Amo by Amano",
+    "city": "Berlin",
+    "street": null,
+    "lat": 52.5258671,
+    "lon": 13.3878522,
+    "pricePerNight": 128,
+    "rating": 4
+  },
+  {
+    "id": 644,
+    "name": "City Green Berlin",
+    "city": "Berlin",
+    "street": "Bruno-Taut-Straße",
+    "lat": 52.4135524,
+    "lon": 13.5692503,
+    "pricePerNight": 60,
+    "rating": 5
+  },
+  {
+    "id": 645,
+    "name": "Catalonia Berlin-Mitte",
+    "city": "Berlin",
+    "street": "Köpenicker Straße",
+    "lat": 52.5114758,
+    "lon": 13.415777,
+    "pricePerNight": 235,
+    "rating": 3
+  },
+  {
+    "id": 646,
+    "name": "IntercityHotel Berlin Hauptbahnhof",
+    "city": "Berlin",
+    "street": "Katharina-Paulus-Straße",
+    "lat": 52.5236393,
+    "lon": 13.3667109,
+    "pricePerNight": 123,
+    "rating": 3
+  },
+  {
+    "id": 647,
+    "name": "Steigenberger Hotel Am Kanzleramt",
+    "city": "Berlin",
+    "street": "Ella-Trebe-Straße",
+    "lat": 52.5236418,
+    "lon": 13.3677274,
+    "pricePerNight": 114,
+    "rating": 5
+  },
+  {
+    "id": 648,
+    "name": "Habyt - The Waterfront",
+    "city": "Berlin",
+    "street": "Hauptstraße",
+    "lat": 52.5013498,
+    "lon": 13.4742676,
+    "pricePerNight": 64,
+    "rating": 4
+  },
+  {
+    "id": 649,
+    "name": "Motel One Berlin-Mitte",
+    "city": "Berlin",
+    "street": "Prinzenstraße",
+    "lat": 52.5042256,
+    "lon": 13.4115315,
+    "pricePerNight": 61,
+    "rating": 4
+  },
+  {
+    "id": 650,
+    "name": "the niu Hide",
+    "city": "Berlin",
+    "street": "Frankfurter Allee",
+    "lat": 52.5144471,
+    "lon": 13.4767083,
+    "pricePerNight": 190,
+    "rating": 4
+  }
+]

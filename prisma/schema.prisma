@@ -1,0 +1,25 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Room {
+  id     Int    @id @default(autoincrement())
+  name   String
+  price  Int
+
+  @@map("rooms")
+}
+
+model Booking {
+  id       Int      @id @default(autoincrement())
+  roomId   Int
+  checkIn  DateTime
+  checkOut DateTime
+
+  @@map("bookings")
+}

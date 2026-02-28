@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1769713504288,
+    "hotelId": 1,
+    "hotelName": "Grand Palace Hotel",
+    "name": "Test User",
+    "email": "test@test.com",
+    "checkIn": "2026-01-27",
+    "checkOut": "2026-01-28",
+    "createdAt": "2026-01-29T19:05:04.288Z",
+    "status": "cancelled"
+  },
+  {
+    "id": 1769714581620,
+    "hotelId": 1,
+    "hotelName": "Grand Palace Hotel",
+    "name": "Another User",
+    "email": "another@test.com",
+    "checkIn": "2026-02-01",
+    "checkOut": "2026-02-02",
+    "createdAt": "2026-01-29T19:20:12.620Z",
+    "status": "confirmed"
+  }
+]

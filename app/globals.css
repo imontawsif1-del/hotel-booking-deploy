@@ -1,26 +1,121 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  box-sizing: border-box;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0f172a;
+  color: white;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+/* ===== Buttons ===== */
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* ===== Inputs ===== */
+
+input {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #020617;
+  color: white;
+  margin: 6px 0;
+}
+
+/* ===== DayPicker SAFE Styling ===== */
+
+.rdp {
+  margin-top: 20px;
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* CRITICAL: restore layout */
+.rdp table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rdp-cell {
+  text-align: center;
+  padding: 4px;
+}
+
+.rdp-day {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: 0.15s;
+}
+
+.rdp-day:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.rdp-day_selected {
+  background: #2563eb !important;
+  color: white !important;
+}
+
+.rdp-day_disabled {
+  opacity: 0.25;
+}
+
+/* ===== Heat Gradient Support ===== */
+
+.calendar-day {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* Ripple */
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple 600ms linear;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
 }

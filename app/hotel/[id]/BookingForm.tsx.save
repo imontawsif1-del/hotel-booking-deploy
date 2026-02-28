@@ -1,0 +1,87 @@
+≈"use client";
+
+import { useState } from "react";
+import Availability from "./Availability";
+
+export default function BookingForm({ roomId }: { roomId: number }) {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [checkIn, setCheckIn] = useState("");
+  const [checkOut, setCheckOut] = useState("");
+  const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [available, setAvailable] = useState<boolean | null>(null);
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!available) return;
+
+    setLoading(true);
+    setStatus("");
+
+    const res = await fetch("/api/bookings", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        roomId,
+        name,
+        email,
+        checkIn,
+        checkOut,
+      }),
+    });
+
+    if (!res.ok) {
+      setStatus("Booking failed");
+    } else {
+      setStatus("Booking confirmed ✅");
+    }
+
+    setLoading(false);
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input
+        placeholder="Name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        required
+      />
+
+      <input
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        required
+      />
+
+      <input
+        type="date"
+        value={checkIn}
+        onChange={(e) => setCheckIn(e.target.value)}
+        required
+      />
+
+      <input
+        type="date"
+        value={checkOut}
+        onChange={(e) => setCheckOut(e.target.value)}
+        required
+      />
+
+      <Availability
+        roomId={roomId}
+        checkIn={checkIn}
+        checkOut={checkOut}
+        onChange={setAvailable}
+      />
+
+      <button disabled={loading || available === false}>
+        {loading ? "Booking…" : "Confirm booking"}
+      </button>
+
+      {status && <p>{status}</p>}
+    </form>
+  );
+}

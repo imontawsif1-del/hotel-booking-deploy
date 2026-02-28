@@ -1,0 +1,72 @@
+import { NextResponse } from "next/server";
+import fs from "fs/promises";
+import path from "path";
+
+const DATA_FILE = path.join(process.cwd(), "data", "hotels.json");
+
+export async function GET(req: Request) {
+  try {
+    const { searchParams } = new URL(req.url);
+    const city = searchParams.get("city")?.toLowerCase();
+
+    const raw = await fs.readFile(DATA_FILE, "utf-8");
+    let hotels = JSON.parse(raw);
+
+    if (city) {
+      hotels = hotels.filter(
+        (h: any) => h.city?.toLowerCase() === city
+      );
+    }
+
+    return NextResponse.json(hotels);
+  } catch (error) {
+    console.error("HOTELS API ERROR:", error);
+    return NextResponse.json(
+      { error: "Failed to load hotels" },
+      { status: 500 }
+    );
+  }
+}import { NextResponse } from "next/server";
+
+/**
+ * GET /api/hotels?city=berlin
+ */
+export async function GET(req: Request) {
+  const { searchParams } = new URL(req.url);
+  const city = searchParams.get("city");
+
+  if (!city) {
+    return NextResponse.json(
+      { error: "city parameter is required" },
+      { status: 400 }
+    );
+  }
+
+  if (city.toLowerCase() === "berlin") {
+    return NextResponse.json([
+      {
+        id: 1,
+        name: "Hotel Adlon Kempinski",
+        city: "Berlin",
+        pricePerNight: 320,
+        rating: 5
+      },
+      {
+        id: 2,
+        name: "NH Collection Berlin Mitte",
+        city: "Berlin",
+        pricePerNight: 180,
+        rating: 4
+      },
+      {
+        id: 3,
+        name: "Generator Berlin Alexanderplatz",
+        city: "Berlin",
+        pricePerNight: 45,
+        rating: 3
+      }
+    ]);
+  }
+
+  return NextResponse.json([]);
+}

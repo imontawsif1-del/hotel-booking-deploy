@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/bookings
+Content-Type: application/json
+
+{
+  "hotelId": 1,
+  "hotelName": "Grand Palace Hotel",
+  "name": "Test User",
+  "email": "test@test.com",
+  "checkIn": "2026-01-27",
+  "checkOut": "2026-01-28"
+}

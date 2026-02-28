@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1769954806525,
+    "hotelId": 1,
+    "name": "taim",
+    "email": "tzdedt@gmail.com",
+    "checkIn": "2026-02-04",
+    "checkOut": "2026-02-14"
+  },
+  {
+    "id": 1769955046394,
+    "hotelId": 1,
+    "name": "imon",
+    "email": "utrdutd@gmail.com",
+    "checkIn": "2026-02-02",
+    "checkOut": "2026-02-06"
+  }
+]
