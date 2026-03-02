@@ -1,18 +1,16 @@
 import { db } from "@/lib/db";
-import { hotels } from "@/lib/schema";
-import { eq } from "drizzle-orm";
 import Link from "next/link";
 
-export default async function HotelPage(props: {
-  params: Promise<{ id: string }>;
+export default async function HotelPage({
+  params,
+}: {
+  params: { id: string };
 }) {
-  const { id } = await props.params;
-
-  const hotel = await db
-    .select()
-    .from(hotels)
-    .where(eq(hotels.id, Number(id)))
-    .get();
+  const hotel = await db.hotel.findUnique({
+    where: {
+      id: Number(params.id),
+    },
+  });
 
   if (!hotel) {
     return (
@@ -26,7 +24,9 @@ export default async function HotelPage(props: {
   return (
     <div style={{ padding: "40px" }}>
       <h1>{hotel.name}</h1>
-      <p style={{ fontSize: "20px" }}>€{hotel.price} / night</p>
+      <p style={{ fontSize: "20px" }}>
+        €{hotel.price} / night
+      </p>
 
       <br />
 
