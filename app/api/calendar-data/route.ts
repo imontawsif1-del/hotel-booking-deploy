@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server"
-import prisma from "@/lib/prisma"
+import {prisma} from "@/lib/prisma"
 
 function normalize(date: Date) {
   const d = new Date(date)

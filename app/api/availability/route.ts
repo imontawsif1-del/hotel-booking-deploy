@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server"
-import prisma from "@/lib/prisma"
+import {prisma} from "@/lib/prisma"
 
 function dateToYMD(date: Date) {
   return date.toISOString().split("T")[0]
