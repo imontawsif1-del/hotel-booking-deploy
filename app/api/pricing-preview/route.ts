@@ -23,7 +23,7 @@ export async function POST(req: Request) {
   const { roomId, checkIn, checkOut } = await req.json()
 
   const room = await prisma.room.findUnique({
-    where: { id: Number(roomId) },
+    where: { id: String(roomId) },
   })
 
   if (!room)
