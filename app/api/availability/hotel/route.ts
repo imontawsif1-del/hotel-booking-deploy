@@ -22,7 +22,7 @@ export async function GET(req: Request) {
 
     const conflicts = await prisma.booking.findMany({
       where: {
-        roomId: roomId,
+        roomId: String(roomId),
         AND: [
           {
             checkIn: {
