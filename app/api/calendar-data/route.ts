@@ -31,7 +31,7 @@ export async function GET(req: Request) {
     return NextResponse.json({ prices: {}, unavailable: [] })
 
   const room = await prisma.room.findUnique({
-    where: {roomId: String(roomId) },
+    where: { id: String(roomId) },
   })
 
   const prices: Record<string, number> = {}
