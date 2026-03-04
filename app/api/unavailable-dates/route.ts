@@ -21,7 +21,7 @@ export async function GET(req: Request) {
     return NextResponse.json({ dates: [] })
 
   const bookings = await prisma.booking.findMany({
-    where: { roomId },
+    where: { roomId: String(roomId) },
   })
 
   const blocked: Date[] = []
