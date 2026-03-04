@@ -31,13 +31,13 @@ export async function GET(req: Request) {
     return NextResponse.json({ prices: {}, unavailable: [] })
 
   const room = await prisma.room.findUnique({
-    where: { id: String(roomId) },
+    where: {roomId: String(roomId) },
   })
 
   const prices: Record<string, number> = {}
   
   const bookings = await prisma.booking.findMany({
-    where: { roomId },
+    where: { roomId: String(roomId) },
   })
 
   const unavailable: string[] = []
