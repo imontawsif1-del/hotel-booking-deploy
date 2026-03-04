@@ -20,7 +20,7 @@ export async function GET(req: Request) {
   }
 
   const bookings = await prisma.booking.findMany({
-    where: { roomId },
+    where: { roomId: String(roomId) }
   })
 
   return NextResponse.json({
