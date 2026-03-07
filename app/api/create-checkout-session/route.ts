@@ -2,9 +2,9 @@ import { NextResponse } from "next/server"
 import Stripe from "stripe"
 import prisma from "@/lib/prisma"
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!)
 
-export async function POST(req) {
+export async function POST(req: Request) {
   const { roomId, checkIn, checkOut } = await req.json()
 
   const room = await prisma.room.findUnique({
@@ -21,15 +21,17 @@ export async function POST(req) {
       {
         price_data: {
           currency: "eur",
-          product_data: { name: room.name },
+          product_data: {
+            name: room.name
+          },
           unit_amount: room.price * 100
         },
         quantity: 1
       }
     ],
     mode: "payment",
-    success_url: \`\${process.env.NEXT_PUBLIC_SITE_URL}/success\`,
-    cancel_url: \`\${process.env.NEXT_PUBLIC_SITE_URL}/rooms\`
+    success_url: `${process.env.NEXT_PUBLIC_SITE_URL}/success`,
+    cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL}/rooms`
   })
 
   await prisma.booking.create({
