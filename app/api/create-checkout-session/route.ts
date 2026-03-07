@@ -1,0 +1,44 @@
+import { NextResponse } from "next/server"
+import Stripe from "stripe"
+import prisma from "@/lib/prisma"
+
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
+
+export async function POST(req) {
+  const { roomId, checkIn, checkOut } = await req.json()
+
+  const room = await prisma.room.findUnique({
+    where: { id: String(roomId) }
+  })
+
+  if (!room) {
+    return NextResponse.json({ error: "Room not found" })
+  }
+
+  const session = await stripe.checkout.sessions.create({
+    payment_method_types: ["card"],
+    line_items: [
+      {
+        price_data: {
+          currency: "eur",
+          product_data: { name: room.name },
+          unit_amount: room.price * 100
+        },
+        quantity: 1
+      }
+    ],
+    mode: "payment",
+    success_url: \`\${process.env.NEXT_PUBLIC_SITE_URL}/success\`,
+    cancel_url: \`\${process.env.NEXT_PUBLIC_SITE_URL}/rooms\`
+  })
+
+  await prisma.booking.create({
+    data: {
+      roomId: String(roomId),
+      checkIn: new Date(checkIn),
+      checkOut: new Date(checkOut)
+    }
+  })
+
+  return NextResponse.json({ url: session.url })
+}
