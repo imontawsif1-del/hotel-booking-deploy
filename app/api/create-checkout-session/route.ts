@@ -36,9 +36,11 @@ export async function POST(req: Request) {
 
   await prisma.booking.create({
     data: {
-      roomId: String(roomId),
       checkIn: new Date(checkIn),
-      checkOut: new Date(checkOut)
+      checkOut: new Date(checkOut),
+      room: {
+       connect: { id: String(roomId) }
+      }
     }
   })
 
