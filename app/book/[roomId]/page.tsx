@@ -2,7 +2,11 @@
 
 import { useState } from "react"
 
-export default function BookingPage({ params }: { params: { roomId: string } }) {
+export default function BookingPage({
+  params,
+}: {
+  params: { roomId: string }
+}) {
 
   const roomId = params.roomId
 
@@ -27,9 +31,6 @@ export default function BookingPage({ params }: { params: { roomId: string } }) 
 
     if (data.url) {
       window.location.href = data.url
-    } else {
-      alert("Stripe session failed")
-      console.log(data)
     }
   }
 
