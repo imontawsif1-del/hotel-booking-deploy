@@ -2,6 +2,7 @@ import { prisma } from "@/lib/prisma"
 import Link from "next/link"
 
 export default async function RoomsPage() {
+
   const rooms = await prisma.room.findMany()
 
   return (
@@ -10,14 +11,28 @@ export default async function RoomsPage() {
 
       {rooms.map((room) => (
         <div key={room.id} style={{ marginBottom: 20 }}>
-          <h3>{room.name}</h3>
-          <p>Price: €{room.price}</p>
 
-          <Link href={`/book/${room.id}`}>
-            <button>Book Room</button>
+          <h3>{room.name}</h3>
+
+          <p>${room.price} / night</p>
+
+          <Link
+            href={`/book/${room.id}`}
+            style={{
+              display: "inline-block",
+              padding: "8px 16px",
+              background: "black",
+              color: "white",
+              textDecoration: "none",
+              borderRadius: 6
+            }}
+          >
+            Book Room
           </Link>
+
         </div>
       ))}
+
     </div>
   )
 }
