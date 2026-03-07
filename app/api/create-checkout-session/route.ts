@@ -2,7 +2,9 @@ import { NextResponse } from "next/server"
 import Stripe from "stripe"
 import { prisma } from "@/lib/prisma"
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!)
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+  apiVersion: "2023-10-16",
+})
 
 export async function POST(req: Request) {
   const { roomId, checkIn, checkOut } = await req.json()
@@ -39,7 +41,10 @@ export async function POST(req: Request) {
       checkIn: new Date(checkIn),
       checkOut: new Date(checkOut),
       room: {
-       connect: { id: String(roomId) }
+        connect: { id: String(roomId) }
+      },
+      user: {
+        connect: { id: "guest-user" }
       }
     }
   })
