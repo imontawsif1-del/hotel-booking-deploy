@@ -7,37 +7,38 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id        String   @id @default(uuid())
-  email     String   @unique
-  bookings  Booking[]
-  createdAt DateTime @default(now())
-}
-
 model Hotel {
   id        String   @id @default(uuid())
   name      String
   location  String
-  rooms     Room[]
   createdAt DateTime @default(now())
+
+  rooms     Room[]
 }
 
 model Room {
-  id        String   @id @default(uuid())
-  name      String
-  price     Int
-  hotelId   String
-  hotel     Hotel    @relation(fields: [hotelId], references: [id])
-  bookings  Booking[]
+  id       String   @id @default(uuid())
+  name     String
+  price    Int
+  hotelId  String
+
+  hotel    Hotel    @relation(fields: [hotelId], references: [id])
+  bookings Booking[]
 }
 
 model Booking {
   id        String   @id @default(uuid())
-  userId    String
+
   roomId    String
   checkIn   DateTime
   checkOut  DateTime
 
-  user User @relation(fields: [userId], references: [id])
-  room Room @relation(fields: [roomId], references: [id])
+  // Customer information
+  name      String?
+  email     String?
+  phone     String?
+
+  createdAt DateTime @default(now())
+
+  room      Room @relation(fields: [roomId], references: [id])
 }
