@@ -1,36 +1,42 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 export default function BookingPage({
   params,
 }: {
-  params: { roomId: string }
+  params: Promise<{ roomId: string }>
 }) {
 
-  const roomId = params.roomId
-
+  const [roomId, setRoomId] = useState("")
   const [checkIn, setCheckIn] = useState("")
   const [checkOut, setCheckOut] = useState("")
+
+  useEffect(() => {
+    params.then((p) => setRoomId(p.roomId))
+  }, [params])
 
   async function bookRoom() {
 
     const res = await fetch("/api/create-checkout-session", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
         roomId,
         checkIn,
-        checkOut
-      })
+        checkOut,
+      }),
     })
 
     const data = await res.json()
 
     if (data.url) {
       window.location.href = data.url
+    } else {
+      alert("Stripe session failed")
+      console.log(data)
     }
   }
 
@@ -60,3 +66,4 @@ export default function BookingPage({
     </div>
   )
 }
+
