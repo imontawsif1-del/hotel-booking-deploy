@@ -2,15 +2,20 @@
 
 import { useState } from "react"
 
-export default function BookingPage({ params }) {
+export default function BookingPage({ params }: { params: { roomId: string } }) {
+
   const roomId = params.roomId
 
   const [checkIn, setCheckIn] = useState("")
   const [checkOut, setCheckOut] = useState("")
 
   async function bookRoom() {
+
     const res = await fetch("/api/create-checkout-session", {
       method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
       body: JSON.stringify({
         roomId,
         checkIn,
@@ -20,7 +25,12 @@ export default function BookingPage({ params }) {
 
     const data = await res.json()
 
-    window.location.href = data.url
+    if (data.url) {
+      window.location.href = data.url
+    } else {
+      alert("Stripe session failed")
+      console.log(data)
+    }
   }
 
   return (
@@ -29,17 +39,19 @@ export default function BookingPage({ params }) {
 
       <input
         type="date"
+        value={checkIn}
         onChange={(e) => setCheckIn(e.target.value)}
       />
 
-      <br />
+      <br /><br />
 
       <input
         type="date"
+        value={checkOut}
         onChange={(e) => setCheckOut(e.target.value)}
       />
 
-      <br />
+      <br /><br />
 
       <button onClick={bookRoom}>
         Continue to Payment
