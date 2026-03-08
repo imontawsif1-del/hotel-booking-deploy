@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server"
 import Stripe from "stripe"
 import { prisma } from "@/lib/prisma"
+import { sendBookingEmail } from "@/lib/email/sendBookingEmail"
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: "2024-06-20",
@@ -11,7 +12,10 @@ export async function POST(req: Request) {
   const sig = req.headers.get("stripe-signature")
 
   if (!sig) {
-    return NextResponse.json({ error: "Missing stripe signature" }, { status: 400 })
+    return NextResponse.json(
+      { error: "Missing stripe signature" },
+      { status: 400 }
+    )
   }
 
   let event: Stripe.Event
@@ -24,7 +28,11 @@ export async function POST(req: Request) {
     )
   } catch (err) {
     console.error("Webhook signature verification failed:", err)
-    return NextResponse.json({ error: "Webhook error" }, { status: 400 })
+
+    return NextResponse.json(
+      { error: "Webhook verification failed" },
+      { status: 400 }
+    )
   }
 
   // PAYMENT SUCCESS
@@ -41,10 +49,13 @@ export async function POST(req: Request) {
 
       if (!roomId || !checkIn || !checkOut) {
         console.error("Missing metadata from Stripe session")
-        return NextResponse.json({ error: "Invalid metadata" })
+
+        return NextResponse.json({
+          error: "Invalid metadata",
+        })
       }
 
-      await prisma.booking.create({
+      const booking = await prisma.booking.create({
         data: {
           roomId,
           checkIn: new Date(checkIn),
@@ -55,7 +66,17 @@ export async function POST(req: Request) {
         },
       })
 
-      console.log("Booking saved successfully")
+      console.log("Booking saved successfully", booking)
+
+      // SEND EMAIL CONFIRMATION
+      if (email) {
+        await sendBookingEmail({
+          email,
+          name: name || "Guest",
+          checkIn: new Date(checkIn),
+          checkOut: new Date(checkOut),
+        })
+      }
     } catch (error) {
       console.error("Booking creation failed:", error)
     }
