@@ -18,12 +18,12 @@ export default function Home() {
   useEffect(() => {
     fetchRooms()
 
-    // Get current user on load
+    // Get current user
     supabase.auth.getUser().then(({ data }) => {
       setUser(data.user)
     })
 
-    // Listen for login/logout changes
+    // Listen to auth changes
     const { data: listener } = supabase.auth.onAuthStateChange(
       (_event, session) => {
         setUser(session?.user ?? null)
@@ -53,14 +53,22 @@ export default function Home() {
   }
 
   async function bookRoom(roomId: number) {
+
     if (!user) {
       alert("Please login first")
       return
     }
 
+    if (!checkIn || !checkOut) {
+      alert("Please select check-in and check-out dates")
+      return
+    }
+
     const res = await fetch("/api/bookings", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify({
         roomId,
         userId: user.id,
