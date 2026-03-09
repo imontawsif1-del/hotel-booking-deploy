@@ -1,8 +1,11 @@
 import { NextResponse } from "next/server"
 import Stripe from "stripe"
 import { prisma } from "@/lib/prisma"
+import { sendBookingEmail } from "@/lib/email/send-booking-email"
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!)
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+  apiVersion: "2024-06-20",
+})
 
 export async function POST(req: Request) {
   try {
@@ -16,23 +19,27 @@ export async function POST(req: Request) {
     const email = body.email
     const phone = body.phone
 
+    // Find room
     const room = await prisma.room.findUnique({
       where: { id: roomId },
     })
 
     if (!room) {
-      return NextResponse.json({ error: "Room not found" }, { status: 404 })
+      return NextResponse.json(
+        { error: "Room not found" },
+        { status: 404 }
+      )
     }
 
-    // 🚫 CHECK IF ROOM IS ALREADY BOOKED
+    // Prevent double booking
     const existingBooking = await prisma.booking.findFirst({
       where: {
         roomId: roomId,
         AND: [
           { checkIn: { lt: checkOut } },
-          { checkOut: { gt: checkIn } },
-        ],
-      },
+          { checkOut: { gt: checkIn } }
+        ]
+      }
     })
 
     if (existingBooking) {
@@ -42,8 +49,10 @@ export async function POST(req: Request) {
       )
     }
 
+    // Create Stripe Checkout
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
+
       line_items: [
         {
           price_data: {
@@ -56,10 +65,11 @@ export async function POST(req: Request) {
           quantity: 1,
         },
       ],
+
       mode: "payment",
 
-      success_url: "http://localhost:3000/success",
-      cancel_url: "http://localhost:3000/",
+      success_url: `${process.env.NEXT_PUBLIC_SITE_URL}/success`,
+      cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL}`,
 
       metadata: {
         roomId,
@@ -71,10 +81,24 @@ export async function POST(req: Request) {
       },
     })
 
-    return NextResponse.json({ url: session.url })
+    // Send confirmation email
+    await sendBookingEmail({
+      name,
+      email,
+      checkIn,
+      checkOut
+    })
+
+    return NextResponse.json({
+      url: session.url
+    })
 
   } catch (error) {
     console.error(error)
-    return NextResponse.json({ error: "Stripe error" }, { status: 500 })
+
+    return NextResponse.json(
+      { error: "Stripe error" },
+      { status: 500 }
+    )
   }
 }
