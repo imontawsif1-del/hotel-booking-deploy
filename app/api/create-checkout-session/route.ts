@@ -10,16 +10,38 @@ export async function POST(req: Request) {
     const body = await req.json()
 
     const roomId = String(body.roomId)
+
+    if (!body.checkIn || !body.checkOut) {
+      return NextResponse.json(
+        { error: "Please select check-in and check-out dates" },
+        { status: 400 }
+      )
+    }
+
     const checkIn = new Date(body.checkIn)
     const checkOut = new Date(body.checkOut)
+
+    if (isNaN(checkIn.getTime()) || isNaN(checkOut.getTime())) {
+      return NextResponse.json(
+        { error: "Invalid dates selected" },
+        { status: 400 }
+      )
+    }
+
+    if (checkOut <= checkIn) {
+      return NextResponse.json(
+        { error: "Checkout must be after check-in" },
+        { status: 400 }
+      )
+    }
 
     const name = body.name
     const email = body.email
     const phone = body.phone
 
-    // Find room
+    // FIND ROOM
     const room = await prisma.room.findUnique({
-      where: { id: roomId },
+      where: { id: roomId }
     })
 
     if (!room) {
@@ -29,7 +51,7 @@ export async function POST(req: Request) {
       )
     }
 
-    // Prevent double booking
+    // PREVENT DOUBLE BOOKING
     const existingBooking = await prisma.booking.findFirst({
       where: {
         roomId: roomId,
@@ -47,23 +69,21 @@ export async function POST(req: Request) {
       )
     }
 
-    // Create Stripe Checkout
+    // CREATE STRIPE CHECKOUT
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
-
       line_items: [
         {
           price_data: {
             currency: "eur",
             product_data: {
-              name: room.name,
+              name: room.name
             },
-            unit_amount: room.price * 100,
+            unit_amount: room.price * 100
           },
-          quantity: 1,
-        },
+          quantity: 1
+        }
       ],
-
       mode: "payment",
 
       success_url: `${process.env.NEXT_PUBLIC_SITE_URL}/success`,
@@ -75,21 +95,11 @@ export async function POST(req: Request) {
         checkOut: checkOut.toISOString(),
         name,
         email,
-        phone,
-      },
+        phone
+      }
     })
 
-    // Send confirmation email
-    await sendBookingEmail({
-      name,
-      email,
-      checkIn,
-      checkOut
-    })
-
-    return NextResponse.json({
-      url: session.url
-    })
+    return NextResponse.json({ url: session.url })
 
   } catch (error) {
     console.error(error)

@@ -18,13 +18,13 @@ model Hotel {
 }
 
 model Room {
-  id       String   @id @default(uuid())
-  name     String
-  price    Int
-  hotelId  String
+  id        String   @id @default(uuid())
+  name      String
+  price     Int
+  hotelId   String
 
-  hotel    Hotel    @relation(fields: [hotelId], references: [id])
-  bookings Booking[]
+  hotel     Hotel    @relation(fields: [hotelId], references: [id])
+  bookings  Booking[]
 }
 
 model Booking {
@@ -38,6 +38,7 @@ model Booking {
   name      String?
   email     String?
   phone     String?
+  address   String?
 
   createdAt DateTime @default(now())
 
