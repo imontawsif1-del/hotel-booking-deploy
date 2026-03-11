@@ -2,48 +2,88 @@
 
 import { useState } from "react"
 
-export default function Book({params}:{params:{roomId:string}}){
+export default function BookPage({
+ params,
+}: {
+ params: { roomId: string }
+}) {
 
-const [name,setName]=useState("")
-const [email,setEmail]=useState("")
-const [checkIn,setCheckIn]=useState("")
-const [checkOut,setCheckOut]=useState("")
+ const [name,setName] = useState("")
+ const [email,setEmail] = useState("")
+ const [phone,setPhone] = useState("")
+ const [address,setAddress] = useState("")
+ const [checkIn,setCheckIn] = useState("")
+ const [checkOut,setCheckOut] = useState("")
 
-async function book(){
+ async function book() {
 
-await fetch("/api/book",{
- method:"POST",
- headers:{'Content-Type':'application/json'},
- body:JSON.stringify({
-  roomId:params.roomId,
-  name,
-  email,
-  checkIn,
-  checkOut
- })
-})
+  await fetch("/api/book",{
+   method:"POST",
+   headers:{
+    "Content-Type":"application/json"
+   },
+   body:JSON.stringify({
+    roomId:params.roomId,
+    name,
+    email,
+    phone,
+    address,
+    checkIn,
+    checkOut
+   })
+  })
 
-alert("Booking confirmed")
+  alert("Booking confirmed")
 
-}
+ }
 
-return(
+ return (
 
-<div style={{padding:40}}>
+ <div style={{padding:40}}>
 
-<h1>Book room</h1>
+ <h1>Book Room</h1>
 
-<input placeholder="Name" onChange={e=>setName(e.target.value)} />
+ <input
+ placeholder="Name"
+ onChange={(e)=>setName(e.target.value)}
+ />
 
-<input placeholder="Email" onChange={e=>setEmail(e.target.value)} />
+ <input
+ placeholder="Email"
+ onChange={(e)=>setEmail(e.target.value)}
+ />
 
-<input type="date" onChange={e=>setCheckIn(e.target.value)} />
+ <input
+ placeholder="Phone"
+ onChange={(e)=>setPhone(e.target.value)}
+ />
 
-<input type="date" onChange={e=>setCheckOut(e.target.value)} />
+ <input
+ placeholder="Address"
+ onChange={(e)=>setAddress(e.target.value)}
+ />
 
-<button onClick={book}>Confirm booking</button>
+ <label>Check-in</label>
 
-</div>
+ <input
+ type="date"
+ onChange={(e)=>setCheckIn(e.target.value)}
+ />
 
-)
+ <label>Check-out</label>
+
+ <input
+ type="date"
+ onChange={(e)=>setCheckOut(e.target.value)}
+ />
+
+ <br/><br/>
+
+ <button onClick={book}>
+ Confirm Booking
+ </button>
+
+ </div>
+
+ )
 }
