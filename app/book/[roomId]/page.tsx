@@ -1,104 +1,49 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
-export default function BookingPage({
-  params,
-}: {
-  params: Promise<{ roomId: string }>
-}) {
-  const [roomId, setRoomId] = useState("")
-  const [checkIn, setCheckIn] = useState("")
-  const [checkOut, setCheckOut] = useState("")
+export default function Book({params}:{params:{roomId:string}}){
 
-  const [name, setName] = useState("")
-  const [email, setEmail] = useState("")
-  const [phone, setPhone] = useState("")
+const [name,setName]=useState("")
+const [email,setEmail]=useState("")
+const [checkIn,setCheckIn]=useState("")
+const [checkOut,setCheckOut]=useState("")
 
-  useEffect(() => {
-    params.then((p) => setRoomId(p.roomId))
-  }, [params])
+async function book(){
 
-  async function handlePayment() {
-    console.log("Booking room:", roomId)
+await fetch("/api/book",{
+ method:"POST",
+ headers:{'Content-Type':'application/json'},
+ body:JSON.stringify({
+  roomId:params.roomId,
+  name,
+  email,
+  checkIn,
+  checkOut
+ })
+})
 
-    const res = await fetch("/api/create-checkout-session", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        roomId,
-        checkIn,
-        checkOut,
-        name,
-        email,
-        phone,
-      }),
-    })
+alert("Booking confirmed")
 
-    const data = await res.json()
+}
 
-    console.log("Stripe response:", data)
+return(
 
-    if (data.url) {
-      window.location.href = data.url
-    } else {
-      alert("Payment session failed")
-    }
-  }
+<div style={{padding:40}}>
 
-  return (
-    <div style={{ padding: 40 }}>
-      <h1>Book Room</h1>
+<h1>Book room</h1>
 
-      <h3>Customer Information</h3>
+<input placeholder="Name" onChange={e=>setName(e.target.value)} />
 
-      <input
-        placeholder="Your name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
+<input placeholder="Email" onChange={e=>setEmail(e.target.value)} />
 
-      <br /><br />
+<input type="date" onChange={e=>setCheckIn(e.target.value)} />
 
-      <input
-        placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
+<input type="date" onChange={e=>setCheckOut(e.target.value)} />
 
-      <br /><br />
+<button onClick={book}>Confirm booking</button>
 
-      <input
-        placeholder="Phone"
-        value={phone}
-        onChange={(e) => setPhone(e.target.value)}
-      />
+</div>
 
-      <br /><br />
-
-      <h3>Booking Dates</h3>
-
-      <input
-        type="date"
-        value={checkIn}
-        onChange={(e) => setCheckIn(e.target.value)}
-      />
-
-      <br /><br />
-
-      <input
-        type="date"
-        value={checkOut}
-        onChange={(e) => setCheckOut(e.target.value)}
-      />
-
-      <br /><br />
-
-      <button onClick={handlePayment}>
-        Continue to Payment
-      </button>
-    </div>
-  )
+)
 }

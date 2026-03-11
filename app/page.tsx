@@ -2,104 +2,87 @@ import { prisma } from "@/lib/prisma"
 import Link from "next/link"
 
 export default async function Home({
-  searchParams,
-}: {
-  searchParams?: { search?: string }
+ searchParams
+}:{
+ searchParams?:{ search?:string }
 }) {
-  const search = searchParams?.search || ""
 
-  const rooms = await prisma.room.findMany({
-    include: {
-      hotel: true,
-    },
-    where: search
-      ? {
-          OR: [
-            {
-              name: {
-                contains: search,
-                mode: "insensitive",
-              },
-            },
-            {
-              hotel: {
-                name: {
-                  contains: search,
-                  mode: "insensitive",
-                },
-              },
-            },
-            {
-              hotel: {
-                location: {
-                  contains: search,
-                  mode: "insensitive",
-                },
-              },
-            },
-          ],
-        }
-      : {},
-  })
+ const search = searchParams?.search || ""
 
-  return (
-    <main style={{ padding: "40px", maxWidth: "900px", margin: "auto" }}>
-      <h1>Hotel Booking</h1>
+ const hotels = await prisma.hotel.findMany({
+ where: search
+  ? {
+     location:{
+      contains:search,
+      mode:"insensitive"
+     }
+    }
+  : undefined,
+ include:{ rooms:true }
+ })
 
-      <form style={{ marginBottom: "40px" }}>
-        <input
-          name="search"
-          placeholder="Search hotel or location..."
-          defaultValue={search}
-          style={{
-            padding: "10px",
-            width: "300px",
-            marginRight: "10px",
-          }}
-        />
+ return (
 
-        <button type="submit">Search</button>
-      </form>
+ <div style={{padding:40}}>
 
-      {rooms.map((room) => (
-        <div
-          key={room.id}
-          style={{
-            borderBottom: "1px solid #ddd",
-            paddingBottom: "20px",
-            marginBottom: "20px",
-          }}
-        >
-          <h2>{room.name}</h2>
+ <h1>Hotel Booking</h1>
 
-          <p>
-            <strong>Hotel:</strong> {room.hotel.name}
-          </p>
+ <form>
 
-          <p>
-            <strong>Location:</strong> {room.hotel.location}
-          </p>
+ <input
+ name="search"
+ placeholder="Search city (Berlin)"
+ style={{padding:10,width:300}}
+ />
 
-          <p>
-            <strong>Price:</strong> ${room.price} / night
-          </p>
+ <button style={{marginLeft:10}}>Search</button>
 
-          <Link
-            href={`/book/${room.id}`}
-            style={{
-              display: "inline-block",
-              marginTop: "10px",
-              padding: "10px 16px",
-              background: "black",
-              color: "white",
-              textDecoration: "none",
-              borderRadius: "6px",
-            }}
-          >
-            Book Room
-          </Link>
-        </div>
-      ))}
-    </main>
-  )
+ </form>
+
+ <div style={{marginTop:40}}>
+
+ {hotels.map((hotel)=>{
+
+ const room = hotel.rooms[0]
+
+ return (
+
+ <div
+ key={hotel.id}
+ style={{
+ border:"1px solid #ddd",
+ padding:20,
+ marginBottom:20,
+ borderRadius:10
+ }}
+ >
+
+ <img
+ src={hotel.image || "https://images.unsplash.com/photo-1566073771259-6a8506099945"}
+ style={{width:"100%",height:200,objectFit:"cover"}}
+ />
+
+ <h2>{hotel.name}</h2>
+
+ <p>{hotel.location}</p>
+
+ <p>⭐ {hotel.rating || 4.5}</p>
+
+ <p>${room?.price} / night</p>
+
+ <Link href={`/hotel/${hotel.id}`}>
+ View hotel
+ </Link>
+
+ </div>
+
+ )
+
+ })}
+
+ </div>
+
+ </div>
+
+ )
 }
