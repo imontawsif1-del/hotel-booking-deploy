@@ -1,59 +1,53 @@
 import { prisma } from "@/lib/prisma"
-import Link from "next/link"
 
-export default async function HotelPage({params}:{params:{id:string}}){
+export default async function HotelPage({ params }: any) {
 
-const hotel = await prisma.hotel.findUnique({
- where:{id:params.id},
- include:{rooms:true,reviews:true}
-})
+  const { id } = params
 
-if(!hotel) return <div>Hotel not found</div>
+  const hotel = await prisma.hotel.findUnique({
+    where: { id },
+    include: {
+      rooms: true
+    }
+  })
 
-return(
+  if (!hotel) {
+    return <div>Hotel not found</div>
+  }
 
-<div style={{padding:40}}>
+  return (
+    <div style={{ padding: 40 }}>
 
-<h1>{hotel.name}</h1>
+      <h1>{hotel.name}</h1>
+      <p>{hotel.location}</p>
 
-<img
-src={hotel.image || "https://images.unsplash.com/photo-1566073771259-6a8506099945"}
-style={{width:"100%",height:300,objectFit:"cover"}}
-/>
+      <h2>Available Rooms</h2>
 
-<p>{hotel.location}</p>
+      {hotel.rooms.map((room:any) => (
 
-<h2>Rooms</h2>
+        <div key={room.id} style={{ marginBottom: 20 }}>
 
-{hotel.rooms.map(room=>(
+          <h3>{room.name}</h3>
 
-<div key={room.id} style={{marginBottom:20}}>
+          <p>${room.price} / night</p>
 
-<h3>{room.name}</h3>
+          <a
+            href={`/book/${room.id}`}
+            style={{
+              background: "black",
+              color: "white",
+              padding: "8px 16px",
+              textDecoration: "none",
+              borderRadius: 6
+            }}
+          >
+            Book Room
+          </a>
 
-<p>${room.price}/night</p>
+        </div>
 
-<Link href={`/book/${room.id}`}>Book now</Link>
+      ))}
 
-</div>
-
-))}
-
-<h2>Reviews</h2>
-
-{hotel.reviews.map(r=>(
-
-<div key={r.id}>
-
-⭐ {r.rating}
-
-<p>{r.comment}</p>
-
-</div>
-
-))}
-
-</div>
-
-)
+    </div>
+  )
 }
